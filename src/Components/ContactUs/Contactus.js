@@ -301,3 +301,29 @@ return (
 }
 
 export default Contactus;
+
+
+
+// Thanking For You Contacting Us
+
+// Dear {{from_name}},
+
+ 
+
+// Thank you for reaching out to Epic Solutions. We appreciate your interest in our services.
+
+ 
+
+// We have received your inquiry submitted through our contact form, and our team is currently reviewing the information provided. One of our dedicated consultants will be in touch with you shortly to discuss your requirements in more detail.
+
+// If your matter is urgent or if you have any additional information to share, please feel free to contact us directly at Epicsolutions08@gmail.com.
+
+// We understand that each client is unique, and we look forward to the opportunity to tailor our services to meet your specific needs. Your satisfaction is our priority, and we are committed to providing you with the highest level of expertise and professionalism.
+
+// Once again, thank you for considering Epic Solutions. We look forward to the prospect of working with you.
+
+// Best Regards,
+
+// Epic Solutions
+
+// Epicsolutions08@gmail.com
