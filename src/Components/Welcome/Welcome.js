@@ -22,6 +22,7 @@ function Welcome() {
         <div className='flex flex-col'>
             <h1 className='text-xl font-semibold lg:text-2xl '>Working Together Make Us Strong </h1>
             <div className='lg:w-[600px] mt-7 flex flex-col gap-2 leading-7'>
+              <h1 className='hidden'>Working Together Make Us Strong</h1>
                 <p>EPIC Solutions provides  you with Human Resource Solutions that are well researched.Our team is trained to deliver relevant profiles within tight deadlines.</p>
                 <p>Our Recruiter are responsible for designing recruitment plans, advertising needed positions, and interviewing applicants</p>
                 <p>Founded in the year 2023, EPIC Solutions provides you with Human Resource Solutions that are well researched. Interviewing and assessing prospective applicants and matching them with vacancies at client companies screening candidates and drawing up shortlists of candidates for clients to interview. organising interviews and selection events. making arrangements for the advertisement of vacancies.</p>
