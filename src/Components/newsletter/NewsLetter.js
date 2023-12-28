@@ -24,7 +24,7 @@ const Newsletter = () => {
                     Stay up to date with the roadmap progress, announcements and exclusive discounts feel free to sign up with your email.
                 </p>
             </div>
-            <div className="mt-6 flex-1">
+            <div className="mt-6 flex-1 ">
                 <form
                     onSubmit={(e) => e.preventDefault()}
                     className="items-center justify-center sm:flex">
