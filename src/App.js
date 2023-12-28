@@ -9,7 +9,7 @@ import About from "./Pages/About";
 import Contact from "./Pages/Contact";
 import Client from "./Pages/Client";
 import Carrer from "./Pages/Carrer";
-import Sitemap from "../sitemap";
+// import Sitemap from "./sitemap";
 
 function App() {
   return (
@@ -22,7 +22,7 @@ function App() {
         <Route path="/Contact" element={<Contact />} />
         <Route path="/Client" element={<Client />} />
         <Route path="/Carrers" element={<Carrer />} />
-        <Route path="/sitemap.xml" element={<Sitemap />} />
+        {/* <Route path="/sitemap.xml" element={<Sitemap />} /> */}
       </Routes>
       <Footer />
     </BrowserRouter>
