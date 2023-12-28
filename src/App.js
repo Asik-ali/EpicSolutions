@@ -1,17 +1,20 @@
+// App.js
 import React from "react";
-import Home from "./Pages/Home";
-import { BrowserRouter, Route,Routes } from "react-router-dom";
-import Services from "./Pages/Services";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Navbar from "./Components/navbar/Navbar";
 import Footer from "./Components/Footer/Footer";
+import Home from "./Pages/Home";
+import Services from "./Pages/Services";
 import About from "./Pages/About";
 import Contact from "./Pages/Contact";
 import Client from "./Pages/Client";
 import Carrer from "./Pages/Carrer";
+import Sitemap from "./Components/Sitemap";
+
 function App() {
   return (
     <BrowserRouter>
-        <Navbar/>
+      <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/Services" element={<Services />} />
@@ -19,8 +22,9 @@ function App() {
         <Route path="/Contact" element={<Contact />} />
         <Route path="/Client" element={<Client />} />
         <Route path="/Carrers" element={<Carrer />} />
+        <Route path="/sitemap.xml" element={<Sitemap />} />
       </Routes>
-        <Footer/>
+      <Footer />
     </BrowserRouter>
   );
 }
