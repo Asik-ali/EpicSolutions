@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import { Helmet } from 'react-helmet';
 function Carrer() {
   useEffect(() => {
     AOS.init({
@@ -10,6 +11,11 @@ function Carrer() {
   }, []);
   return (
     <div>
+      <Helmet>
+  <title>Careers at Epic Solutions - Join Our Team</title>
+  <meta name="description" content="Explore exciting career opportunities at Epic Solutions. Join our dynamic team and contribute to empowering success through talent. Check our current job openings and take the next step in your career with us." />
+</Helmet>
+
       <div className="bg-gradient-to-b from-gray-700 to-gray-900 h-[400px] overflow-hidden ">
         <div className="flex flex-col-reverse lg:flex-row justify-between lg:gap-2">
           <div

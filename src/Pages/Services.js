@@ -6,6 +6,7 @@ import FAQ from "./Faq";
 import img3 from "../Assest/3.jpg";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import { Helmet } from "react-helmet";
 
 
 const locations = ['Chennai', "Bangalore", "Mumbai", "Telangana",'Pune','Noida','Lucknow','Hyderabad','Gurugram','Delhi'];
@@ -31,6 +32,11 @@ function Services() {
 
   return (
     <div className="overflow-hidden">
+      <Helmet>
+  <title>HR Consultancy Services - Epic Solutions</title>
+  <meta name="description" content="Discover comprehensive HR consultancy services at Epic Solutions. From recruitment to talent management, our tailored services ensure your organization attracts and retains top talent. Learn more about how we empower success through strategic HR solutions." />
+</Helmet>
+
       <div className="bg-gradient-to-b from-[#7CB252] to-[#1369AA] h-[450px] lg:h-[400px]  ">
         <div className="flex flex-col-reverse lg:flex-row justify-between lg:gap-2">
           <div

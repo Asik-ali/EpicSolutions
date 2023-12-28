@@ -1,6 +1,7 @@
 // ServicePage.js
 import React, { useState } from 'react';
 import ApplyForm from './ApplyForm';
+import { Helmet } from 'react-helmet';
 
 const locations = ['Chennai', 'Bangalore', 'Mumbai', 'Telangana'];
 
@@ -18,6 +19,11 @@ const ServicePage = () => {
 
   return (
     <div className="container mx-auto p-4">
+      <Helmet>
+  <title>Contact Epic Solutions - Reach Out for HR Consultancy</title>
+  <meta name="description" content="Contact Epic Solutions for personalized HR consultancy services. Reach out to us for inquiries, collaborations, or to discuss how we can assist your organization with effective HR solutions." />
+</Helmet>
+
       <h1 className="text-3xl font-bold mb-4">HR Consulting Services</h1>
       
       <h2 className="text-xl font-semibold mb-2">Locations:</h2>

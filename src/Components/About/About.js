@@ -22,8 +22,10 @@ function AboutContent() {
 
       className="overflow-x-hidden">
       <Helmet>
-        <title>Epic</title>
-      </Helmet>
+  <title>About Epic Solutions - Empowering Success Through Talent</title>
+  <meta name="description" content="Learn about Epic Solutions, your trusted partner in navigating the dynamic world of Human Resources. Discover how we empower success through talent acquisition and tailored HR management services." />
+</Helmet>
+
       <div
         data-aos="fade-right"
         data-aos-offset="300"
