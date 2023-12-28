@@ -9,7 +9,7 @@ import About from "./Pages/About";
 import Contact from "./Pages/Contact";
 import Client from "./Pages/Client";
 import Carrer from "./Pages/Carrer";
-import Sitemap from "./Components/Sitemap";
+import Sitemap from "../sitemap";
 
 function App() {
   return (
