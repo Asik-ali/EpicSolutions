@@ -1,15 +1,16 @@
 import React, { useEffect } from "react";
 import hero from "../../Assest/a 2.jpg";
-import img1 from "../../Assest/1.png"
-import img2 from "../../Assest/2.jpg"
-import img3 from "../../Assest/3.jpg"
-import img4 from "../../Assest/4.jpg"
-import about from "../../Assest/aboutimg1.jpg"
+import img1 from "../../Assest/1.png";
+import img2 from "../../Assest/2.jpg";
+import img3 from "../../Assest/3.jpg";
+import img4 from "../../Assest/4.jpg";
+import about from "../../Assest/aboutimg1.jpg";
 import responsibilities from "./Resposibiltesdata";
 import approachPoints from "./Apporachpoint";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { Helmet } from "react-helmet";
+
 function AboutContent() {
   useEffect(() => {
     AOS.init({
@@ -17,48 +18,50 @@ function AboutContent() {
       once: true, // Set whether animation should only happen once
     });
   }, []);
+
   return (
-    <div
-
-      className="overflow-x-hidden">
+    <div className="overflow-x-hidden">
+      {/* SEO Section - React Helmet */}
       <Helmet>
-  <title>About Epic Solutions - Empowering Success Through Talent</title>
-  <meta name="description" content="Learn about Epic Solutions, your trusted partner in navigating the dynamic world of Human Resources. Discover how we empower success through talent acquisition and tailored HR management services." />
-</Helmet>
+        <title>About Epic Solutions - Empowering Success Through Talent</title>
+        <meta
+          name="description"
+          content="Learn about Epic Solutions, your trusted partner in navigating the dynamic world of Human Resources. Discover how we empower success through talent acquisition and tailored HR management services."
+        />
+      </Helmet>
 
+      {/* Hero Section */}
       <div
         data-aos="fade-right"
         data-aos-offset="300"
         data-aos-easing="ease-in-sine"
-        className="bg-gradient-to-b from-blue-500 to-black  ">
+        className="bg-gradient-to-b from-blue-500 to-black"
+      >
         <div className="flex flex-col-reverse lg:flex-row justify-between">
-          <div className=" justify-center  lg:ps-10 flex flex-col gap-6">
+          <div className="justify-center lg:ps-10 flex flex-col gap-6">
             <h1 className="text-[#D1D5DB] text-center font-semibold font-[raleway] mt-5 lg:mt-0 text-3xl lg:text-5xl">
               Working together makes us stronger
             </h1>
-            <p className="text-white mb-10 lg:mb-0 text-center lg:text-xl lg:text-start font-[poppins] text-sm lg:w-[650px] ">
-              Epic Solutions provides you with Human Resource Solutions that are
-              well researched.Our team is trained to deliver relevant profiles
-              within tight deadlines.
+            <p className="text-white mb-10 lg:mb-0 text-center lg:text-xl lg:text-start font-[poppins] text-sm lg:w-[650px]">
+              Epic Solutions provides you with Human Resource Solutions that are well researched. Our team is trained to deliver relevant profiles within tight deadlines.
             </p>
           </div>
           <div className="">
-            <img src={hero} className="rounded w-[600px]  object-cover" />
+            <img src={hero} className="rounded w-[600px] object-cover" alt="Hero Image" />
           </div>
         </div>
       </div>
 
-
-      <div
-
-        className=" flex flex-col lg:flex-row px-4 gap-5 lg:gap-0 items-center justify-evenly  mt-10">
+      {/* Consultancy Section */}
+      <div className="flex flex-col lg:flex-row px-4 gap-5 lg:gap-0 items-center justify-evenly mt-10">
         <div
           data-aos="fade-right"
           data-aos-offset="300"
           data-aos-easing="ease-in-sine"
-          className="">
+          className=""
+        >
           <h1 className="text-4xl text-gray-600 font-extralight font-[raleway]">
-            <span className="text-[#274584]  font-[poppins] font-semibold">
+            <span className="text-[#274584] font-[poppins] font-semibold">
               Consultancy
             </span>{" "}
             that empowers you...
@@ -66,15 +69,14 @@ function AboutContent() {
           <div className="flex ms-10 gap-10 mt-10">
             <div className="h-[310px] md:h-[100px] lg:h-[210px] w-[2px] bg-[#274584] after:h-[10px] after:w-[10px] after:rounded-full relative after:absolute after:-left-[4px] after:-top-[5px] before:w-[10px] after:bg-[#274584] before:h-[10px] before:rounded-full before:bg-[#274584] before:absolute before:-left-[4px] before:-bottom-[5px]"></div>
             <div>
-              <p className="lg:w-[300px] text-gray-700 text-lg font-[raleway] ">
-                At Epic Solutions, we advocate for a personalized approach to HR
-                services. Our dedicated team collaborates closely with clients
-                to comprehend their unique needs and company culture, enabling
-                the seamless matching of candidates.
+              <p className="lg:w-[300px] text-gray-700 text-lg font-[raleway]">
+                At Epic Solutions, we advocate for a personalized approach to HR services. Our dedicated team collaborates closely with clients to comprehend their unique needs and company culture, enabling the seamless matching of candidates.
               </p>
             </div>
           </div>
         </div>
+        {/* Images Section */}
+        <div className="flex flex-col md:flex-row gap-2">
         <div className="flex flex-col md:flex-row gap-2">
           <div className="flex flex-col gap-2">
             <div className="relative group">
@@ -121,27 +123,26 @@ function AboutContent() {
             </div>
           </div>
 
-        </div>
+        </div>        </div>
       </div>
 
+      {/* Goodbye to Unemployment Section */}
       <div
         data-aos="fade-up"
         data-aos-offset="300"
         data-aos-easing="ease-in-sine"
-        className="bg-[#E3F6F9] mt-5 ">
-        <h1 className="text-center text-xl  lg:text-2xl p-5 lg:p-10">
+        className="bg-[#E3F6F9] mt-5"
+      >
+        <h1 className="text-center text-xl lg:text-2xl p-5 lg:p-10">
           Say
           <span className="text-[#274584] font-[poppins] font-semibold text-2xl lg:text-3xl">
-            {" "}   Goodbye to Unemployment
+            {" "} Goodbye to Unemployment
           </span>{" "}
-          Hiring is the most important people function you have, and most of us
-          aren't as good at it as we think. Refocusing your resources on hiring
-          better will have a higher return than almost any training program
-          you can develop.
+          Hiring is the most important people function you have, and most of us aren't as good at it as we think. Refocusing your resources on hiring better will have a higher return than almost any training program you can develop.
         </h1>
       </div>
 
-
+      {/* About Us Section */}
       <div className='mt-10 lg:px-4'>
         <h1
           data-aos="zoom-out-left"
@@ -150,7 +151,7 @@ function AboutContent() {
           <div>
             <img
               data-aos="flip-left"
-              className='w-full  rounded' src={about} alt='About Us Image' />
+              className='w-full rounded' src={about} alt='About Us Image' />
           </div>
           <div
             data-aos="fade-up"
@@ -172,8 +173,8 @@ function AboutContent() {
         </div>
       </div>
 
-
-      <div className="container  mx-auto mt-8">
+      {/* Responsibilities Section */}
+      <div className="container mx-auto mt-8">
         <h1
           data-aos="flip-up"
           className="text-3xl font-bold mb-6 text-center">Our Responsibilities</h1>
@@ -184,10 +185,11 @@ function AboutContent() {
               data-aos-anchor="#example-anchor"
               data-aos-offset="1000"
               data-aos-duration="1000"
-              className="group" key={index}>
+              className="group"
+              key={index}
+            >
               <div
-
-                className=" responsibility-card bg-[#E3F6F9] group-hover:bg-[#274584] group-hover:text-white p-6 rounded-md shadow-md hover:shadow-lg transition duration-300"
+                className="responsibility-card bg-[#E3F6F9] group-hover:bg-[#274584] group-hover:text-white p-6 rounded-md shadow-md hover:shadow-lg transition duration-300"
               >
                 <h2 className="text-xl font-[raleway] font-bold mb-4">{responsibility.title}</h2>
                 <p className="text-gray-600 group-hover:text-white">{responsibility.description}</p>
@@ -197,7 +199,7 @@ function AboutContent() {
         </div>
       </div>
 
-
+      {/* Approach Section */}
       <div className="container mx-auto mt-8 overflow-hidden pb-8">
         <h1
           data-aos="flip-up"
@@ -209,10 +211,11 @@ function AboutContent() {
               data-aos-anchor="#example-anchor"
               data-aos-offset="1000"
               data-aos-duration="1000"
-              key={index} className="group">
+              key={index}
+              className="group"
+            >
               <div
-
-                className="responsibility-card bg-[#E3F6F9] group-hover:bg-[#274584] group-hover:text-white p-6 rounded-md shadow-md hover:shadow-lg transition duration-300 "
+                className="responsibility-card bg-[#E3F6F9] group-hover:bg-[#274584] group-hover:text-white p-6 rounded-md shadow-md hover:shadow-lg transition duration-300"
               >
                 <h2 className="text-xl font-[raleway] font-bold mb-4 ">{point.title}</h2>
                 <p className="text-gray-600 group-hover:text-white">{point.description}</p>
@@ -221,10 +224,6 @@ function AboutContent() {
           ))}
         </div>
       </div>
-
-
-
-
     </div>
   );
 }
