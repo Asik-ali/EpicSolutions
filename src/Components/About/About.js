@@ -20,6 +20,9 @@ function AboutContent() {
     <div 
    
      className="overflow-x-hidden">
+      <ReactHelmet>
+      <title>Epic</title>
+      </ReactHelmet>
       <div 
        data-aos="fade-right"
        data-aos-offset="300"
