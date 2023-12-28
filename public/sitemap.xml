@@ -2,10 +2,35 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://epic-solutions.vercel.app</loc>
+    <lastmod>2023-12-28</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
     <loc>https://epic-solutions.vercel.app/About</loc>
+    <lastmod>2023-12-28</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
     <loc>https://epic-solutions.vercel.app/Client</loc>
+    <lastmod>2023-12-28</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
     <loc>https://epic-solutions.vercel.app/Carrers</loc>
+    <lastmod>2023-12-28</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
     <loc>https://epic-solutions.vercel.app/Services</loc>
+    <lastmod>2023-12-28</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
     <loc>https://epic-solutions.vercel.app/Contact</loc>
     <lastmod>2023-12-28</lastmod>
     <changefreq>daily</changefreq>
