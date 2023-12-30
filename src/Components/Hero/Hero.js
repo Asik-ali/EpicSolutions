@@ -67,7 +67,7 @@ export default function App() {
         }`}
       >
         <a href="https://wa.me/918097061134">
-          <img className="rounded-full" src={icon} alt="" />
+          <img className="rounded-full" src={icon} alt="Images" />
         </a>
       </div>
 

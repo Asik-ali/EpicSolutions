@@ -27,7 +27,7 @@ function Navbar() {
     <div  className="flex  ">
       <div className="flex justify-between p-4 lg:p-0 z-50 lg:justify-between lg:px-4 text-black items-center w-full">
         <div className="flex lg:justify-center justify-center items-center ">
-          <img 
+          <img alt="Images"
             src={logo}
             className="lg:w-[120px]  object-cover hidden lg:block"
           />

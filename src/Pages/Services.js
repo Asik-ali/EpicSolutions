@@ -126,7 +126,7 @@ function Services() {
           </button>
         </div>
         <div className="w-96 ">
-          <img src={img3} className="" />
+          <img src={img3} className="" alt="Images" />
         </div>
       </div>
 

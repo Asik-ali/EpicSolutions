@@ -30,9 +30,9 @@ function AboutContent() {
       >
         <div className="flex flex-col-reverse lg:flex-row justify-between">
           <div className="justify-center lg:ps-10 flex flex-col gap-6">
-            <h1 className="text-[#D1D5DB] text-center font-semibold font-[raleway] mt-5 lg:mt-0 text-3xl lg:text-5xl">
+            <h2 className="text-[#D1D5DB] text-center font-semibold font-[raleway] mt-5 lg:mt-0 text-3xl lg:text-5xl">
               Working together makes us stronger
-            </h1>
+            </h2>
             <p className="text-white mb-10 lg:mb-0 text-center lg:text-xl lg:text-start font-[poppins] text-sm lg:w-[650px]">
               Epic Solutions provides you with Human Resource Solutions that are well researched. Our team is trained to deliver relevant profiles within tight deadlines.
             </p>
@@ -49,12 +49,12 @@ function AboutContent() {
           
           className=""
         >
-          <h1 className="text-4xl text-gray-600 font-extralight font-[raleway]">
+          <h2 className="text-4xl text-gray-600 font-extralight font-[raleway]">
             <span className="text-[#274584] font-[poppins] font-semibold">
               Consultancy
             </span>{" "}
             that empowers you...
-          </h1>
+          </h2>
           <div className="flex ms-10 gap-10 mt-10">
             <div className="h-[310px] md:h-[100px] lg:h-[210px] w-[2px] bg-[#274584] after:h-[10px] after:w-[10px] after:rounded-full relative after:absolute after:-left-[4px] after:-top-[5px] before:w-[10px] after:bg-[#274584] before:h-[10px] before:rounded-full before:bg-[#274584] before:absolute before:-left-[4px] before:-bottom-[5px]"></div>
             <div>
@@ -71,7 +71,7 @@ function AboutContent() {
             <div className="relative group">
               <div className="w-[300px] h-[200px] relative">
                 <img
-                 
+                 alt="Image"
                   className="w-full h-full object-cover" src={img1} />
                 <div className="absolute inset-0 bg-black p-2 opacity-0 duration-500 transition-opacity  group-hover:opacity-[0.7]">
                   <p className="text-white absolute bottom-4 right-0 text-xl font-[poppins]">From Idea to Implementation</p>
@@ -81,7 +81,7 @@ function AboutContent() {
             <div className="relative group">
               <div className="w-[300px] h-[200px] relative">
                 <img
-                 
+                 alt="Images"
                   className="w-full h-full object-cover" src={img2} />
                 <div className="absolute inset-0 bg-black p-2 opacity-0 duration-500 transition-opacity  group-hover:opacity-[0.7]">
                   <p className="text-white bottom-4 right-10 text-xl font-[poppins]  absolute">The Digital Statement</p>
@@ -93,7 +93,7 @@ function AboutContent() {
             <div className="relative group">
               <div className="w-[300px] h-[200px] relative">
                 <img
-                 
+                 alt="Images"
                   className="w-full h-full object-cover" src={img3} />
                 <div className="absolute inset-0 bg-black p-2 opacity-0 duration-500 transition-opacity  group-hover:opacity-[0.7]">
                   <p className="text-white absolute bottom-4 right-0 text-xl font-[poppins] text-center">The Team that Delivers Results</p>
@@ -103,7 +103,7 @@ function AboutContent() {
             <div className="relative group">
               <div className="w-[300px] h-[200px] relative">
                 <img
-                  
+                  alt="Images"
                   className="w-full h-full object-cover" src={img4} />
                 <div className="absolute inset-0 bg-black p-2 opacity-0 duration-500 transition-opacity  group-hover:opacity-[0.7]">
                   <p className="text-white bottom-4 right-0 text-xl font-[poppins] text-center absolute">We touch your life in more ways!</p>
@@ -120,13 +120,13 @@ function AboutContent() {
         
         className="bg-[#E3F6F9] mt-5"
       >
-        <h1 className="text-center text-xl lg:text-2xl p-5 lg:p-10">
+        <h2 className="text-center text-xl lg:text-2xl p-5 lg:p-10">
           Say
           <span className="text-[#274584] font-[poppins] font-semibold text-2xl lg:text-3xl">
             {" "} Goodbye to Unemployment
           </span>{" "}
           Hiring is the most important people function you have, and most of us aren't as good at it as we think. Refocusing your resources on hiring better will have a higher return than almost any training program you can develop.
-        </h1>
+        </h2>
       </div>
 
       {/* About Us Section */}
@@ -143,7 +143,7 @@ function AboutContent() {
           <div
             
             className='flex flex-col'>
-            <h1 className='text-xl font-semibold lg:text-4xl'>Empowering Success Through Talent</h1>
+            <h2 className='text-xl font-semibold lg:text-4xl'>Empowering Success Through Talent</h2>
             <div className='lg:w-[650px] mt-7 flex flex-col gap-2 text-gray-600 lg:text-lg leading-7'>
               <p>
                 A recruitment agency works on behalf of an organization to help fill open positions with qualified candidates, including sourcing and vetting individuals and presenting top talent to hiring managers.
