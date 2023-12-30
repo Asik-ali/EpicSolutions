@@ -19,10 +19,7 @@ function Footer() {
               </div>
 
               <p className="mt-4 max-w-xs text-gray-500">
-                Epic Solutions wide end to end Human Resource managment to
-                orgnization and help them address their tallent and try to meet
-                candidates expectations through matching them with a desired
-                job.
+              Epic Solutions provides comprehensive Human Resource Management services to organizations, addressing talent needs and matching candidates with their desired jobs.
               </p>
 
               <ul className="mt-8 flex gap-6">

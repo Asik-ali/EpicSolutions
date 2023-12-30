@@ -8,27 +8,27 @@ import { FaAnglesRight } from "react-icons/fa6";
 
 import { Helmet } from "react-helmet";
 function Clientpage() {
-  
+
   return (
     <div>
       <Helmet>
         <title>Our Valued Clients - Epic Solutions</title>
-        <meta name="description" content="Explore the success stories and partnerships with Epic Solutions. Learn how our tailored HR solutions have contributed to the growth and success of our valued clients." />
-      </Helmet>
+        <meta
+          name="description"
+          content="Explore personalized career counseling, skill enhancement workshops, interview preparation, networking events, resume building, and job search support at Epic Solutions. Navigate your career success with our expert guidance."
+        />      </Helmet>
 
       <div
 
         className="bg-gradient-to-b from-black to-[#274584] h-[400px] overflow-hidden ">
         <div className="flex flex-col-reverse lg:flex-row justify-between lg:gap-2">
           <div
-            
+
             className=" justify-center  lg:ps-10 flex flex-col gap-6">
             <h1 className="text-[#D1D5DB] text-center font-semibold font-[raleway] mt-5 lg:mt-0 text-2xl lg:text-start lg:text-4xl lg:w-[650px]">
-              There’re lots of companies that we’ve worked for.
-            </h1>
+              Elevate Your Career with Epic Solutions            </h1>
             <p className="text-white mb-10 lg:mb-0 text-center lg:text-lg lg:text-start font-[poppins] text-sm lg:w-[750px] lg:ps-4 ">
-              We’re always working to fit the right people in the right places.
-              Check out our current job opportunities.
+              Our team of experienced career counselors is dedicated to understanding your individual aspirations, strengths, and goals. Through personalized consultations, we provide insights and guidance tailored to your specific needs, helping you make informed decisions about your career path.
             </p>
           </div>
 
@@ -67,20 +67,20 @@ function Clientpage() {
         </div>
       </div>
       <h1
-       
+
         className="text-center text-3xl lg:text-4xl font-[poppins] mt-5">
         Navigating Career <span className="text-[#1369AA]">Success</span>
         Together
       </h1>
       <p
-       
+
         className="text-gray-700 text-center mt-8 px-4 lg:px-36">
         Our team of experienced career counselors is dedicated to understanding your individual aspirations, strengths, and goals. Through personalized consultations, we provide insights and guidance tailored to your specific needs, helping you make informed decisions about your career path.
       </p>
       <div className=" flex items-center justify-evenly flex-col lg:flex-row gap-4 px-3 mt-5 flex-wrap pb-8">
 
         <div
-         
+
           className="">
           <h1 className="text-2xl text-center text-gray-600 font-extralight font-[raleway]">
             Personalized Career  {""}
@@ -96,7 +96,7 @@ function Clientpage() {
           </div>
         </div>
         <div
-          
+
           className="">
           <h1 className="text-2xl text-center text-gray-600 font-extralight font-[raleway]">
             Skill Enhancement   {""}
@@ -112,7 +112,7 @@ function Clientpage() {
           </div>
         </div>
         <div
-          
+
           className="">
           <h1 className="text-2xl text-center text-gray-600 font-extralight font-[raleway]">
             Interview   {""}
@@ -127,9 +127,7 @@ function Clientpage() {
             </div>
           </div>
         </div>
-        <div
-          
-          className="">
+        <div className="">
           <h1 className="text-2xl text-center text-gray-600 font-extralight font-[raleway]">
             Networking Events and {""}
             <span className="text-[#274584]  font-[poppins] font-semibold">Communities</span>
@@ -138,14 +136,13 @@ function Clientpage() {
             <div className="h-[310px] md:h-[100px] lg:h-[180px] w-[2px] bg-[#274584] after:h-[10px] after:w-[10px] after:rounded-full relative after:absolute after:-left-[4px] after:-top-[5px] before:w-[10px] after:bg-[#274584] before:h-[10px] before:rounded-full before:bg-[#274584] before:absolute before:-left-[4px] before:-bottom-[5px]"></div>
             <div>
               <p className="lg:w-[400px] text-gray-700 font-[raleway] ">
-                Building a robust professional network is key to opening doors to new opportunities. Our networking events and online communities connect you with like-minded individuals, industry experts, and potential employers, fostering meaningful connections that can shape your career trajectory.
+                Building a strong professional network is crucial for unlocking new opportunities in your career. Our networking events and online communities facilitate connections with like-minded individuals, industry experts, and potential employers. This fosters meaningful relationships that can significantly impact and shape your career trajectory. Join our vibrant communities to stay informed, connected, and empowered in your professional journey.
               </p>
             </div>
           </div>
         </div>
-        <div
-         
-          className="">
+
+        <div className="">
           <h1 className="text-2xl text-center text-gray-600 font-extralight font-[raleway]">
             Resume Building and  {""}
             <span className="text-[#274584]  font-[poppins] font-semibold">Optimization</span>
@@ -154,23 +151,22 @@ function Clientpage() {
             <div className="h-[310px] md:h-[100px] lg:h-[180px] w-[2px] bg-[#274584] after:h-[10px] after:w-[10px] after:rounded-full relative after:absolute after:-left-[4px] after:-top-[5px] before:w-[10px] after:bg-[#274584] before:h-[10px] before:rounded-full before:bg-[#274584] before:absolute before:-left-[4px] before:-bottom-[5px]"></div>
             <div>
               <p className="lg:w-[400px] text-gray-700 font-[raleway] ">
-                Crafting a compelling resume is crucial in making a strong first impression. Our experts work with you to create a professional resume that highlights your achievements and showcases your potential. We also offer optimization services to ensure your resume aligns seamlessly with the requirements of modern recruitment processes.
+                Crafting an impactful resume is vital for creating a lasting first impression. Our dedicated experts collaborate with you to develop a professional resume that not only highlights your accomplishments but also showcases your full potential. Additionally, we provide optimization services to ensure your resume seamlessly aligns with the latest requirements of modern recruitment processes. Let us help you stand out in the competitive job market with a tailored and optimized resume that truly reflects your unique value proposition.
               </p>
             </div>
           </div>
         </div>
-        <div
-          
-          className="">
+
+        <div className="">
           <h1 className="text-2xl text-center text-gray-600 font-extralight font-[raleway]">
-            Job Search  {""}
+            Job Search Guidance for Your Success  {""}
             <span className="text-[#274584]  font-[poppins] font-semibold">Support</span>
           </h1>
           <div className="flex ms-10 gap-10 mt-5">
             <div className="h-[310px] md:h-[100px] lg:h-[180px] w-[2px] bg-[#274584] after:h-[10px] after:w-[10px] after:rounded-full relative after:absolute after:-left-[4px] after:-top-[5px] before:w-[10px] after:bg-[#274584] before:h-[10px] before:rounded-full before:bg-[#274584] before:absolute before:-left-[4px] before:-bottom-[5px]"></div>
             <div>
               <p className="lg:w-[400px] text-gray-700 font-[raleway] ">
-                Navigating the job market can be challenging, especially with the myriad of opportunities available. Our job search support services include job matching, application assistance, and insights into emerging trends, streamlining your efforts and increasing your chances of landing the perfect role.
+                Effectively navigating the dynamic job market can be challenging, especially given the multitude of opportunities available today. At Epic Solutions, our comprehensive job search support services go beyond traditional job hunting. We offer personalized job matching, hands-on application assistance, and valuable insights into emerging industry trends. Our goal is to streamline your job search efforts and significantly enhance your chances of securing the perfect role. Trust us to be your partner in success as you embark on your professional journey.
               </p>
             </div>
           </div>
@@ -179,67 +175,82 @@ function Clientpage() {
 
 
 
+
       </div>
 
-      <h1  className='text-center text-3xl lg:text-4xl font-[poppins] font-semibold mt-10'>Our Clients</h1>
+      <h1 className='text-center text-3xl lg:text-4xl font-[poppins] font-semibold mt-10'>Our Clients</h1>
       <div
-    
+
         className="bg-[#E3F6F9] mt-10 ">
         <div className="flex flex-col justify-center items-center  lg:flex-row lg:justify-evenly">
-          <img alt="Images" className="w-[200px] h-[150px] object-contain rounded" src={img1} />
-          <img alt="Images" className="w-[200px] h-[150px] object-contain" src={img2} />
-          <img alt="Images" className="w-[200px] h-[150px] object-contain rounded" src={img3} />
-          <img alt="Images" className="w-[200px] h-[150px] object-contain rounded" src={img4} />
-          <img alt="Images" className="w-[200px] h-[150px] object-contain rounded" src={img5} />
+          <img alt="Ortho PNG" className="w-[200px] h-[150px] object-contain rounded" src={img1} />
+          <img alt="1Point1 Logo" className="w-[200px] h-[150px] object-contain" src={img2} />
+          <img alt="Athena BPO" className="w-[200px] h-[150px] object-contain rounded" src={img3} />
+          <img alt="Logo 42" className="w-[200px] h-[150px] object-contain rounded" src={img4} />
+          <img alt="White PhotoRoom" className="w-[200px] h-[150px] object-contain rounded" src={img5} />
         </div>
       </div>
       <div className="flex flex-col lg:flex-row justify-evenly items-center mt-10 px-4">
         <div className="flex flex-col justify-center items-center gap-4">
 
           <div
-  
+
             className="flex flex-col justify-center items-center gap-3">
             <h1 className=" font-bold text-xl">
               Our Services
             </h1>
             <div className=" bg-[#1369AA] h-[2px] w-[200px]"></div>
           </div>
-          <div
-            
-          >
-            <p className="text-[raleway] font-semibold text-lg text-center">We offer a range of services designed to meet your unique career needs</p>
+          <div>
+            <p className="text-[raleway] font-semibold text-lg text-center">
+              Elevate Your Career with Our Specialized Services
+            </p>
             <ul className="text-gray-700 flex flex-col gap-5 mt-5">
-              <li className="flex gap-2 items-center"><FaAnglesRight className="text-[#1369aa]" /> Resume Building: Craft a professional resume that stands out.</li>
-              <li className="flex gap-2 items-center"><FaAnglesRight className="text-[#1369aa]" /> Job Matching: Find job opportunities that align with your skills and goals.</li>
-              <li className="flex gap-2 items-center"><FaAnglesRight className="text-[#1369aa]" /> Interview Preparation: Gain the confidence to ace your interviews.</li>
-              <li className="flex gap-2 items-center"><FaAnglesRight className="text-[#1369aa]" /> Career Counseling: Receive personalized guidance for your career path.</li>
+              <li className="flex gap-2 items-center">
+                <FaAnglesRight className="text-[#1369aa]" /> Resume Building: Craft a standout, professional resume that leaves a lasting impression on employers.
+              </li>
+              <li className="flex gap-2 items-center">
+                <FaAnglesRight className="text-[#1369aa]" /> Job Matching: Explore job opportunities perfectly aligned with your unique skills and career goals.
+              </li>
+              <li className="flex gap-2 items-center">
+                <FaAnglesRight className="text-[#1369aa]" /> Interview Mastery: Gain the confidence and skills needed to excel in job interviews, turning them into opportunities for success.
+              </li>
+              <li className="flex gap-2 items-center">
+                <FaAnglesRight className="text-[#1369aa]" /> Personalized Career Counseling: Receive expert guidance tailored to your individual aspirations, strengths, and goals.
+              </li>
             </ul>
           </div>
+
 
         </div>
         <div className="flex flex-col justify-center items-center gap-4">
-
-          <div
-           
-            className="flex flex-col justify-center items-center gap-3">
-            <h1 className=" font-bold text-xl">
-              How It Works
+          <div className="flex flex-col justify-center items-center gap-3">
+            <h1 className="font-bold text-xl">
+              Seamless Journey to Success
             </h1>
-            <div className=" bg-[#1369AA] h-[2px] w-[200px]"></div>
+            <div className="bg-[#1369AA] h-[2px] w-[200px]"></div>
           </div>
-          <div
-            
-          >
-            <p className="text-[raleway] font-semibold text-lg text-center">Getting started with our consultancy is simple</p>
+          <div>
+            <p className="text-[raleway] font-semibold text-lg text-center">
+              Embark on Your Career Transformation with Our Simple Process
+            </p>
             <ul className="text-gray-700 flex flex-col gap-5 mt-5">
-              <li className="flex gap-2 items-center"><FaAnglesRight className="text-[#1369aa]" /> Contact Us: Reach out via email or phone to schedule an initial consultation.</li>
-              <li className="flex gap-2 items-center"><FaAnglesRight className="text-[#1369aa]" /> Assessment: We'll assess your skills, goals, and career aspirations.</li>
-              <li className="flex gap-2 items-center"><FaAnglesRight className="text-[#1369aa]" /> Personalized Plan: Receive a personalized plan tailored to your needs.</li>
-              <li className="flex gap-2 items-center"><FaAnglesRight className="text-[#1369aa]" />Support: Benefit from ongoing support and guidance throughout your job search..</li>
+              <li className="flex gap-2 items-center">
+                <FaAnglesRight className="text-[#1369aa]" /> Reach Out: Initiate the process by contacting us through email or phone to schedule an initial consultation.
+              </li>
+              <li className="flex gap-2 items-center">
+                <FaAnglesRight className="text-[#1369aa]" /> Skills Assessment: We'll conduct a thorough assessment of your skills, goals, and career aspirations.
+              </li>
+              <li className="flex gap-2 items-center">
+                <FaAnglesRight className="text-[#1369aa]" /> Personalized Plan: Receive a meticulously crafted, personalized plan tailored to your unique needs and aspirations.
+              </li>
+              <li className="flex gap-2 items-center">
+                <FaAnglesRight className="text-[#1369aa]" /> Ongoing Support: Benefit from continuous support and guidance throughout your job search journey, ensuring success.
+              </li>
             </ul>
           </div>
-
         </div>
+
 
       </div>
 
