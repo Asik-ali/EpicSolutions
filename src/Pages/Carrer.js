@@ -1,14 +1,8 @@
 import React, { useEffect } from 'react'
-import AOS from 'aos';
-import 'aos/dist/aos.css';
+
 import { Helmet } from 'react-helmet';
 function Carrer() {
-  useEffect(() => {
-    AOS.init({
-      duration: 1000, // Set the animation duration
-      once: true, // Set whether animation should only happen once
-    });
-  }, []);
+  
   return (
     <div>
       <Helmet>
@@ -19,10 +13,7 @@ function Carrer() {
       <div className="bg-gradient-to-b from-gray-700 to-gray-900 h-[400px] overflow-hidden ">
         <div className="flex flex-col-reverse lg:flex-row justify-between lg:gap-2">
           <div
-           data-aos="fade-left"
-           data-aos-anchor="#example-anchor"
-           data-aos-offset="500"
-           data-aos-duration="500"
+           
           className=" justify-center  lg:ps-10 flex flex-col gap-6">
             <h1 className="text-[#D1D5DB] text-center font-semibold font-[raleway] mt-5 lg:mt-0 text-2xl lg:text-5xl">
               Get in Touch with Epic Solutions
@@ -37,10 +28,7 @@ function Carrer() {
           </div>
 
           <svg
-          data-aos="fade-up"
-          data-aos-anchor="#example-anchor"
-          data-aos-offset="500"
-          data-aos-duration="500"
+          
             focusable="false"
             className="hero__honeycom lg:h-[370px] h-[120px] lg:w-[320px] "
             xmlns="http://www.w3.org/2000/svg"
@@ -76,10 +64,7 @@ function Carrer() {
       </div>
 
       <div
-       data-aos="fade-up"
-       data-aos-anchor="#example-anchor"
-       data-aos-offset="500"
-       data-aos-duration="500"
+     
       className="bg-gray-100 mb-10 mt-10 p-8 rounded-lg shadow-md">
         <h2 className="text-3xl font-semibold mb-4">HR Specialist</h2>
         <p className="text-gray-700">

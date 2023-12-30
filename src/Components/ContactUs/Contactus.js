@@ -1,17 +1,11 @@
 import React, { useEffect, useState } from "react";
 import { IoCallSharp } from "react-icons/io5";
 import Newsletter from "../newsletter/NewsLetter";
-import AOS from "aos";
-import "aos/dist/aos.css";
+
 import emailjs from "emailjs-com";
 
 function Contactus() {
-  useEffect(() => {
-    AOS.init({
-      duration: 1000,
-      once: true,
-    });
-  }, []);
+  
 
   const [formData, setFormData] = useState({
     name: "",
@@ -69,9 +63,7 @@ const handleSubmit = (e) => {
 return (
   <div>
     <div
-      data-aos="fade-right"
-      data-aos-offset="300"
-      data-aos-easing="ease-in-sine"
+      
       className="bg-gradient-to-b from-blue-500 to-black h-[400px] overflow-hidden "
     >
       <div className="flex flex-col-reverse lg:flex-row justify-between lg:gap-2">
@@ -89,10 +81,6 @@ return (
         </div>
 
         <svg
-          data-aos="fade-up"
-          data-aos-offset="300"
-          data-aos-easing="ease-in-sine"
-
           focusable="false"
           className="hero__honeycom lg:h-[370px] h-[120px] lg:w-[320px] "
           xmlns="http://www.w3.org/2000/svg"
@@ -127,9 +115,6 @@ return (
       </div>
     </div>
     <div
-      data-aos="fade-left"
-      data-aos-offset="300"
-      data-aos-easing="ease-in-sine"
       className="mt-10 flex flex-col lg:flex-row justify-evenly gap-6 lg:gap-0 px-4 lg:px-0">
       <div className="flex flex-col justify-center items-center text-center lg:text-start ">
         <span className="text-2xl  font-[poppins] font-bold ">

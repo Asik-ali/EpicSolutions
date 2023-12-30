@@ -1,18 +1,9 @@
 import React, { useEffect } from 'react'
 import img from "../../Assest/Welcome.jpg"
-import AOS from 'aos';
-import 'aos/dist/aos.css';
 function Welcome() {
-  useEffect(() => {
-    AOS.init({
-      duration: 1000, // Set the animation duration
-      once: true, // Set whether animation should only happen once
-    });
-  }, []);
+  
   return (
-    <div data-aos="fade-right"
-    data-aos-offset="300"
-    data-aos-easing="ease-in-sine"
+    <div 
      className='mt-10 overflow-x-hidden mb-10'>
         <h1 className='text-center text-3xl lg:text-4xl font-[poppins] px-4'>Welcome To Epic <span className='text-[#1369AA]'>Solutions</span></h1>
        <div className='flex flex-col lg:flex-row lg:mx-4 container px-4 items-center justify-center gap-10  mt-5'>

@@ -4,20 +4,11 @@ import { FaMapLocation } from "react-icons/fa6";
 import { GrMail } from "react-icons/gr";
 import { FaLinkedinIn } from "react-icons/fa";
 import { Link } from "react-router-dom";
-import AOS from 'aos';
-import 'aos/dist/aos.css';
 function Footer() {
-  useEffect(() => {
-    AOS.init({
-      duration: 1000, // Set the animation duration
-      once: true, // Set whether animation should only happen once
-    });
-  }, []);
+ 
   return (
     <div>
-      <footer data-aos="fade-up"
-    data-aos-offset="300"
-    data-aos-easing="ease-in-sine" className="bg-[#8D99AE] ">
+      <footer className="bg-[#8D99AE] ">
         <div className="mx-auto max-w-screen-xl  py-10 space-y-8 px-4  sm:px-6 lg:space-y-16 lg:px-8">
           <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
             <div>

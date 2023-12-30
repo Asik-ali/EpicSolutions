@@ -4,8 +4,6 @@ import icon from "../../../src/Assest/images.png";
 import bg from "../../Assest/bg.jpeg";
 import Services from "../../Pages/Services";
 import { Link } from "react-router-dom";
-import AOS from 'aos';
-import 'aos/dist/aos.css';
 
 export default function App() {
   const [isVisible, setIsVisible] = useState(false);
@@ -32,12 +30,7 @@ export default function App() {
     };
   }, []);
 
-  useEffect(() => {
-    AOS.init({
-      duration: 1000, // Set the animation duration
-      once: true, // Set whether animation should only happen once
-    });
-  }, []);
+ 
 
   return (
     <div className="overflow-hidden ">
@@ -49,7 +42,7 @@ export default function App() {
         }}
       >
         <div className="absolute inset-0 bg-black opacity-50"></div>
-        <div data-aos="zoom-in-left" className="mx-auto text-center lg:text-start relative z-10">
+        <div className="mx-auto text-center lg:text-start relative z-10">
           <h1  class="text-4xl md:text-5xl lg:text-6xl font-semibold  font-[poppins] mb-4 text-gray-300">
             Embrace a New Journey ✨
           </h1>

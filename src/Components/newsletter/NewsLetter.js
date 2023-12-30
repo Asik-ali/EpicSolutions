@@ -1,20 +1,11 @@
-import AOS from 'aos';
-import 'aos/dist/aos.css';
 import { useEffect } from 'react';
 
 const Newsletter = () => {
 
-    useEffect(() => {
-        AOS.init({
-          duration: 1000, // Set the animation duration
-          once: true, // Set whether animation should only happen once
-        });
-      }, []);
+   
     return (
         <section 
-        data-aos="fade-down"
-     data-aos-easing="linear"
-     data-aos-duration="1500"
+        
         className="items-center mt-12  mx-auto px-4 gap-4 md:flex md:px-8 xl:gap-12 bg-[#F0F0F0] pt-20 pb-20 ">
             <div className="flex-1 space-y-3">
                 <h3 className="text-2xl text-gray-800 font-bold lg:text-3xl">

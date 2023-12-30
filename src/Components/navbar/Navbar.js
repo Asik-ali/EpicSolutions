@@ -3,8 +3,6 @@ import logo from "../../../src/Assest/logo.png";
 import { useState } from "react";
 import { FaBars } from "react-icons/fa6";
 import { Link } from "react-router-dom";
-import AOS from 'aos';
-import 'aos/dist/aos.css';
 function Navbar() {
   const [Sidenav, setSideNav] = useState(false);
   const [btn, setBtn] = useState(null);
@@ -23,28 +21,19 @@ function Navbar() {
     setBtn(null);
   }
 
-  useEffect(() => {
-    AOS.init({
-      duration: 1000, // Set the animation duration
-      once: true, // Set whether animation should only happen once
-    });
-  }, []);
+ 
 
   return (
     <div  className="flex  ">
       <div className="flex justify-between p-4 lg:p-0 z-50 lg:justify-between lg:px-4 text-black items-center w-full">
         <div className="flex lg:justify-center justify-center items-center ">
-          <img data-aos="fade-up"
-    data-aos-offset="300"
-    data-aos-easing="ease-in-sine"
+          <img 
             src={logo}
             className="lg:w-[120px]  object-cover hidden lg:block"
           />
 
 
-<Link  to="/"> <h1 data-aos="fade-up"
-    data-aos-offset="50"
-    data-aos-easing="ease-in-sine"
+<Link  to="/"> <h1 
           className="font-[Dmsans] font-semibold text-2xl text-black">
             Epic <span className="text-[#1369AA]">Solutions</span>
           </h1></Link>
@@ -56,9 +45,7 @@ function Navbar() {
         {/* LapNavbar   */}
 
         <div className="hidden lg:block ">
-          <ul data-aos="fade-up"
-    data-aos-offset="300"
-    data-aos-easing="ease-in-sine"
+          <ul 
           className="flex gap-4 text-lg cursor-pointer font-semibold">
             <li
               className={

@@ -4,8 +4,6 @@ import ApplyForm from "../Components/contact/ApplyForm";
 import img from "../img/1.png";
 import FAQ from "./Faq";
 import img3 from "../Assest/3.jpg";
-import AOS from 'aos';
-import 'aos/dist/aos.css';
 import { Helmet } from "react-helmet";
 
 
@@ -23,13 +21,7 @@ function Services() {
   const handleLocationClick = (location) => {
     setSelectedLocation(location);
   };
-  useEffect(() => {
-    AOS.init({
-      duration: 1000, // Set the animation duration
-      once: true, // Set whether animation should only happen once
-    });
-  }, []);
-
+  
   return (
     <div className="overflow-hidden">
       <Helmet>
@@ -39,10 +31,7 @@ function Services() {
 
       <div className="bg-gradient-to-b from-[#7CB252] to-[#1369AA] h-[450px] lg:h-[400px]  ">
         <div className="flex flex-col-reverse lg:flex-row justify-between lg:gap-2">
-          <div
-            data-aos="fade-right"
-            data-aos-offset="300"
-            data-aos-easing="ease-in-sine"
+          <div            
             className=" justify-center  lg:ps-10 flex flex-col gap-6">
             <h1 className="text-white text-center font-semibold font-[popins] mt-5 lg:mt-0 text-2xl lg:text-[2.8rem]">
               LETS START YOUR CAREERS HERE!
@@ -59,10 +48,6 @@ function Services() {
           </div>
 
           <svg
-            data-aos="fade-up"
-            data-aos-offset="300"
-            data-aos-easing="ease-in-sine"
-
             focusable="false"
             className="hero__honeycom lg:h-[370px] h-[120px] lg:w-[320px] "
             xmlns="http://www.w3.org/2000/svg"
@@ -97,9 +82,7 @@ function Services() {
         </div>
       </div>
       <div
-      data-aos="fade-right"
-      data-aos-offset="300"
-      data-aos-easing="ease-in-sine"
+     
       className="px-4 flex flex-col items-center">
         <h1 className="text-center font-bold text-lg md:text-2xl mt-12 lg:text-3xl">
           Developing Your Career With Epic!
@@ -110,9 +93,7 @@ function Services() {
 
 
       <div
-      data-aos="fade-down"
-      data-aos-offset="300"
-      data-aos-easing="ease-in-sine"
+ 
       className="rounded-lg p-6 w-full flex lg:flex-row flex-col justify-evenly lg:mt-16 gap-11">
         <div className=" ">
           <h1 className="text-2xl md:text-4xl font-bold mb-4 text-blue-600 text-center">
@@ -156,9 +137,7 @@ function Services() {
         />
       )}
       <div 
-      data-aos="fade-right"
-      data-aos-offset="300"
-      data-aos-easing="ease-in-sine"
+    
       className="">
         <FAQ />
       </div>

@@ -5,16 +5,10 @@ import img3 from "../../Assest/athenabpo.png";
 import img4 from "../../Assest/logo-42.webp";
 import img5 from "../../Assest/white-PhotoRoom.png-PhotoRoom.png";
 import { FaAnglesRight } from "react-icons/fa6";
-import AOS from 'aos';
-import 'aos/dist/aos.css';
+
 import { Helmet } from "react-helmet";
 function Clientpage() {
-  useEffect(() => {
-    AOS.init({
-      duration: 1000, // Set the animation duration
-      once: true, // Set whether animation should only happen once
-    });
-  }, []);
+  
   return (
     <div>
       <Helmet>
@@ -27,7 +21,7 @@ function Clientpage() {
         className="bg-gradient-to-b from-black to-[#274584] h-[400px] overflow-hidden ">
         <div className="flex flex-col-reverse lg:flex-row justify-between lg:gap-2">
           <div
-            data-aos="fade-left"
+            
             className=" justify-center  lg:ps-10 flex flex-col gap-6">
             <h1 className="text-[#D1D5DB] text-center font-semibold font-[raleway] mt-5 lg:mt-0 text-2xl lg:text-start lg:text-4xl lg:w-[650px]">
               There’re lots of companies that we’ve worked for.
@@ -73,25 +67,20 @@ function Clientpage() {
         </div>
       </div>
       <h1
-        data-aos="fade-right"
-        data-aos-offset="300"
-        data-aos-easing="ease-in-sine"
+       
         className="text-center text-3xl lg:text-4xl font-[poppins] mt-5">
         Navigating Career <span className="text-[#1369AA]">Success</span>
         Together
       </h1>
       <p
-        data-aos="fade-right"
-        data-aos-offset="300"
-        data-aos-easing="ease-in-sine"
+       
         className="text-gray-700 text-center mt-8 px-4 lg:px-36">
         Our team of experienced career counselors is dedicated to understanding your individual aspirations, strengths, and goals. Through personalized consultations, we provide insights and guidance tailored to your specific needs, helping you make informed decisions about your career path.
       </p>
       <div className=" flex items-center justify-evenly flex-col lg:flex-row gap-4 px-3 mt-5 flex-wrap pb-8">
 
         <div
-          data-aos="fade-up"
-          data-aos-anchor-placement="bottom-bottom"
+         
           className="">
           <h1 className="text-2xl text-center text-gray-600 font-extralight font-[raleway]">
             Personalized Career  {""}
@@ -107,8 +96,7 @@ function Clientpage() {
           </div>
         </div>
         <div
-          data-aos="fade-up"
-          data-aos-anchor-placement="bottom-bottom"
+          
           className="">
           <h1 className="text-2xl text-center text-gray-600 font-extralight font-[raleway]">
             Skill Enhancement   {""}
@@ -124,8 +112,7 @@ function Clientpage() {
           </div>
         </div>
         <div
-          data-aos="fade-up"
-          data-aos-anchor-placement="bottom-bottom"
+          
           className="">
           <h1 className="text-2xl text-center text-gray-600 font-extralight font-[raleway]">
             Interview   {""}
@@ -141,8 +128,7 @@ function Clientpage() {
           </div>
         </div>
         <div
-          data-aos="fade-up"
-          data-aos-anchor-placement="bottom-bottom"
+          
           className="">
           <h1 className="text-2xl text-center text-gray-600 font-extralight font-[raleway]">
             Networking Events and {""}
@@ -158,8 +144,7 @@ function Clientpage() {
           </div>
         </div>
         <div
-          data-aos="fade-up"
-          data-aos-anchor-placement="bottom-bottom"
+         
           className="">
           <h1 className="text-2xl text-center text-gray-600 font-extralight font-[raleway]">
             Resume Building and  {""}
@@ -175,8 +160,7 @@ function Clientpage() {
           </div>
         </div>
         <div
-          data-aos="fade-up"
-          data-aos-anchor-placement="bottom-bottom"
+          
           className="">
           <h1 className="text-2xl text-center text-gray-600 font-extralight font-[raleway]">
             Job Search  {""}
@@ -197,11 +181,9 @@ function Clientpage() {
 
       </div>
 
-      <h1 data-aos="zoom-in" className='text-center text-3xl lg:text-4xl font-[poppins] font-semibold mt-10'>Our Clients</h1>
+      <h1  className='text-center text-3xl lg:text-4xl font-[poppins] font-semibold mt-10'>Our Clients</h1>
       <div
-        data-aos="fade-down"
-        data-aos-easing="linear"
-        data-aos-duration="1500"
+    
         className="bg-[#E3F6F9] mt-10 ">
         <div className="flex flex-col justify-center items-center  lg:flex-row lg:justify-evenly">
           <img className="w-[200px] h-[150px] object-contain rounded" src={img1} />
@@ -215,9 +197,7 @@ function Clientpage() {
         <div className="flex flex-col justify-center items-center gap-4">
 
           <div
-            data-aos="fade-down"
-            data-aos-easing="linear"
-            data-aos-duration="1500"
+  
             className="flex flex-col justify-center items-center gap-3">
             <h1 className=" font-bold text-xl">
               Our Services
@@ -225,9 +205,7 @@ function Clientpage() {
             <div className=" bg-[#1369AA] h-[2px] w-[200px]"></div>
           </div>
           <div
-            data-aos="fade-down"
-            data-aos-easing="linear"
-            data-aos-duration="1500"
+            
           >
             <p className="text-[raleway] font-semibold text-lg text-center">We offer a range of services designed to meet your unique career needs</p>
             <ul className="text-gray-700 flex flex-col gap-5 mt-5">
@@ -242,9 +220,7 @@ function Clientpage() {
         <div className="flex flex-col justify-center items-center gap-4">
 
           <div
-            data-aos="fade-down"
-            data-aos-easing="linear"
-            data-aos-duration="1500"
+           
             className="flex flex-col justify-center items-center gap-3">
             <h1 className=" font-bold text-xl">
               How It Works
@@ -252,9 +228,7 @@ function Clientpage() {
             <div className=" bg-[#1369AA] h-[2px] w-[200px]"></div>
           </div>
           <div
-            data-aos="fade-down"
-            data-aos-easing="linear"
-            data-aos-duration="1500"
+            
           >
             <p className="text-[raleway] font-semibold text-lg text-center">Getting started with our consultancy is simple</p>
             <ul className="text-gray-700 flex flex-col gap-5 mt-5">
