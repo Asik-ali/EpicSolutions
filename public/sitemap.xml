@@ -1,40 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://epic-solutions.vercel.app</loc>
     <lastmod>2023-12-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
+    <!-- Add canonical tag for the home page -->
+    <xhtml:link rel="canonical" href="https://epic-solutions.vercel.app" />
   </url>
   <url>
     <loc>https://epic-solutions.vercel.app/About</loc>
     <lastmod>2023-12-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
+    <!-- Add canonical tag for the About page -->
+    <xhtml:link rel="canonical" href="https://epic-solutions.vercel.app/About" />
   </url>
   <url>
     <loc>https://epic-solutions.vercel.app/Client</loc>
     <lastmod>2023-12-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
+    <!-- Add canonical tag for the Client page -->
+    <xhtml:link rel="canonical" href="https://epic-solutions.vercel.app/Client" />
   </url>
   <url>
     <loc>https://epic-solutions.vercel.app/Carrers</loc>
     <lastmod>2023-12-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
+    <!-- Add canonical tag for the Careers page -->
+    <xhtml:link rel="canonical" href="https://epic-solutions.vercel.app/Careers" />
   </url>
   <url>
     <loc>https://epic-solutions.vercel.app/Services</loc>
     <lastmod>2023-12-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
+    <!-- Add canonical tag for the Services page -->
+    <xhtml:link rel="canonical" href="https://epic-solutions.vercel.app/Services" />
   </url>
   <url>
     <loc>https://epic-solutions.vercel.app/Contact</loc>
     <lastmod>2023-12-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
+    <!-- Add canonical tag for the Contact page -->
+    <xhtml:link rel="canonical" href="https://epic-solutions.vercel.app/Contact" />
   </url>
   <!-- Add more URLs as needed -->
 </urlset>

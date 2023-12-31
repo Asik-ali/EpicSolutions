@@ -29,7 +29,7 @@ function Navbar() {
         <div className="flex lg:justify-center justify-center items-center ">
           <img alt="Images"
             src={logo}
-            className="lg:w-[120px]  object-cover hidden lg:block"
+            className="lg:w-[120px]  object-cover hidden lg:block" data-robots="index"
           />
 
 

@@ -19,6 +19,7 @@ function AboutContent() {
           name="description"
           content="Discover how Epic Solutions empowers success through talent acquisition and tailored HR management services. Learn about our consultancy approach, bid farewell to unemployment, and explore our commitment to building strong relationships in the professional world."
         />
+        <link rel="canonical" href="https://epic-solutions.vercel.app/about" />
       </Helmet>
 
       {/* Hero Section */}
@@ -33,7 +34,7 @@ function AboutContent() {
             </p>
           </div>
           <div className="">
-            <img src={hero} className="rounded w-[600px] object-cover" alt="Team Collaboration" />
+            <img src={hero} className="rounded w-[600px] object-cover" alt="Team Collaboration" data-robots="noindex" />
           </div>
         </div>
       </section>
@@ -61,7 +62,7 @@ function AboutContent() {
           <div className="flex flex-col gap-2">
             <div className="relative group">
               <div className="w-[300px] h-[200px] relative">
-                <img alt="Idea to Implementation" className="w-full h-full object-cover" src={img1} />
+                <img alt="Idea to Implementation" className="w-full h-full object-cover" src={img1} data-robots="noindex" />
                 <div className="absolute inset-0 bg-black p-2 opacity-0 duration-500 transition-opacity group-hover:opacity-[0.7]">
                   <p className="text-white absolute bottom-4 right-0 text-xl font-[poppins]">From Idea to Implementation</p>
                 </div>
@@ -69,7 +70,7 @@ function AboutContent() {
             </div>
             <div className="relative group">
               <div className="w-[300px] h-[200px] relative">
-                <img alt="The Digital Statement" className="w-full h-full object-cover" src={img2} />
+                <img alt="The Digital Statement" className="w-full h-full object-cover" src={img2} data-robots="noindex" />
                 <div className="absolute inset-0 bg-black p-2 opacity-0 duration-500 transition-opacity group-hover:opacity-[0.7]">
                   <p className="text-white bottom-4 right-10 text-xl font-[poppins] absolute">The Digital Statement</p>
                 </div>
@@ -79,7 +80,7 @@ function AboutContent() {
           <div className="flex flex-col gap-2">
             <div className="relative group">
               <div className="w-[300px] h-[200px] relative">
-                <img alt="The Team that Delivers Results" className="w-full h-full object-cover" src={img3} />
+                <img alt="The Team that Delivers Results" className="w-full h-full object-cover" src={img3} data-robots="noindex" />
                 <div className="absolute inset-0 bg-black p-2 opacity-0 duration-500 transition-opacity group-hover:opacity-[0.7]">
                   <p className="text-white absolute bottom-4 right-0 text-xl font-[poppins] text-center">The Team that Delivers Results</p>
                 </div>
@@ -87,7 +88,7 @@ function AboutContent() {
             </div>
             <div className="relative group">
               <div className="w-[300px] h-[200px] relative">
-                <img alt="Touching Lives in More Ways" className="w-full h-full object-cover" src={img4} />
+                <img alt="Touching Lives in More Ways" className="w-full h-full object-cover" src={img4} data-robots="noindex" />
                 <div className="absolute inset-0 bg-black p-2 opacity-0 duration-500 transition-opacity group-hover:opacity-[0.7]">
                   <p className="text-white bottom-4 right-0 text-xl font-[poppins] text-center absolute">Touching Lives in More Ways</p>
                 </div>
@@ -113,7 +114,7 @@ function AboutContent() {
         <h1 className="text-center text-3xl lg:text-4xl font-[poppins] font-semibold">Our Story</h1>
         <div className="flex flex-col lg:flex-row lg:mx-4 container px-4 items-center justify-center gap-10 mt-5">
           <div>
-            <img className="w-full rounded" src={about} alt="About Epic Solutions" />
+            <img className="w-full rounded" src={about} alt="About Epic Solutions" data-robots="noindex" />
           </div>
           <div className="flex flex-col">
             <h2 className="text-xl font-semibold lg:text-4xl">Empowering Success Through Talent</h2>

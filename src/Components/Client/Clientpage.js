@@ -183,11 +183,11 @@ function Clientpage() {
 
         className="bg-[#E3F6F9] mt-10 ">
         <div className="flex flex-col justify-center items-center  lg:flex-row lg:justify-evenly">
-          <img alt="Ortho PNG" className="w-[200px] h-[150px] object-contain rounded" src={img1} />
-          <img alt="1Point1 Logo" className="w-[200px] h-[150px] object-contain" src={img2} />
-          <img alt="Athena BPO" className="w-[200px] h-[150px] object-contain rounded" src={img3} />
-          <img alt="Logo 42" className="w-[200px] h-[150px] object-contain rounded" src={img4} />
-          <img alt="White PhotoRoom" className="w-[200px] h-[150px] object-contain rounded" src={img5} />
+          <img alt="Ortho PNG" className="w-[200px] h-[150px] object-contain rounded" src={img1} data-robots="noindex" />
+          <img alt="1Point1 Logo" className="w-[200px] h-[150px] object-contain" src={img2} data-robots="noindex" />
+          <img alt="Athena BPO" className="w-[200px] h-[150px] object-contain rounded" src={img3} data-robots="noindex" />
+          <img alt="Logo 42" className="w-[200px] h-[150px] object-contain rounded" src={img4} data-robots="noindex" />
+          <img alt="White PhotoRoom" className="w-[200px] h-[150px] object-contain rounded" src={img5} data-robots="noindex" />
         </div>
       </div>
       <div className="flex flex-col lg:flex-row justify-evenly items-center mt-10 px-4">

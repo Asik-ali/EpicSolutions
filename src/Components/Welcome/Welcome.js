@@ -8,7 +8,7 @@ function Welcome() {
         <h1 className='text-center text-3xl lg:text-4xl font-[poppins] px-4'>Welcome To Epic <span className='text-[#1369AA]'>Solutions</span></h1>
        <div className='flex flex-col lg:flex-row lg:mx-4 container px-4 items-center justify-center gap-10  mt-5'>
         <div >
-            <img className=' w-[500px] rounded' src={img} alt="welcome"/>
+            <img className=' w-[500px] rounded' src={img} alt="welcome" data-robots="noindex"/>
         </div>
         <div className='flex flex-col'>
             <h1 className='text-xl font-semibold lg:text-2xl '>Working Together Make Us Strong </h1>
