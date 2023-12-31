@@ -22,6 +22,8 @@ const ServicePage = () => {
       <Helmet>
         <title>Contact Epic Solutions - Reach Out for HR Consultancy</title>
         <meta name="description" content="Contact Epic Solutions for personalized HR consultancy services. Reach out to us for inquiries, collaborations, or to discuss how we can assist your organization with effective HR solutions." />
+        <link rel="canonical" href="https://epic-solutions.vercel.app/Contact" />
+
       </Helmet>
 
       <h1 className="text-3xl font-bold mb-4">HR Consulting Services</h1>

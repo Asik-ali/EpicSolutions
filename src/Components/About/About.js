@@ -19,7 +19,7 @@ function AboutContent() {
           name="description"
           content="Discover how Epic Solutions empowers success through talent acquisition and tailored HR management services. Learn about our consultancy approach, bid farewell to unemployment, and explore our commitment to building strong relationships in the professional world."
         />
-        <link rel="canonical" href="https://epic-solutions.vercel.app/about" />
+        <link rel="canonical" href="https://epic-solutions.vercel.app/About" />
       </Helmet>
 
       {/* Hero Section */}

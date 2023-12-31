@@ -7,7 +7,7 @@ import img3 from "../Assest/3.jpg";
 import { Helmet } from "react-helmet";
 
 
-const locations = ['Chennai', "Bangalore", "Mumbai", "Telangana",'Pune','Noida','Lucknow','Hyderabad','Gurugram','Delhi'];
+const locations = ['Chennai', "Bangalore", "Mumbai", "Telangana", 'Pune', 'Noida', 'Lucknow', 'Hyderabad', 'Gurugram', 'Delhi'];
 
 
 function Services() {
@@ -21,17 +21,19 @@ function Services() {
   const handleLocationClick = (location) => {
     setSelectedLocation(location);
   };
-  
+
   return (
     <div className="overflow-hidden">
       <Helmet>
-  <title>HR Consultancy Services - Epic Solutions</title>
-  <meta name="description" content="Discover comprehensive HR consultancy services at Epic Solutions. From recruitment to talent management, our tailored services ensure your organization attracts and retains top talent. Learn more about how we empower success through strategic HR solutions." />
-</Helmet>
+        <link rel="canonical" href="https://epic-solutions.vercel.app/Services" />
+
+        <title>HR Consultancy Services - Epic Solutions</title>
+        <meta name="description" content="Discover comprehensive HR consultancy services at Epic Solutions. From recruitment to talent management, our tailored services ensure your organization attracts and retains top talent. Learn more about how we empower success through strategic HR solutions." />
+      </Helmet>
 
       <div className="bg-gradient-to-b from-[#7CB252] to-[#1369AA] h-[450px] lg:h-[400px]  ">
         <div className="flex flex-col-reverse lg:flex-row justify-between lg:gap-2">
-          <div            
+          <div
             className=" justify-center  lg:ps-10 flex flex-col gap-6">
             <h1 className="text-white text-center font-semibold font-[popins] mt-5 lg:mt-0 text-2xl lg:text-[2.8rem]">
               LETS START YOUR CAREERS HERE!
@@ -82,8 +84,8 @@ function Services() {
         </div>
       </div>
       <div
-     
-      className="px-4 flex flex-col items-center">
+
+        className="px-4 flex flex-col items-center">
         <h1 className="text-center font-bold text-lg md:text-2xl mt-12 lg:text-3xl">
           Developing Your Career With Epic!
         </h1>
@@ -93,8 +95,8 @@ function Services() {
 
 
       <div
- 
-      className="rounded-lg p-6 w-full flex lg:flex-row flex-col justify-evenly lg:mt-16 gap-11">
+
+        className="rounded-lg p-6 w-full flex lg:flex-row flex-col justify-evenly lg:mt-16 gap-11">
         <div className=" ">
           <h1 className="text-2xl md:text-4xl font-bold mb-4 text-blue-600 text-center">
             Services
@@ -109,8 +111,8 @@ function Services() {
                 key={index}
                 onClick={() => handleLocationClick(location)}
                 className={`cursor-pointer px-3 md:px-4 py-2 m-1 md:m-2 border border-gray-300 rounded ${selectedLocation === location
-                    ? "bg-blue-500 text-white"
-                    : "hover:bg-gray-200"
+                  ? "bg-blue-500 text-white"
+                  : "hover:bg-gray-200"
                   }`}
               >
                 {location}
@@ -136,9 +138,9 @@ function Services() {
           selectedLocation={selectedLocation}
         />
       )}
-      <div 
-    
-      className="">
+      <div
+
+        className="">
         <FAQ />
       </div>
 

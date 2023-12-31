@@ -2,19 +2,20 @@ import React, { useEffect } from 'react'
 
 import { Helmet } from 'react-helmet';
 function Carrer() {
-  
+
   return (
     <div>
       <Helmet>
-  <title>Careers at Epic Solutions - Join Our Team</title>
-  <meta name="description" content="Explore exciting career opportunities at Epic Solutions. Join our dynamic team and contribute to empowering success through talent. Check our current job openings and take the next step in your career with us." />
-</Helmet>
+      <link rel="canonical" href="https://epic-solutions.vercel.app/Careers" />
+        <title>Careers at Epic Solutions - Join Our Team</title>
+        <meta name="description" content="Explore exciting career opportunities at Epic Solutions. Join our dynamic team and contribute to empowering success through talent. Check our current job openings and take the next step in your career with us." />
+      </Helmet>
 
       <div className="bg-gradient-to-b from-gray-700 to-gray-900 h-[400px] overflow-hidden ">
         <div className="flex flex-col-reverse lg:flex-row justify-between lg:gap-2">
           <div
-           
-          className=" justify-center  lg:ps-10 flex flex-col gap-6">
+
+            className=" justify-center  lg:ps-10 flex flex-col gap-6">
             <h1 className="text-[#D1D5DB] text-center font-semibold font-[raleway] mt-5 lg:mt-0 text-2xl lg:text-5xl">
               Get in Touch with Epic Solutions
             </h1>
@@ -28,7 +29,7 @@ function Carrer() {
           </div>
 
           <svg
-          
+
             focusable="false"
             className="hero__honeycom lg:h-[370px] h-[120px] lg:w-[320px] "
             xmlns="http://www.w3.org/2000/svg"
@@ -64,8 +65,8 @@ function Carrer() {
       </div>
 
       <div
-     
-      className="bg-gray-100 mb-10 mt-10 p-8 rounded-lg shadow-md">
+
+        className="bg-gray-100 mb-10 mt-10 p-8 rounded-lg shadow-md">
         <h2 className="text-3xl font-semibold mb-4">HR Specialist</h2>
         <p className="text-gray-700">
           We are looking for an experienced HR Specialist to join our dynamic team. If you have a passion for

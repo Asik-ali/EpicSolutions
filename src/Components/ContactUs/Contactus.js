@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { IoCallSharp } from "react-icons/io5";
 import Newsletter from "../newsletter/NewsLetter";
+import { Helmet } from "react-helmet";
 
 import emailjs from "emailjs-com";
 
@@ -62,6 +63,14 @@ const handleSubmit = (e) => {
 };
 return (
   <div>
+    <Helmet>
+  <link rel="canonical" href="https://epic-solutions.vercel.app/contact" />
+
+  <title>Contact Us - Epic Solutions</title>
+  <meta name="description" content="Contact Epic Solutions for strategic human resource solutions." />
+  <meta name="keywords" content="Epic Solutions, contact, human resource, collaboration" />
+</Helmet>
+
     <div
       
       className="bg-gradient-to-b from-blue-500 to-black h-[400px] overflow-hidden "
