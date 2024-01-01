@@ -30,43 +30,51 @@ function Services() {
         <link rel="canonical" href="https://epic-solutions.vercel.app/Services" />
         <meta name="robots" content="index, follow" />
         <script type="application/ld+json">
-    {`
-      {
-        "@context": "https://schema.org",
-        "@type": "Product",
-        "name": "Your Product or Service Name",
-        "description": "Description of your product or service",
-        "brand": {
-          "@type": "Brand",
-          "name": "Your Brand Name"
-        },
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "3.0", // The average rating
-          "reviewCount": "1" // The total number of reviews
-        },
-        "review": [
-          {
-            "@type": "Review",
-            "itemReviewed": {
+          {`
+            {
+              "@context": "https://schema.org",
               "@type": "Product",
-              "name": "Your Product or Service Name"
-            },
-            "author": {
-              "@type": "Person",
-              "name": "John Doe"
-            },
-            "reviewRating": {
-              "@type": "Rating",
-              "ratingValue": "3"
-            },
-            "reviewBody": "Your review text goes here."
-          }
-          // Add more reviews as needed
-        ]
-      }
-    `}
-  </script>     </Helmet>
+              "name": "HR Consultancy Services - Epic Solutions",
+              "description": "Discover comprehensive HR consultancy services at Epic Solutions. From recruitment to talent management, our tailored services ensure your organization attracts and retains top talent. Learn more about how we empower success through strategic HR solutions.",
+              "brand": {
+                "@type": "Brand",
+                "name": "Epic Solutions"
+              },
+              "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.5",
+                "reviewCount": "20"
+              },
+              "review": [
+                {
+                  "@type": "Review",
+                  "author": {
+                    "@type": "Person",
+                    "name": "John Doe"
+                  },
+                  "reviewRating": {
+                    "@type": "Rating",
+                    "ratingValue": "5"
+                  },
+                  "reviewBody": "Excellent HR consultancy services! Highly recommended."
+                },
+                {
+                  "@type": "Review",
+                  "author": {
+                    "@type": "Person",
+                    "name": "Jane Smith"
+                  },
+                  "reviewRating": {
+                    "@type": "Rating",
+                    "ratingValue": "4"
+                  },
+                  "reviewBody": "Good quality and effective talent management."
+                }
+              ]
+            }
+          `}
+        </script> 
+            </Helmet>
 
       <div className="bg-gradient-to-b from-[#7CB252] to-[#1369AA] h-[450px] lg:h-[400px]  ">
         <div className="flex flex-col-reverse lg:flex-row justify-between lg:gap-2">
