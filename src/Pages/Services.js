@@ -25,10 +25,22 @@ function Services() {
   return (
     <div className="overflow-hidden">
       <Helmet>
-        <link rel="canonical" href="https://epic-solutions.vercel.app/Services" />
-
         <title>HR Consultancy Services - Epic Solutions</title>
         <meta name="description" content="Discover comprehensive HR consultancy services at Epic Solutions. From recruitment to talent management, our tailored services ensure your organization attracts and retains top talent. Learn more about how we empower success through strategic HR solutions." />
+        <link rel="canonical" href="https://epic-solutions.vercel.app/Services" />
+        <meta name="robots" content="index, follow" />
+        <script type="application/ld+json">
+          {`
+            {
+              "@context": "https://schema.org",
+              "@type": "WebPage",
+              "url": "https://example.com/Services",
+              "name": "HR Consultancy Services - Epic Solutions",
+              "description": "Discover comprehensive HR consultancy services at Epic Solutions...",
+              // Add other relevant properties
+            }
+          `}
+        </script>
       </Helmet>
 
       <div className="bg-gradient-to-b from-[#7CB252] to-[#1369AA] h-[450px] lg:h-[400px]  ">

@@ -8,6 +8,22 @@ const ReviewSection = () => {
     setRating(parseInt(event.target.value, 10));
   };
 
+  // Schema for a Review
+  const reviewSchema = {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "itemReviewed": "Your Product or Service", // Replace with the item being reviewed
+    "author": {
+      "@type": "Person",
+      "name": "John Doe", // Replace with the reviewer's name
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": rating,
+    },
+    "reviewBody": "Your review text goes here.", // Replace with the actual review text
+  };
+
   return (
     <div className="max-w-lg mx-auto lg:ms-12 my-8">
       <h2 className="text-2xl font-bold mb-4">Leave a Review</h2>
@@ -45,9 +61,13 @@ const ReviewSection = () => {
           Submit
         </button>
       </form>
+      
+      {/* Include JSON-LD script for review schema */}
+      <script type="application/ld+json">
+        {JSON.stringify(reviewSchema)}
+      </script>
     </div>
   );
 };
 
-
-export default ReviewSection
+export default ReviewSection;

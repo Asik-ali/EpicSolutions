@@ -22,17 +22,27 @@ const FAQ = () => {
     },
   ];
 
-
-
   const toggleTab = (id) => {
     setActiveTab(activeTab === id ? null : id);
   };
 
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": faqData.map(item => ({
+      "@type": "Question",
+      "name": item.question,
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": item.answer
+      }
+    }))
+  };
 
   return (
     <div className="flex px-4 flex-col lg:flex-row gap-4 items-center">
       <div className=" space-y-4 mx-auto mt-12">
-      <h2 className="text-2xl font-bold text-center">Frequently Asked Questions</h2>
+        <h2 className="text-2xl font-bold text-center">Frequently Asked Questions</h2>
         {faqData.map((item) => (
           <div key={item.id} className="relative bg-white p-4 rounded-md shadow-md px-4">
             <button
@@ -48,7 +58,11 @@ const FAQ = () => {
           </div>
         ))}
       </div>
-      <ReviewSection/>
+      <ReviewSection />
+      {/* Include JSON-LD script for schema */}
+      <script type="application/ld+json">
+        {JSON.stringify(faqSchema)}
+      </script>
     </div>
   );
 };
