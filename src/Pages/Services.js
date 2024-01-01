@@ -37,16 +37,11 @@ function Services() {
     {
       "@context": "https://schema.org",
       "@type": "Product",
-      "name": "HR Consultancy Services - Epic Solutions",
-      "description": "Discover comprehensive HR consultancy services at Epic Solutions. From recruitment to talent management, our tailored services ensure your organization attracts and retains top talent. Learn more about how we empower success through strategic HR solutions.",
-      "brand": {
-        "@type": "Brand",
-        "name": "Epic Solutions"
-      },
+      "name": "Your Product or Service",
       "aggregateRating": {
         "@type": "AggregateRating",
-        "ratingValue": "4.5",
-        "reviewCount": "20"
+        "ratingValue": 4.5,
+        "reviewCount": 20
       },
       "review": [
         {
@@ -57,7 +52,7 @@ function Services() {
           },
           "reviewRating": {
             "@type": "Rating",
-            "ratingValue": "5"
+            "ratingValue": 5
           },
           "reviewBody": "Excellent HR consultancy services! Highly recommended."
         },
@@ -69,12 +64,14 @@ function Services() {
           },
           "reviewRating": {
             "@type": "Rating",
-            "ratingValue": "4"
+            "ratingValue": 4
           },
           "reviewBody": "Good quality and effective talent management."
         }
+        // Add more reviews as needed
       ]
     }
+    
   `}
   </script>
 </Helmet>
