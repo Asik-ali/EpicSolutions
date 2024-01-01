@@ -31,15 +31,36 @@ function Services() {
         <meta name="robots" content="index, follow" />
         <script type="application/ld+json">
           {`
-            {
-              "@context": "https://schema.org",
-              "@type": "WebPage",
-              "url": "https://example.com/Services",
-              "name": "HR Consultancy Services - Epic Solutions",
-              "description": "Discover comprehensive HR consultancy services at Epic Solutions...",
-              // Add other relevant properties
-            }
-          `}
+      {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "url": "https://example.com/Services",
+        "name": "HR Consultancy Services - Epic Solutions",
+        "description": "Discover comprehensive HR consultancy services at Epic Solutions..."
+      }
+    `}
+        </script>
+
+        <script type="application/ld+json">
+          {`
+      {
+        "@context": "https://schema.org",
+        "@type": "Review",
+        "itemReviewed": {
+          "@type": "Organization",
+          "name": "Epic Solutions"
+        },
+        "author": {
+          "@type": "Person",
+          "name": "John Doe"
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": 5
+        },
+        "reviewBody": "Epic Solutions provides excellent HR consultancy services."
+      }
+    `}
         </script>
       </Helmet>
 
