@@ -33,11 +33,12 @@ function Services() {
   <link rel="canonical" href="https://epic-solutions.vercel.app/Services" />
   <meta name="robots" content="index, follow" />
   <script type="application/ld+json">
-    {`
+  {`
     {
       "@context": "https://schema.org",
-      "@type": "Product",
-      "name": "Your Product or Service",
+      "@type": "LocalBusiness",
+      "name": "Epic Solutions HR Consultancy",
+      "description": "Discover comprehensive HR consultancy services at Epic Solutions. From recruitment to talent management, our tailored services ensure your organization attracts and retains top talent. Learn more about how we empower success through strategic HR solutions.",
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": 4.5,
@@ -71,9 +72,9 @@ function Services() {
         // Add more reviews as needed
       ]
     }
-    
   `}
-  </script>
+</script>
+
 </Helmet>
 
 
