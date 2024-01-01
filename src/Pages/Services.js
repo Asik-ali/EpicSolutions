@@ -33,47 +33,48 @@ function Services() {
   <link rel="canonical" href="https://epic-solutions.vercel.app/Services" />
   <meta name="robots" content="index, follow" />
   <script type="application/ld+json">
-  {`
-    {
-      "@context": "https://schema.org",
-      "@type": "LocalBusiness",
-      "name": "Epic Solutions HR Consultancy",
-      "description": "Discover comprehensive HR consultancy services at Epic Solutions. From recruitment to talent management, our tailored services ensure your organization attracts and retains top talent. Learn more about how we empower success through strategic HR solutions.",
-      "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": 4.5,
-        "reviewCount": 20
-      },
-      "review": [
-        {
-          "@type": "Review",
-          "author": {
-            "@type": "Person",
-            "name": "John Doe"
-          },
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": 5
-          },
-          "reviewBody": "Excellent HR consultancy services! Highly recommended."
-        },
-        {
-          "@type": "Review",
-          "author": {
-            "@type": "Person",
-            "name": "Jane Smith"
-          },
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": 5
-          },
-          "reviewBody": "Good quality and effective talent management."
-        }
-        // Add more reviews as needed
-      ]
-    }
-  `}
-</script>
+        {`
+          {
+            "@context": "https://schema.org",
+            "@type": "LocalBusiness",
+            "name": "Epic Solutions HR Consultancy",
+            "description": "Discover comprehensive HR consultancy services at Epic Solutions. From recruitment to talent management, our tailored services ensure your organization attracts and retains top talent. Learn more about how we empower success through strategic HR solutions.",
+            "aggregateRating": {
+              "@type": "AggregateRating",
+              "ratingValue": 4.5,
+              "reviewCount": 20
+            },
+            "review": [
+              {
+                "@type": "Review",
+                "author": {
+                  "@type": "Person",
+                  "name": "John Doe"
+                },
+                "reviewRating": {
+                  "@type": "Rating",
+                  "ratingValue": 5
+                },
+                "reviewBody": "Excellent HR consultancy services! Highly recommended."
+              },
+              {
+                "@type": "Review",
+                "author": {
+                  "@type": "Person",
+                  "name": "Jane Smith"
+                },
+                "reviewRating": {
+                  "@type": "Rating",
+                  "ratingValue": 5
+                },
+                "reviewBody": "Good quality and effective talent management."
+              }
+              // Add more reviews as needed
+            ]
+          }
+        `}
+      </script>
+
 
 </Helmet>
 

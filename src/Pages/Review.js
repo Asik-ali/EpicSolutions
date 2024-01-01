@@ -1,11 +1,16 @@
-// src/App.js
+// ReviewSection.js
 import React, { useState } from 'react';
 
 const ReviewSection = () => {
   const [rating, setRating] = useState(3);
+  const [reviewText, setReviewText] = useState('');
 
   const handleRatingChange = (event) => {
     setRating(parseInt(event.target.value, 10));
+  };
+
+  const handleReviewChange = (event) => {
+    setReviewText(event.target.value);
   };
 
   // Schema for a Review
@@ -54,6 +59,8 @@ const ReviewSection = () => {
             id="review"
             name="review"
             rows="4"
+            value={reviewText}
+            onChange={handleReviewChange}
             className="mt-1 p-2 block w-full border rounded-md bg-gray-100 focus:outline-none focus:border-indigo-500 transition duration-150 ease-in-out"
           ></textarea>
         </div>
