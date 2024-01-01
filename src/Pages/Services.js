@@ -33,36 +33,48 @@ function Services() {
           {`
       {
         "@context": "https://schema.org",
-        "@type": "WebPage",
-        "url": "https://example.com/Services",
-        "name": "HR Consultancy Services - Epic Solutions",
-        "description": "Discover comprehensive HR consultancy services at Epic Solutions..."
+        "@type": "Product", // Assuming it's a product, adjust to "Service" if it's a service
+        "name": "Your Product or Service Name",
+        "description": "Description of your product or service",
+        "brand": {
+          "@type": "Brand",
+          "name": "Your Brand Name"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.5", // The average rating
+          "reviewCount": "20" // The total number of reviews
+        },
+        "review": [
+          {
+            "@type": "Review",
+            "author": {
+              "@type": "Person",
+              "name": "John Doe"
+            },
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5"
+            },
+            "reviewBody": "Excellent product! Highly recommended."
+          },
+          {
+            "@type": "Review",
+            "author": {
+              "@type": "Person",
+              "name": "Jane Smith"
+            },
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "4"
+            },
+            "reviewBody": "Good quality and fast delivery."
+          }
+          // Add more reviews as needed
+        ]
       }
     `}
-        </script>
-
-        <script type="application/ld+json">
-          {`
-      {
-        "@context": "https://schema.org",
-        "@type": "Review",
-        "itemReviewed": {
-          "@type": "Organization",
-          "name": "Epic Solutions"
-        },
-        "author": {
-          "@type": "Person",
-          "name": "John Doe"
-        },
-        "reviewRating": {
-          "@type": "Rating",
-          "ratingValue": 5
-        },
-        "reviewBody": "Epic Solutions provides excellent HR consultancy services."
-      }
-    `}
-        </script>
-      </Helmet>
+        </script>      </Helmet>
 
       <div className="bg-gradient-to-b from-[#7CB252] to-[#1369AA] h-[450px] lg:h-[400px]  ">
         <div className="flex flex-col-reverse lg:flex-row justify-between lg:gap-2">
