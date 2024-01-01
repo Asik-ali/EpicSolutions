@@ -43,7 +43,7 @@ export default function App() {
       >
         <div className="absolute inset-0 bg-black opacity-50"></div>
         <div className="mx-auto text-center lg:text-start relative z-10">
-          <h1  class="text-4xl md:text-5xl lg:text-6xl font-semibold  font-[poppins] mb-4 text-gray-300">
+          <h1  className="text-4xl md:text-5xl lg:text-6xl font-semibold  font-[poppins] mb-4 text-gray-300">
             Embrace a New Journey ✨
           </h1>
           <p className="text-lg md:text-xl lg:text-2xl mb-8 font-[ContrailOne] text-gray-300">
@@ -52,7 +52,7 @@ export default function App() {
           </p>
           <div className="flex flex-col justify-center md:flex-row gap-3 px-4">
             <button className="font-[DMSans] text-xl px-5 py-3 rounded bg-blue-600 hover:bg-blue-700 hover:text-white duration-300">
-            <Link  to="Services">Apply Now</Link>
+            <Link to="/Services">Apply Now</Link>
             </button>
             <button className="px-5 py-3 rounded font-[DMSans] text-xl bg-gray-800 hover:bg-gray-900 hover:text-white duration-300">
               We Are Hiring

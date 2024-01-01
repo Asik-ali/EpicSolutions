@@ -24,60 +24,61 @@ function Services() {
 
   return (
     <div className="overflow-hidden">
-      <Helmet>
-        <title>HR Consultancy Services - Epic Solutions</title>
-        <meta
-          name="description"
-          content="Discover comprehensive HR consultancy services at Epic Solutions. From recruitment to talent management, our tailored services ensure your organization attracts and retains top talent. Learn more about how we empower success through strategic HR solutions."
-        />
-        <link rel="canonical" href="https://epic-solutions.vercel.app/Services" />
-        <meta name="robots" content="index, follow" />
-        <script type="application/ld+json">
-          {`
-      {
-        "@context": "https://schema.org",
-        "@type": "Product",
-        "name": "HR Consultancy Services - Epic Solutions",
-        "description": "Discover comprehensive HR consultancy services at Epic Solutions. From recruitment to talent management, our tailored services ensure your organization attracts and retains top talent. Learn more about how we empower success through strategic HR solutions.",
-        "brand": {
-          "@type": "Brand",
-          "name": "Epic Solutions"
-        },
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "4.5",
-          "reviewCount": "20"
-        },
-        "review": [
-          {
-            "@type": "Review",
-            "author": {
-              "@type": "Person",
-              "name": "John Doe"
-            },
-            "reviewRating": {
-              "@type": "Rating",
-              "ratingValue": "5"
-            },
-            "reviewBody": "Excellent HR consultancy services! Highly recommended."
+     <Helmet>
+  <title>HR Consultancy Services - Epic Solutions</title>
+  <meta
+    name="description"
+    content="Discover comprehensive HR consultancy services at Epic Solutions. From recruitment to talent management, our tailored services ensure your organization attracts and retains top talent. Learn more about how we empower success through strategic HR solutions."
+  />
+  <link rel="canonical" href="https://epic-solutions.vercel.app/Services" />
+  <meta name="robots" content="index, follow" />
+  <script type="application/ld+json">
+    {`
+    {
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "name": "HR Consultancy Services - Epic Solutions",
+      "description": "Discover comprehensive HR consultancy services at Epic Solutions. From recruitment to talent management, our tailored services ensure your organization attracts and retains top talent. Learn more about how we empower success through strategic HR solutions.",
+      "brand": {
+        "@type": "Brand",
+        "name": "Epic Solutions"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.5",
+        "reviewCount": "20"
+      },
+      "review": [
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "John Doe"
           },
-          {
-            "@type": "Review",
-            "author": {
-              "@type": "Person",
-              "name": "Jane Smith"
-            },
-            "reviewRating": {
-              "@type": "Rating",
-              "ratingValue": "4"
-            },
-            "reviewBody": "Good quality and effective talent management."
-          }
-        ]
-      }
-    `}
-        </script>
-      </Helmet>
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5"
+          },
+          "reviewBody": "Excellent HR consultancy services! Highly recommended."
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "Jane Smith"
+          },
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "4"
+          },
+          "reviewBody": "Good quality and effective talent management."
+        }
+      ]
+    }
+  `}
+  </script>
+</Helmet>
+
 
 
       <div className="bg-gradient-to-b from-[#7CB252] to-[#1369AA] h-[450px] lg:h-[400px]  ">
