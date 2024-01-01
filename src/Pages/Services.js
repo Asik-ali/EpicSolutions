@@ -64,7 +64,7 @@ function Services() {
           },
           "reviewRating": {
             "@type": "Rating",
-            "ratingValue": 4
+            "ratingValue": 5
           },
           "reviewBody": "Good quality and effective talent management."
         }

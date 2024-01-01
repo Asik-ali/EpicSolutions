@@ -12,16 +12,19 @@ const ReviewSection = () => {
   const reviewSchema = {
     "@context": "https://schema.org",
     "@type": "Review",
-    "itemReviewed": "Your Product or Service", // Replace with the item being reviewed
+    "itemReviewed": {
+      "@type": "Thing",
+      "name": "Your Product or Service",
+    },
     "author": {
       "@type": "Person",
-      "name": "John Doe", // Replace with the reviewer's name
+      "name": "John Doe",
     },
     "reviewRating": {
       "@type": "Rating",
       "ratingValue": rating,
     },
-    "reviewBody": "Your review text goes here.", // Replace with the actual review text
+    "reviewBody": reviewText,
   };
 
   return (
