@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import ReviewSection from './Review';
+// import ReviewSection from './Review';
 
 const FAQ = () => {
   const [activeTab, setActiveTab] = useState(null);
@@ -58,7 +58,7 @@ const FAQ = () => {
           </div>
         ))}
       </div>
-      <ReviewSection />
+      {/* <ReviewSection /> */}
       {/* Include JSON-LD script for schema */}
       <script type="application/ld+json">
         {JSON.stringify(faqSchema)}
