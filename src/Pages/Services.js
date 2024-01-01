@@ -30,10 +30,10 @@ function Services() {
         <link rel="canonical" href="https://epic-solutions.vercel.app/Services" />
         <meta name="robots" content="index, follow" />
         <script type="application/ld+json">
-          {`
+    {`
       {
         "@context": "https://schema.org",
-        "@type": "Product", // Assuming it's a product, adjust to "Service" if it's a service
+        "@type": "Product",
         "name": "Your Product or Service Name",
         "description": "Description of your product or service",
         "brand": {
@@ -42,39 +42,31 @@ function Services() {
         },
         "aggregateRating": {
           "@type": "AggregateRating",
-          "ratingValue": "4.5", // The average rating
-          "reviewCount": "20" // The total number of reviews
+          "ratingValue": "3.0", // The average rating
+          "reviewCount": "1" // The total number of reviews
         },
         "review": [
           {
             "@type": "Review",
+            "itemReviewed": {
+              "@type": "Product",
+              "name": "Your Product or Service Name"
+            },
             "author": {
               "@type": "Person",
               "name": "John Doe"
             },
             "reviewRating": {
               "@type": "Rating",
-              "ratingValue": "5"
+              "ratingValue": "3"
             },
-            "reviewBody": "Excellent product! Highly recommended."
-          },
-          {
-            "@type": "Review",
-            "author": {
-              "@type": "Person",
-              "name": "Jane Smith"
-            },
-            "reviewRating": {
-              "@type": "Rating",
-              "ratingValue": "4"
-            },
-            "reviewBody": "Good quality and fast delivery."
+            "reviewBody": "Your review text goes here."
           }
           // Add more reviews as needed
         ]
       }
     `}
-        </script>      </Helmet>
+  </script>     </Helmet>
 
       <div className="bg-gradient-to-b from-[#7CB252] to-[#1369AA] h-[450px] lg:h-[400px]  ">
         <div className="flex flex-col-reverse lg:flex-row justify-between lg:gap-2">
