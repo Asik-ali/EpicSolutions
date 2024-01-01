@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 
 const ReviewSection = () => {
-  const [rating, setRating] = useState(3);
+  const [rating, setRating] = useState(5);
   const [reviewText, setReviewText] = useState('');
 
   const handleRatingChange = (event) => {
@@ -19,7 +19,7 @@ const ReviewSection = () => {
     "@type": "Review",
     "itemReviewed": {
       "@type": "Thing",
-      "name": "Your Product or Service",
+      "name": "Services",
     },
     "author": {
       "@type": "Person",
