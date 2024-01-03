@@ -60,11 +60,11 @@ function Services() {
     "@type": "Review",
     "itemReviewed": {
       "@type": "Thing",
-      "name": "Services",
+      "name": "Consultancy Servics",
     },
     "author": {
       "@type": "Person",
-      "name": "John Doe",
+      "name": "Asik",
     },
     "reviewRating": {
       "@type": "Rating",
