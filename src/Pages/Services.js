@@ -59,7 +59,7 @@ function Services() {
     "@context": "https://schema.org",
     "@type": "Review",
     "itemReviewed": {
-      "@type": "Thing",
+      "@type": "Service",
       "name": "Consultancy Servics",
     },
     "author": {
@@ -111,7 +111,7 @@ function Services() {
                 "@type": "Review",
                 "author": {
                   "@type": "Person",
-                  "name": "John Doe"
+                  "name": "Asik"
                 },
                 "reviewRating": {
                   "@type": "Rating",
@@ -123,7 +123,7 @@ function Services() {
                 "@type": "Review",
                 "author": {
                   "@type": "Person",
-                  "name": "Jane Smith"
+                  "name": "Ali"
                 },
                 "reviewRating": {
                   "@type": "Rating",
