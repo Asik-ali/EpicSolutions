@@ -238,30 +238,7 @@ function Services() {
           selectedLocation={selectedLocation}
         />
       )}
-      <div className="flex px-4 flex-col lg:flex-row gap-4 items-center">
-        <div className=" space-y-4 mx-auto mt-12">
-          <h2 className="text-2xl font-bold text-center">Frequently Asked Questions</h2>
-          {faqData.map((item) => (
-            <div key={item.id} className="relative bg-white p-4 rounded-md shadow-md px-4">
-              <button
-                className="flex items-center w-full text-left font-semibold focus:outline-none"
-                onClick={() => toggleTab(item.id)}
-              >
-                {item.question}
-                <span className={`ml-auto transform ${activeTab === item.id ? 'rotate-45' : 'rotate-0'} transition-transform duration-300`}>➕</span>
-              </button>
-              {activeTab === item.id && (
-                <p className="mt-2 text-gray-600 lg:w-[450px] w-[300px]">{item.answer}</p>
-              )}
-            </div>
-          ))}
-        </div>
-        
-        {/* Include JSON-LD script for schema */}
-        <script type="application/ld+json">
-          {JSON.stringify(faqSchema)}
-        </script>
-      </div>
+     
     </div>
   );
 }
