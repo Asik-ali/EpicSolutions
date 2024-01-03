@@ -1,5 +1,4 @@
-// Services.js
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import ApplyForm from "../Components/contact/ApplyForm";
 import img3 from "../Assest/3.jpg";
 import { Helmet } from "react-helmet";
@@ -18,72 +17,6 @@ function Services() {
     setSelectedLocation(location);
   };
 
-  const [activeTab, setActiveTab] = useState(null);
-
-  const faqData = [
-    {
-      id: 1,
-      question: 'How do I apply for a consultancy position?',
-      answer: 'You can apply for a consultancy position by visiting our Careers page and submitting your application through the online form.'
-    },
-    {
-      id: 2,
-      question: 'What qualifications are required for a coding position?',
-      answer: 'We typically look for candidates with a strong background in computer science, proficiency in relevant programming languages, and experience in related projects.'
-    },
-    {
-      id: 3,
-      question: 'How long is the recruitment process?',
-      answer: 'The recruitment process duration varies depending on the position. On average, it takes about 2-4 weeks from application to offer acceptance.'
-    },
-  ];
-
-  const toggleTab = (id) => {
-    setActiveTab(activeTab === id ? null : id);
-  };
-
-  const faqSchema = {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": faqData.map(item => ({
-      "@type": "Question",
-      "name": item.question,
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": item.answer
-      }
-    }))
-  };
-
-  const reviewSchema = {
-    "@context": "https://schema.org",
-    "@type": "Review",
-    "itemReviewed": {
-      "@type": "Service",
-      "name": "Consultancy Servics",
-    },
-    "author": {
-      "@type": "Person",
-      "name": "Asik",
-    },
-    "reviewRating": {
-      "@type": "Rating",
-      "ratingValue": 5,
-    },
-    "reviewBody": "Excellent HR consultancy services! Highly recommended."
-  };
-
-  const [rating, setRating] = useState(5);
-  const [reviewText, setReviewText] = useState('');
-
-  const handleRatingChange = (event) => {
-    setRating(parseInt(event.target.value, 10));
-  };
-
-  const handleReviewChange = (event) => {
-    setReviewText(event.target.value);
-  };
-
   return (
     <div className="overflow-hidden">
       <Helmet>
@@ -94,47 +27,6 @@ function Services() {
         />
         <link rel="canonical" href="https://epic-solutions.vercel.app/services" />
         <meta name="robots" content="index, follow" />
-        <script type="application/ld+json">
-          {`
-          {
-            "@context": "https://schema.org",
-            "@type": "LocalBusiness",
-            "name": "Epic Solutions HR Consultancy",
-            "description": "Discover comprehensive HR consultancy services at Epic Solutions. From recruitment to talent management, our tailored services ensure your organization attracts and retains top talent. Learn more about how we empower success through strategic HR solutions.",
-            "aggregateRating": {
-              "@type": "AggregateRating",
-              "ratingValue": 4.5,
-              "reviewCount": 20
-            },
-            "review": [
-              {
-                "@type": "Review",
-                "author": {
-                  "@type": "Person",
-                  "name": "Asik"
-                },
-                "reviewRating": {
-                  "@type": "Rating",
-                  "ratingValue": 5
-                },
-                "reviewBody": "Excellent HR consultancy services! Highly recommended."
-              },
-              {
-                "@type": "Review",
-                "author": {
-                  "@type": "Person",
-                  "name": "Ali"
-                },
-                "reviewRating": {
-                  "@type": "Rating",
-                  "ratingValue": 5
-                },
-                "reviewBody": "Good quality and effective talent management."
-              }
-            ]
-          }
-        `}
-        </script>
       </Helmet>
 
       <div className="bg-gradient-to-b from-[#7CB252] to-[#1369AA] h-[450px] lg:h-[400px]  ">
@@ -238,7 +130,6 @@ function Services() {
           selectedLocation={selectedLocation}
         />
       )}
-
     </div>
   );
 }
