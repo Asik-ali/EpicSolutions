@@ -1,8 +1,6 @@
 // Services.js
 import React, { useEffect, useState } from "react";
 import ApplyForm from "../Components/contact/ApplyForm";
-import img from "../img/1.png";
-import FAQ from "./Faq";
 import img3 from "../Assest/3.jpg";
 import { Helmet } from "react-helmet";
 
