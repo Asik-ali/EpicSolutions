@@ -3,7 +3,6 @@ import { LuChevronsUp } from "react-icons/lu";
 import icon from "../../../src/Assest/images.png";
 import bg from "../../Assest/bg.jpeg";
 import { Link } from "react-router-dom";
-import Services from "./Pages/Services";
 
 
 export default function App() {
