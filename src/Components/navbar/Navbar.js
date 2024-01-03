@@ -101,7 +101,7 @@ function Navbar() {
                   : "hover:text-[#1369AA] relative hover:after:absolute hover:after:left-0 hover:after:-bottom-3 hover:after:w-[100%] hover:after:h-[3px]  hover:after:bg-[#1369aa] "
               }
             >
-              <Link onClick={handleActive} to="/Services">
+              <Link onClick={handleActive} to="/services">
                 Services
               </Link>
             </li>

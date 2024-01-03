@@ -4,11 +4,11 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Navbar from "./Components/navbar/Navbar";
 import Footer from "./Components/Footer/Footer";
 import Home from "./Pages/Home";
-import Services from "./Pages/Services";
 import About from "./Pages/About";
 import Contact from "./Pages/Contact";
 import Client from "./Pages/Client";
 import Carrer from "./Pages/Carrer";
+import Services from "./Pages/Services";
 // import Sitemap from "./sitemap";
 
 function App() {
@@ -17,7 +17,7 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/Services" element={<Services />} />
+        <Route path="/services" element={<Services />} />
         <Route path="/About" element={<About />} />
         <Route path="/Contact" element={<Contact />} />
         <Route path="/Client" element={<Client />} />
