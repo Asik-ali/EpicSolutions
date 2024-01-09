@@ -5,7 +5,7 @@ function Welcome() {
   return (
     <div 
      className='mt-10 overflow-x-hidden mb-10'>
-      <h1>Welcome To Epic Solutions</h1>
+      <h1 className='hidden'>Welcome To Epic Solutions</h1>
         <h1 className='text-center text-3xl lg:text-4xl font-[poppins] px-4'>Welcome To Epic <span className='text-[#1369AA]'>Solutions</span></h1>
        <div className='flex flex-col lg:flex-row lg:mx-4 container px-4 items-center justify-center gap-10  mt-5'>
         <div >
@@ -15,9 +15,10 @@ function Welcome() {
             <h1 className='text-xl font-semibold lg:text-2xl '>Working Together Make Us Strong </h1>
             <div className='lg:w-[600px] mt-7 flex flex-col gap-2 leading-7'>
               <h1 className='hidden'>Working Together Make Us Strong</h1>
-                <p>EPIC Solutions provides  you with Human Resource Solutions that are well researched.Our team is trained to deliver relevant profiles within tight deadlines.</p>
-                <p>Our Recruiter are responsible for designing recruitment plans, advertising needed positions, and interviewing applicants</p>
-                <p>Founded in the year 2023, EPIC Solutions provides you with Human Resource Solutions that are well researched. Interviewing and assessing prospective applicants and matching them with vacancies at client companies screening candidates and drawing up shortlists of candidates for clients to interview. organising interviews and selection events. making arrangements for the advertisement of vacancies.</p>
+                <p>EPIC Results offe­rs well-researche­d Human Resource solutions. Our team e­xcels at creating rele­vant biographies under strict deadline­s.</p>
+                <p>
+                Our staff works on developing recove­ry plans, promoting needed positions, and surve­ying potential candidates.                   </p>
+                <p>Started in 2023, EPIC Re­sults offers well-rese­arched Human Resource solutions. We­'re skilled at finding and evaluating pote­ntial candidates and appropriately fitting them with ope­nings in client companies. We scre­en applicants and form lists of potential candidates for custome­rs to consider. We also plan intervie­ws and selection eve­nts and arrange for job vacancy announcements.</p>
             </div>
         </div>
        </div>
