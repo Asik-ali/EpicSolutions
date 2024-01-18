@@ -118,7 +118,7 @@ const AD1 = () => {
         className="adsbygoogle"
         style={{ display: 'block', marginTop: '10px' }} 
         data-ad-client="ca-pub-2334117942638644"
-        data-ad-slot="5257105614"
+        data-ad-slot="6653361035"
         data-ad-format="auto"
         data-full-width-responsive="true"
       ></ins>
