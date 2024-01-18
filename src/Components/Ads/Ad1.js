@@ -88,7 +88,7 @@ const AD1 = () => {
       {/* Ads at the top */}
       <ins
         className="adsbygoogle"
-        style={{ display: 'block' }}
+        style={{ display: 'block' , marginBottom : "10px" }}
         data-ad-client="ca-pub-2334117942638644"
         data-ad-slot="5257105614" /* Replace with your ad slot */
         data-ad-format="auto"
