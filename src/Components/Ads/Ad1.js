@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 
-const Home = () => {
+const AD1 = () => {
   const navigate = useNavigate();
-  const [timer, setTimer] = useState(5); // Initial timer value in seconds
+  const [timer, setTimer] = useState(5);
   const [player, setPlayer] = useState(null);
   const [showButton, setShowButton] = useState(false);
 
@@ -84,6 +84,18 @@ const Home = () => {
 
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-gray-800 text-white">
+
+      {/* Ads at the top */}
+      <ins
+        className="adsbygoogle"
+        style={{ display: 'block' }}
+        data-ad-client="ca-pub-2334117942638644"
+        data-ad-slot="5257105614" /* Replace with your ad slot */
+        data-ad-format="auto"
+        data-full-width-responsive="true"
+      ></ins>
+      <script>(adsbygoogle = window.adsbygoogle || []).push({ });</script>
+
       <div id="player" className="mb-4"></div>
 
       {timer > 0 && (
@@ -100,8 +112,19 @@ const Home = () => {
           Go to Next Page
         </button>
       )}
+
+      {/* Space for ads */}
+      <ins
+        className="adsbygoogle"
+        style={{ display: 'block', marginTop: '10px' }} 
+        data-ad-client="ca-pub-2334117942638644"
+        data-ad-slot="5257105614"
+        data-ad-format="auto"
+        data-full-width-responsive="true"
+      ></ins>
+      <script>(adsbygoogle = window.adsbygoogle || []).push({ });</script>
     </div>
   );
 };
 
-export default Home;
+export default AD1;

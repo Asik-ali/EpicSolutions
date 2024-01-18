@@ -24,7 +24,15 @@ function Login() {
         return;
       }
 
-      localStorage.setItem('user', JSON.stringify(result.user));
+      // Store user information in local storage
+      const userData = {
+        uid: result.user.uid,
+        email: result.user.email,
+        displayName: result.user.displayName,
+        // Add any other user data you want to store
+      };
+      localStorage.setItem('user', JSON.stringify(userData));
+
       setLoading(false);
       navigate('/');
     } catch (error) {
