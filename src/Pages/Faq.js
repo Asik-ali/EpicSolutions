@@ -41,6 +41,17 @@ const FAQ = () => {
 
   return (
     <div className="flex px-4 flex-col lg:flex-row gap-4 items-center">
+      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2334117942638644"
+        crossorigin="anonymous"></script>
+      <ins class="adsbygoogle"
+        style="display:block"
+        data-ad-client="ca-pub-2334117942638644"
+        data-ad-slot="5257105614"
+        data-ad-format="auto"
+        data-full-width-responsive="true"></ins>
+      <script>
+        (adsbygoogle = window.adsbygoogle || []).push({ });
+      </script>
       <div className=" space-y-4 mx-auto mt-12">
         <h2 className="text-2xl font-bold text-center">Frequently Asked Questions</h2>
         {faqData.map((item) => (
