@@ -8,6 +8,7 @@ import img4 from "../../Assest/4.jpg";
 import about from "../../Assest/aboutimg1.jpg";
 import responsibilities from "./Resposibiltesdata";
 import approachPoints from "./Apporachpoint";
+import AdSenseComponent from "../Adsense/Adsense";
 
 function AboutContent() {
   return (
@@ -39,7 +40,7 @@ function AboutContent() {
           </div>
         </div>
       </section>
-
+<AdSenseComponent/>
       {/* Consultancy Section */}
       <section className="flex flex-col lg:flex-row px-4 gap-5 lg:gap-0 items-center justify-evenly mt-10">
         <div className="">
