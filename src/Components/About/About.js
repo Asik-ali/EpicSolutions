@@ -9,6 +9,8 @@ import about from "../../Assest/aboutimg1.jpg";
 import responsibilities from "./Resposibiltesdata";
 import approachPoints from "./Apporachpoint";
 import AdSenseComponent from "../Adsense/Adsense";
+import AdSenseComponent1 from "../Adsense/Adsense1";
+import AdSenseComponent3 from "../Adsense/Adsense2";
 
 function AboutContent() {
   return (
@@ -40,7 +42,6 @@ function AboutContent() {
           </div>
         </div>
       </section>
-<AdSenseComponent/>
       {/* Consultancy Section */}
       <section className="flex flex-col lg:flex-row px-4 gap-5 lg:gap-0 items-center justify-evenly mt-10">
         <div className="">
@@ -60,6 +61,7 @@ function AboutContent() {
           </div>
         </div>
         {/* Images Section */}
+        <AdSenseComponent/>
         <div className="flex flex-col md:flex-row gap-2">
           <div className="flex flex-col gap-2">
             <div className="relative group">
@@ -101,6 +103,7 @@ function AboutContent() {
       </section>
 
       {/* Goodbye to Unemployment Section */}
+      <AdSenseComponent1/>
       <section className="bg-[#E3F6F9] mt-5">
         <h2 className="text-center text-xl lg:text-2xl p-5 lg:p-10">
           Say
@@ -136,6 +139,7 @@ function AboutContent() {
       </section>
 
       {/* Responsibilities Section */}
+      <AdSenseComponent3/>
       <section className="container mx-auto mt-8">
         <h2 className="text-3xl font-bold mb-6 text-center">Our Responsibilities</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">

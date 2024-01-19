@@ -1,8 +1,9 @@
 import React, { useEffect } from 'react';
 import { Helmet } from 'react-helmet';
 
-const AdSenseComponent = () => {
+const AdSenseComponent3 = () => {
   useEffect(() => {
+    // Load AdSense script
     (window.adsbygoogle = window.adsbygoogle || []).push({});
   }, []);
 
@@ -19,18 +20,17 @@ const AdSenseComponent = () => {
       </Helmet>
 
       <div>
-        <p>Ad</p>
+        <p>Ad2</p>
         <ins
           className="adsbygoogle"
           style={{ display: 'block' }}
-          data-ad-client="ca-pub-2334117942638644"
-          data-ad-slot="5257105614"
-          data-ad-format="auto"
-          data-full-width-responsive="true"
+          data-ad-format="autorelaxed"
+     data-ad-client="ca-pub-2334117942638644"
+     data-ad-slot="5576685729"
         ></ins>
       </div>
     </div>
   );
 };
 
-export default AdSenseComponent;
+export default AdSenseComponent3;
