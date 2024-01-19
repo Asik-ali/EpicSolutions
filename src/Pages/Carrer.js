@@ -6,7 +6,7 @@ function Carrer() {
   return (
     <div>
       <Helmet>
-      <link rel="canonical" href="https://epic-solutions.vercel.app/Careers" />
+        <link rel="canonical" href="https://epic-solutions.vercel.app/Careers" />
         <title>Careers at Epic Solutions - Join Our Team</title>
         <meta name="description" content="Explore exciting career opportunities at Epic Solutions. Join our dynamic team and contribute to empowering success through talent. Check our current job openings and take the next step in your career with us." />
       </Helmet>
@@ -67,18 +67,23 @@ function Carrer() {
       <div
 
         className="bg-gray-100 mb-10 mt-10 p-8 rounded-lg shadow-md">
-          ad
-           <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2334117942638644"
-        crossorigin="anonymous"></script>
-      <ins class="adsbygoogle"
-        style="display:block"
-        data-ad-client="ca-pub-2334117942638644"
-        data-ad-slot="5257105614"
-        data-ad-format="auto"
-        data-full-width-responsive="true"></ins>
-      <script>
-        (adsbygoogle = window.adsbygoogle || []).push({ });
-      </script>
+        ad
+        {/* Google Ads script corrected */}
+        <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2334117942638644"
+          crossOrigin="anonymous"
+        ></script>
+        <ins
+          className="adsbygoogle"
+          style={{ display: 'block' }}
+          data-ad-client="ca-pub-2334117942638644"
+          data-ad-slot="5257105614"
+          data-ad-format="auto"
+          data-full-width-responsive="true"
+        ></ins>
+        <script>{`(adsbygoogle = window.adsbygoogle || []).push({ });`}</script>
+
         <h2 className="text-3xl font-semibold mb-4">HR Specialist</h2>
         <p className="text-gray-700">
           We are looking for an experienced HR Specialist to join our dynamic team. If you have a passion for
