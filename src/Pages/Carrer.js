@@ -67,7 +67,7 @@ function Carrer() {
       <div
 
         className="bg-gray-100 mb-10 mt-10 p-8 rounded-lg shadow-md">
-        ad
+        
         {/* Google Ads script corrected */}
         <script
           async
@@ -76,7 +76,8 @@ function Carrer() {
         ></script>
         <ins
           className="adsbygoogle"
-          style={{ display: 'block' }}
+          
+          style={{ display: 'block' , background:"black" }}
           data-ad-client="ca-pub-2334117942638644"
           data-ad-slot="5257105614"
           data-ad-format="auto"
