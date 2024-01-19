@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
+import AdSenseComponent from '../Adsense/Adsense';
 
 const AD1 = () => {
   const navigate = useNavigate();
@@ -140,16 +141,7 @@ const AD1 = () => {
       {showAds && (
         <div className="ad-container" style={{ marginTop: '10px', marginBottom: '10px' }}>
           <h1>Ad3</h1>
-          <ins
-            className="adsbygoogle"
-            style={{ display: 'block' }}
-            data-ad-client="ca-pub-2334117942638644"
-            data-ad-slot="7272910777" /* Replace with your ad slot */
-            data-ad-layout="in-article"
-            data-ad-format="fluid"
-            data-full-width-responsive="true"
-          ></ins>
-          <script>(adsbygoogle = window.adsbygoogle || []).push({ });</script>
+          <AdSenseComponent/>
         </div>
       )}
 
@@ -171,18 +163,7 @@ const AD1 = () => {
 
       {/* Ad 5 at the bottom */}
       {showAds && (
-        <div className="ad-container" style={{ marginTop: '10px' }}>
-          <h1>Ad5</h1>
-          <ins
-            className="adsbygoogle"
-            style={{ display: 'block' }}
-            data-ad-client="ca-pub-2334117942638644"
-            data-ad-slot="1794203448" 
-            data-ad-format="auto"
-            data-full-width-responsive="true"
-          ></ins>
-          <script>(adsbygoogle = window.adsbygoogle || []).push({ });</script>
-        </div>
+        <AdSenseComponent/>
       )}
     </div>
   );
