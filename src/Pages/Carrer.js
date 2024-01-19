@@ -2,6 +2,9 @@ import React, { useEffect } from 'react'
 
 import { Helmet } from 'react-helmet';
 function Carrer() {
+  useEffect(() => {
+    (window.adsbygoogle = window.adsbygoogle || []).push({});
+  }, []);
 
   return (
     <div>

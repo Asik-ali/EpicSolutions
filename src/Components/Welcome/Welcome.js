@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react'
 import img from "../../Assest/Welcome.jpg"
+import AdSenseComponent from '../Adsense/Adsense'
 function Welcome() {
   
   return (
@@ -12,6 +13,7 @@ function Welcome() {
             <img className=' w-[500px] rounded' src={img} alt="welcome" data-robots="noindex"/>
         </div>
         <div className='flex flex-col'>
+          <AdSenseComponent/>
             <h1 className='text-xl font-semibold lg:text-2xl '>Working Together Make Us Strong </h1>
             <div className='lg:w-[600px] mt-7 flex flex-col gap-2 leading-7'>
               <h1 className='hidden'>Working Together Make Us Strong</h1>
