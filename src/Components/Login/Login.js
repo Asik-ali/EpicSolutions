@@ -5,6 +5,7 @@ import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { auth } from '../Firebase/Firebase';
 import AdSenseComponent3 from '../Adsense/Adsense3';
+import AdSenseComponent1 from '../Adsense/Adsense1';
 
 function Login() {
   const [email, setEmail] = useState('');
@@ -88,6 +89,7 @@ function Login() {
           </button>
         </div>
       </div>
+      <AdSenseComponent1/>
     </div>
   );
 }
