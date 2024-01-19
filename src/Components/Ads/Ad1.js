@@ -6,6 +6,7 @@ const AD1 = () => {
   const [timer, setTimer] = useState(5);
   const [player, setPlayer] = useState(null);
   const [showButton, setShowButton] = useState(false);
+  const [showAds, setShowAds] = useState(true);
 
   useEffect(() => {
     // Redirect to another page when the timer reaches 0
@@ -61,6 +62,7 @@ const AD1 = () => {
           if (prevTimer <= 1) {
             clearInterval(timerInterval);
             setShowButton(true);
+            setShowAds(false); // Hide ads when the timer reaches 0
             //redirectToNextPage(); // Automatically redirect when timer reaches 0
           }
           return prevTimer - 1;
@@ -86,15 +88,19 @@ const AD1 = () => {
     <div className="flex flex-col items-center justify-center min-h-screen bg-gray-800 text-white">
 
       {/* Ads at the top */}
-      <ins
-        className="adsbygoogle"
-        style={{ display: 'block' , marginBottom : "10px" }}
-        data-ad-client="ca-pub-2334117942638644"
-        data-ad-slot="5257105614" /* Replace with your ad slot */
-        data-ad-format="auto"
-        data-full-width-responsive="true"
-      ></ins>
-      <script>(adsbygoogle = window.adsbygoogle || []).push({ });</script>
+      {showAds && (
+        <div>
+          <ins
+            className="adsbygoogle"
+            style={{ display: 'block', marginBottom: '10px' }}
+            data-ad-client="ca-pub-2334117942638644"
+            data-ad-slot="5257105614" /* Replace with your ad slot */
+            data-ad-format="auto"
+            data-full-width-responsive="true"
+          ></ins>
+          <script>(adsbygoogle = window.adsbygoogle || []).push({ });</script>
+        </div>
+      )}
 
       <div id="player" className="mb-4"></div>
 
@@ -114,15 +120,19 @@ const AD1 = () => {
       )}
 
       {/* Space for ads */}
-      <ins
-        className="adsbygoogle"
-        style={{ display: 'block', marginTop: '10px' }} 
-        data-ad-client="ca-pub-2334117942638644"
-        data-ad-slot="6653361035"
-        data-ad-format="auto"
-        data-full-width-responsive="true"
-      ></ins>
-      <script>(adsbygoogle = window.adsbygoogle || []).push({ });</script>
+      {showAds && (
+        <div>
+          <ins
+            className="adsbygoogle"
+            style={{ display: 'block', marginTop: '10px' }}
+            data-ad-client="ca-pub-2334117942638644"
+            data-ad-slot="6653361035"
+            data-ad-format="auto"
+            data-full-width-responsive="true"
+          ></ins>
+          <script>(adsbygoogle = window.adsbygoogle || []).push({ });</script>
+        </div>
+      )}
     </div>
   );
 };
