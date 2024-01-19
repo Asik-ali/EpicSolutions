@@ -20,7 +20,7 @@ const AdSenseComponent = () => {
       </Helmet>
 
       <div>
-        {/* AdSense Ad Unit */}
+        <p>Ad</p>
         <ins
           className="adsbygoogle"
           style={{ display: 'block' }}
