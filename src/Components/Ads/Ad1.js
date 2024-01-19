@@ -90,6 +90,7 @@ const AD1 = () => {
       {/* Ad 1 at the top */}
       {showAds && (
         <div className="ad-container" style={{ marginBottom: '10px' }}>
+          <h1>Ad1</h1>
           <ins
             className="adsbygoogle"
             style={{ display: 'block' }}
@@ -122,6 +123,7 @@ const AD1 = () => {
       {/* Ad 2 - Space for ads */}
       {showAds && (
         <div className="ad-container" style={{ marginTop: '10px', marginBottom: '10px' }}>
+          <h1>Ad2</h1>
           <ins
             className="adsbygoogle"
             style={{ display: 'block' }}
@@ -137,6 +139,7 @@ const AD1 = () => {
       {/* Ad 3 - Space for ads */}
       {showAds && (
         <div className="ad-container" style={{ marginTop: '10px', marginBottom: '10px' }}>
+          <h1>Ad3</h1>
           <ins
             className="adsbygoogle"
             style={{ display: 'block' }}
@@ -153,6 +156,7 @@ const AD1 = () => {
       {/* Ad 4 - Space for ads */}
       {showAds && (
         <div className="ad-container" style={{ marginTop: '10px', marginBottom: '10px' }}>
+          <h1>Ad4</h1>
           <ins
             className="adsbygoogle"
             style={{ display: 'block' }}
@@ -168,6 +172,7 @@ const AD1 = () => {
       {/* Ad 5 at the bottom */}
       {showAds && (
         <div className="ad-container" style={{ marginTop: '10px' }}>
+          <h1>Ad5</h1>
           <ins
             className="adsbygoogle"
             style={{ display: 'block' }}
