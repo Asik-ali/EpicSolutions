@@ -8,7 +8,7 @@ const AdSenseComponent3 = () => {
   }, []);
 
   return (
-    <div>
+    <div style={{ width: '100%' }}>
       <Helmet>
         <script
           async

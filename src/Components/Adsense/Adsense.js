@@ -3,19 +3,19 @@ import { Helmet } from 'react-helmet';
 
 const AdSenseComponent = () => {
   useEffect(() => {
-    (window.adsbygoogle = window.adsbygoogle || []).push({});
+    if (window && window.adsbygoogle) {
+      window.adsbygoogle.push({});
+    }
   }, []);
 
   return (
-    <div>
+    <div style={{ width: '100%' }}>
       <Helmet>
         <script
           async
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
           crossOrigin="anonymous"
         ></script>
-        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2334117942638644"
-     crossorigin="anonymous"></script>
       </Helmet>
 
       <div>

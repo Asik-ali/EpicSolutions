@@ -8,7 +8,7 @@ const AdSenseComponent1 = () => {
   }, []);
 
   return (
-    <div>
+    <div style={{ width: '100%' }}>
       <Helmet>
      
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2334117942638644"
