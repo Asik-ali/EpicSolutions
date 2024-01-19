@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import img from "../../Assest/Welcome.jpg"
-import AdSenseComponent from '../Adsense/Adsense'
+import AdSenseComponent from '../Adsense/Adsense1'
 function Welcome() {
   
   return (
