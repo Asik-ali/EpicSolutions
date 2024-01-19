@@ -4,6 +4,7 @@ import { signInWithEmailAndPassword, sendPasswordResetEmail } from 'firebase/aut
 import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { auth } from '../Firebase/Firebase';
+import AdSenseComponent3 from '../Adsense/Adsense3';
 
 function Login() {
   const [email, setEmail] = useState('');
@@ -54,6 +55,7 @@ function Login() {
 
   return (
     <div className='flex justify-center items-center h-screen'>
+      <AdSenseComponent3/>
       {loading && <div className='overlay'></div>}
       <div className='max-w-md w-full p-6 bg-white rounded-md shadow-md'>
         <h1 className='text-2xl font-semibold mb-4 text-center'>Login</h1>

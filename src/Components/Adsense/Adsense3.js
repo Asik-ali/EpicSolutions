@@ -1,30 +1,27 @@
 import React, { useEffect } from 'react';
 import { Helmet } from 'react-helmet';
 
-const AdSenseComponent = () => {
+const AdSenseComponent3 = () => {
   useEffect(() => {
-    if (window && window.adsbygoogle) {
-      window.adsbygoogle.push({});
-    }
+    // Load AdSense script
+    (window.adsbygoogle = window.adsbygoogle || []).push({});
   }, []);
 
   return (
     <div style={{ width: '30%' }}>
       <Helmet>
-        <script
-          async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
-          crossOrigin="anonymous"
-        ></script>
+     
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2334117942638644"
+     crossorigin="anonymous"></script>
       </Helmet>
 
       <div>
-        <p>Ad</p>
+        <p>Ad4</p>
         <ins
           className="adsbygoogle"
           style={{ display: 'block' }}
           data-ad-client="ca-pub-2334117942638644"
-          data-ad-slot="5257105614"
+          data-ad-slot="6653361035"
           data-ad-format="auto"
           data-full-width-responsive="true"
         ></ins>
@@ -33,4 +30,4 @@ const AdSenseComponent = () => {
   );
 };
 
-export default AdSenseComponent;
+export default AdSenseComponent3;

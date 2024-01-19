@@ -1,14 +1,14 @@
 import React, { useEffect } from 'react';
 import { Helmet } from 'react-helmet';
 
-const AdSenseComponent3 = () => {
+const AdSenseComponent2 = () => {
   useEffect(() => {
     // Load AdSense script
     (window.adsbygoogle = window.adsbygoogle || []).push({});
   }, []);
 
   return (
-    <div style={{ width: '50%' }}>
+    <div style={{ width: '30%' }}>
       <Helmet>
         <script
           async
@@ -26,11 +26,11 @@ const AdSenseComponent3 = () => {
           style={{ display: 'block' }}
           data-ad-format="autorelaxed"
      data-ad-client="ca-pub-2334117942638644"
-     data-ad-slot="5576685729"
+     data-ad-slot="1794203448"
         ></ins>
       </div>
     </div>
   );
 };
 
-export default AdSenseComponent3;
+export default AdSenseComponent2;
