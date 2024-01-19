@@ -6,15 +6,12 @@ function Carrer() {
   return (
     <div>
       <Helmet>
-        <link rel="canonical" href="https://epic-solutions.vercel.app/Careers" />
-        <title>Careers at Epic Solutions - Join Our Team</title>
-        <meta name="description" content="Explore exciting career opportunities at Epic Solutions. Join our dynamic team and contribute to empowering success through talent. Check our current job openings and take the next step in your career with us." />
-        <script
-          async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2334117942638644"
-          crossOrigin="anonymous"
-        ></script>
-      </Helmet>
+  <link rel="canonical" href="https://epic-solutions.vercel.app/Careers" />
+  <title>Careers at Epic Solutions - Join Our Team</title>
+  <meta name="description" content="Explore exciting career opportunities at Epic Solutions. Join our dynamic team and contribute to empowering success through talent. Check our current job openings and take the next step in your career with us." />
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2334117942638644" crossOrigin="anonymous"></script>
+</Helmet>
+
 
       <div className="bg-gradient-to-b from-gray-700 to-gray-900 h-[400px] overflow-hidden ">
         <div className="flex flex-col-reverse lg:flex-row justify-between lg:gap-2">
