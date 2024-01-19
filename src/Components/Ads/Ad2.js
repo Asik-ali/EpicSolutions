@@ -1,11 +1,13 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
+import AdSenseComponent from '../Adsense/Adsense';
 
-const Home = () => {
+const AD1 = () => {
   const navigate = useNavigate();
-  const [timer, setTimer] = useState(5); // Initial timer value in seconds
+  const [timer, setTimer] = useState(5);
   const [player, setPlayer] = useState(null);
   const [showButton, setShowButton] = useState(false);
+  const [showAds, setShowAds] = useState(true);
 
   useEffect(() => {
     // Redirect to another page when the timer reaches 0
@@ -61,11 +63,12 @@ const Home = () => {
           if (prevTimer <= 1) {
             clearInterval(timerInterval);
             setShowButton(true);
-            //redirectToNextPage(); // Automatically redirect when timer reaches 0
+            setShowAds(false); // Hide ads when the timer reaches 0
+            //redirectToNextPage(); // Automatically redirect when the timer reaches 0
           }
           return prevTimer - 1;
         });
-      }, 1000);
+      }, 3000);
     };
 
     return () => {
@@ -84,6 +87,8 @@ const Home = () => {
 
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-gray-800 text-white">
+
+<AdSenseComponent/>
       <div id="player" className="mb-4"></div>
 
       {timer > 0 && (
@@ -100,8 +105,10 @@ const Home = () => {
           Go to Next Page
         </button>
       )}
+
+<AdSenseComponent/>
     </div>
   );
 };
 
-export default Home;
+export default AD1;
