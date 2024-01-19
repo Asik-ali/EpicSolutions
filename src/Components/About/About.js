@@ -20,6 +20,7 @@ function AboutContent() {
           content="Discover how Epic Solutions empowers success through talent acquisition and tailored HR management services. Learn about our consultancy approach, bid farewell to unemployment, and explore our commitment to building strong relationships in the professional world."
         />
         <link rel="canonical" href="https://epic-solutions.vercel.app/About" />
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2334117942638644" crossOrigin="anonymous"></script>
       </Helmet>
 
       {/* Hero Section */}

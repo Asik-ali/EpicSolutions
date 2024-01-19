@@ -16,8 +16,10 @@ function Clientpage() {
         <meta
           name="description"
           content="Explore personalized career counseling, skill enhancement workshops, interview preparation, networking events, resume building, and job search support at Epic Solutions. Navigate your career success with our expert guidance."
-        />      </Helmet>
-        <link rel="canonical" href="https://epic-solutions.vercel.app/Client" />
+        />
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2334117942638644" crossOrigin="anonymous"></script>
+      </Helmet>
+      <link rel="canonical" href="https://epic-solutions.vercel.app/Client" />
 
       <div
 

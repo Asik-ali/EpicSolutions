@@ -27,6 +27,7 @@ function Services() {
         />
         <link rel="canonical" href="https://epic-solutions.vercel.app/services" />
         <meta name="robots" content="index, follow" />
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2334117942638644" crossOrigin="anonymous"></script>
       </Helmet>
 
       <div className="bg-gradient-to-b from-[#7CB252] to-[#1369AA] h-[450px] lg:h-[400px]  ">

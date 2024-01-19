@@ -69,6 +69,7 @@ return (
   <title>Contact Us - Epic Solutions</title>
   <meta name="description" content="Contact Epic Solutions for strategic human resource solutions." />
   <meta name="keywords" content="Epic Solutions, contact, human resource, collaboration" />
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2334117942638644" crossOrigin="anonymous"></script>
 </Helmet>
 
     <div
