@@ -68,7 +68,7 @@ const AD1 = () => {
           }
           return prevTimer - 1;
         });
-      }, 1000);
+      }, 3000);
     };
 
     return () => {
@@ -88,22 +88,7 @@ const AD1 = () => {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-gray-800 text-white">
 
-      {/* Ad 1 at the top */}
-      {showAds && (
-        <div className="ad-container" style={{ marginBottom: '10px' }}>
-          <h1>Ad1</h1>
-          <ins
-            className="adsbygoogle"
-            style={{ display: 'block' }}
-            data-ad-client="ca-pub-2334117942638644"
-            data-ad-slot="5257105614" /* Replace with your ad slot */
-            data-ad-format="auto"
-            data-full-width-responsive="true"
-          ></ins>
-          <script>(adsbygoogle = window.adsbygoogle || []).push({ });</script>
-        </div>
-      )}
-
+<AdSenseComponent/>
       <div id="player" className="mb-4"></div>
 
       {timer > 0 && (
@@ -121,50 +106,7 @@ const AD1 = () => {
         </button>
       )}
 
-      {/* Ad 2 - Space for ads */}
-      {showAds && (
-        <div className="ad-container" style={{ marginTop: '10px', marginBottom: '10px' }}>
-          <h1>Ad2</h1>
-          <ins
-            className="adsbygoogle"
-            style={{ display: 'block' }}
-            data-ad-client="ca-pub-2334117942638644"
-            data-ad-slot="6653361035"
-            data-ad-format="auto"
-            data-full-width-responsive="true"
-          ></ins>
-          <script>(adsbygoogle = window.adsbygoogle || []).push({ });</script>
-        </div>
-      )}
-
-      {/* Ad 3 - Space for ads */}
-      {showAds && (
-        <div className="ad-container" style={{ marginTop: '10px', marginBottom: '10px' }}>
-          <h1>Ad3</h1>
-          <AdSenseComponent/>
-        </div>
-      )}
-
-      {/* Ad 4 - Space for ads */}
-      {showAds && (
-        <div className="ad-container" style={{ marginTop: '10px', marginBottom: '10px' }}>
-          <h1>Ad4</h1>
-          <ins
-            className="adsbygoogle"
-            style={{ display: 'block' }}
-            data-ad-format="autorelaxed"
-            data-ad-client="ca-pub-2334117942638644"
-            data-ad-slot="5576685729"
-            data-full-width-responsive="true"
-          ></ins>
-          <script>(adsbygoogle = window.adsbygoogle || []).push({ });</script>
-        </div>
-      )}
-
-      {/* Ad 5 at the bottom */}
-      {showAds && (
-        <AdSenseComponent/>
-      )}
+<AdSenseComponent/>
     </div>
   );
 };
