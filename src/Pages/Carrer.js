@@ -67,6 +67,7 @@ function Carrer() {
       <div
 
         className="bg-gray-100 mb-10 mt-10 p-8 rounded-lg shadow-md">
+          ad
            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2334117942638644"
         crossorigin="anonymous"></script>
       <ins class="adsbygoogle"
