@@ -63,7 +63,7 @@ const AD1 = () => {
             clearInterval(timerInterval);
             setShowButton(true);
             setShowAds(false); // Hide ads when the timer reaches 0
-            //redirectToNextPage(); // Automatically redirect when timer reaches 0
+            //redirectToNextPage(); // Automatically redirect when the timer reaches 0
           }
           return prevTimer - 1;
         });
@@ -87,12 +87,12 @@ const AD1 = () => {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-gray-800 text-white">
 
-      {/* Ads at the top */}
+      {/* Ad 1 at the top */}
       {showAds && (
-        <div>
+        <div className="ad-container" style={{ marginBottom: '10px' }}>
           <ins
             className="adsbygoogle"
-            style={{ display: 'block', marginBottom: '10px' }}
+            style={{ display: 'block' }}
             data-ad-client="ca-pub-2334117942638644"
             data-ad-slot="5257105614" /* Replace with your ad slot */
             data-ad-format="auto"
@@ -119,14 +119,60 @@ const AD1 = () => {
         </button>
       )}
 
-      {/* Space for ads */}
+      {/* Ad 2 - Space for ads */}
       {showAds && (
-        <div>
+        <div className="ad-container" style={{ marginTop: '10px', marginBottom: '10px' }}>
           <ins
             className="adsbygoogle"
-            style={{ display: 'block', marginTop: '10px' }}
+            style={{ display: 'block' }}
             data-ad-client="ca-pub-2334117942638644"
             data-ad-slot="6653361035"
+            data-ad-format="auto"
+            data-full-width-responsive="true"
+          ></ins>
+          <script>(adsbygoogle = window.adsbygoogle || []).push({ });</script>
+        </div>
+      )}
+
+      {/* Ad 3 - Space for ads */}
+      {showAds && (
+        <div className="ad-container" style={{ marginTop: '10px', marginBottom: '10px' }}>
+          <ins
+            className="adsbygoogle"
+            style={{ display: 'block' }}
+            data-ad-client="ca-pub-2334117942638644"
+            data-ad-slot="7272910777" /* Replace with your ad slot */
+            data-ad-layout="in-article"
+            data-ad-format="fluid"
+            data-full-width-responsive="true"
+          ></ins>
+          <script>(adsbygoogle = window.adsbygoogle || []).push({ });</script>
+        </div>
+      )}
+
+      {/* Ad 4 - Space for ads */}
+      {showAds && (
+        <div className="ad-container" style={{ marginTop: '10px', marginBottom: '10px' }}>
+          <ins
+            className="adsbygoogle"
+            style={{ display: 'block' }}
+            data-ad-format="autorelaxed"
+            data-ad-client="ca-pub-2334117942638644"
+            data-ad-slot="5576685729"
+            data-full-width-responsive="true"
+          ></ins>
+          <script>(adsbygoogle = window.adsbygoogle || []).push({ });</script>
+        </div>
+      )}
+
+      {/* Ad 5 at the bottom */}
+      {showAds && (
+        <div className="ad-container" style={{ marginTop: '10px' }}>
+          <ins
+            className="adsbygoogle"
+            style={{ display: 'block' }}
+            data-ad-client="ca-pub-2334117942638644"
+            data-ad-slot="1794203448" 
             data-ad-format="auto"
             data-full-width-responsive="true"
           ></ins>
