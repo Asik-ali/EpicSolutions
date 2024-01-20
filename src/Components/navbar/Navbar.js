@@ -126,16 +126,20 @@ function Navbar({ user, onLogout }) {
                   : "hover:text-[#1369AA] relative hover:after:absolute hover:after:left-0 hover:after:-bottom-3 hover:after:w-[100%] hover:after:h-[3px]  hover:after:bg-[#1369aa] "
               }
             >
-              <Link onClick={handleActive} to="/ads1">
-                Ads
-              </Link>
+              {user ? (
+                <Link onClick={handleActive} to="/ads1">
+                  Ads
+                </Link>) : (
+                  ""
+                  )}
+
             </li>
             <li>
               {user ? (
                 <button onClick={handleLogout}>Logout</button>
-                ) : (
-                  <Link to="/login">Login</Link>
-                  )}
+              ) : (
+                <Link to="/login">Login</Link>
+              )}
             </li>
           </ul>
         </div>

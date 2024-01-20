@@ -56,12 +56,12 @@ function App() {
       <Navbar user={user} onLogout={handleLogout} />
       <Routes>
         {/* Use ProtectedRoute instead of Route for protected pages */}
-        <Route path="/" element={<ProtectedRoute><Home /></ProtectedRoute>} />
-        <Route path="/services" element={<ProtectedRoute><Services /></ProtectedRoute>} />
-        <Route path="/About" element={<ProtectedRoute><About /></ProtectedRoute>} />
-        <Route path="/Contact" element={<ProtectedRoute><Contact /></ProtectedRoute>} />
-        <Route path="/Client" element={<ProtectedRoute><Client /></ProtectedRoute>} />
-        <Route path="/Carrers" element={<ProtectedRoute><Carrer /></ProtectedRoute>} />
+        <Route path="/" element={<Home />}/>
+        <Route path="/services" element={<Services/>} />
+        <Route path="/About" element={<About />}/>
+        <Route path="/Contact" element={<Contact />}/>
+        <Route path="/Client" element={<Client />}/>
+        <Route path="/Carrers" element={<Carrer />}/>
         <Route path="/ads1" element={<ProtectedRoute><AD1 /></ProtectedRoute>} />
         <Route path="/login" element={<Login onLogin={handleLogin} />} />
         <Route path="/signup" element={<Signup />} />
