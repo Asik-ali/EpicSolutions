@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Helmet } from "react-helmet";
 import hero from "../../Assest/a 2.jpg";
 import img1 from "../../Assest/1.png";
@@ -10,9 +10,9 @@ import responsibilities from "./Resposibiltesdata";
 import approachPoints from "./Apporachpoint";
 
 function AboutContent() {
-  const initializeAdsense = () => {
+  useEffect(() => {
     (window.adsbygoogle = window.adsbygoogle || []).push({});
-  };
+  }, []);
 
   return (
     <div className="overflow-x-hidden">
@@ -72,31 +72,7 @@ function AboutContent() {
                 </div>
               </div>
             </div>
-            {/* Ad Section */}
-            <section className="container mx-auto mt-8">
-              {/* First Ad */}
-              <ins
-                className="adsbygoogle"
-                style={{ display: 'block' }}
-                data-ad-client="ca-pub-2334117942638644"
-                data-ad-slot="5257105614"
-                data-ad-format="auto"
-                data-full-width-responsive="true"
-              ></ins>
-
-              {/* Second Ad */}
-              <ins
-                className="adsbygoogle"
-                style={{ display: 'block' }}
-                data-ad-client="ca-pub-2334117942638644"
-                data-ad-slot="6653361035"
-                data-ad-format="auto"
-                data-full-width-responsive="true"
-              ></ins>
-              {/* Initialize Adsense */}
-              {initializeAdsense()}
-              {/* Add more ads as needed */}
-            </section>
+           
             <div className="relative group">
               <div className="w-[300px] h-[200px] relative">
                 <img alt="The Digital Statement" className="w-full h-full object-cover" src={img2} data-robots="noindex" />
@@ -139,6 +115,30 @@ function AboutContent() {
       </section>
 
       {/* About Us Section */}
+       {/* Ad Section */}
+       <section className="container mx-auto mt-8">
+              {/* First Ad */}
+              <ins
+                className="adsbygoogle"
+                style={{ display: 'block' }}
+                data-ad-client="ca-pub-2334117942638644"
+                data-ad-slot="5257105614"
+                data-ad-format="auto"
+                data-full-width-responsive="true"
+              ></ins>
+
+              {/* Second Ad */}
+              <ins
+                className="adsbygoogle"
+                style={{ display: 'block' }}
+                data-ad-client="ca-pub-2334117942638644"
+                data-ad-slot="6653361035"
+                data-ad-format="auto"
+                data-full-width-responsive="true"
+              ></ins>
+              
+              {/* Add more ads as needed */}
+            </section>
       <section className="mt-10 lg:px-4">
         <h1 className="text-center text-3xl lg:text-4xl font-[poppins] font-semibold">Our Story</h1>
         <div className="flex flex-col lg:flex-row lg:mx-4 container px-4 items-center justify-center gap-10 mt-5">
@@ -177,6 +177,30 @@ function AboutContent() {
           ))}
         </div>
       </section>
+       {/* Ad Section */}
+       <section className="container mx-auto mt-8">
+              {/* First Ad */}
+              <ins
+                className="adsbygoogle"
+                style={{ display: 'block' }}
+                data-ad-client="ca-pub-2334117942638644"
+                data-ad-slot="5257105614"
+                data-ad-format="auto"
+                data-full-width-responsive="true"
+              ></ins>
+
+              {/* Second Ad */}
+              <ins
+                className="adsbygoogle"
+                style={{ display: 'block' }}
+                data-ad-client="ca-pub-2334117942638644"
+                data-ad-slot="6653361035"
+                data-ad-format="auto"
+                data-full-width-responsive="true"
+              ></ins>
+              
+              {/* Add more ads as needed */}
+            </section>
 
       {/* Approach Section */}
       <section className="container mx-auto mt-8 overflow-hidden pb-8">
