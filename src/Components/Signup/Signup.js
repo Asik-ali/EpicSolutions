@@ -5,6 +5,7 @@ import { createUserWithEmailAndPassword, sendEmailVerification } from 'firebase/
 import { Timestamp, addDoc, collection } from 'firebase/firestore';
 import { auth, db } from '../Firebase/Firebase';
 import AdSenseComponent from '../Adsense/Adsense';
+import MediaQuery from 'react-responsive';
 
 function Signup() {
     const [name, setName] = useState('');
@@ -55,52 +56,52 @@ function Signup() {
     };
 
     return (
-        <div className='flex justify-center items-center h-screen'>
-            <AdSenseComponent/>
+        <div className='flex flex-col md:flex-row justify-center items-center h-screen'>
+            <AdSenseComponent />
             {loading && <div className='overlay'></div>}
-            <div className='bg-gray-800 px-10 py-10 rounded-xl'>
-                <div className=''>
+            <div className='bg-gray-800 px-6 py-6 md:px-10 md:py-10 rounded-xl max-w-md w-full md:w-96'>
+                <div className='mb-4'>
                     <h1 className='text-center text-white text-xl mb-4 font-bold'>Signup</h1>
                 </div>
-                <div>
+                <div className='mb-4'>
                     <input
                         type='text'
                         value={name}
                         onChange={(e) => setName(e.target.value)}
                         name='name'
-                        className='bg-gray-600 mb-4 px-2 py-2 w-full lg:w-[20em] rounded-lg text-white placeholder:text-gray-200 outline-none'
+                        className='input-field'
                         placeholder='Name'
                     />
                 </div>
 
-                <div>
+                <div className='mb-4'>
                     <input
                         type='email'
                         value={email}
                         onChange={(e) => setEmail(e.target.value)}
                         name='email'
-                        className='bg-gray-600 mb-4 px-2 py-2 w-full lg:w-[20em] rounded-lg text-white placeholder:text-gray-200 outline-none'
+                        className='input-field'
                         placeholder='Email'
                     />
                 </div>
-                <div>
+                <div className='mb-4'>
                     <input
                         type='password'
                         value={password}
                         onChange={(e) => setPassword(e.target.value)}
-                        className='bg-gray-600 mb-4 px-2 py-2 w-full lg:w-[20em] rounded-lg text-white placeholder:text-gray-200 outline-none'
+                        className='input-field'
                         placeholder='Password'
                     />
                 </div>
                 <div className='flex justify-center mb-3'>
                     <button
                         onClick={signup}
-                        className='bg-red-500 w-full text-white font-bold px-2 py-2 rounded-lg'>
+                        className='btn-signup'>
                         Signup
                     </button>
                 </div>
                 <div>
-                    <h2 className='text-white'>
+                    <h2 className='text-white text-center'>
                         Have an account?{' '}
                         <Link className='text-red-500 font-bold' to={'/login'}>
                             Login
@@ -108,8 +109,9 @@ function Signup() {
                     </h2>
                 </div>
             </div>
-            <AdSenseComponent/>
-        </div>
+            <MediaQuery minWidth={768}>
+                <AdSenseComponent />
+            </MediaQuery>        </div>
     );
 }
 
