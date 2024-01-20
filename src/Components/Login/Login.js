@@ -4,10 +4,8 @@ import { signInWithEmailAndPassword, sendPasswordResetEmail } from 'firebase/aut
 import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { auth } from '../Firebase/Firebase';
-import AdSenseComponent3 from '../Adsense/Adsense3';
-import AdSenseComponent1 from '../Adsense/Adsense1';
 import AdSenseComponent from '../Adsense/Adsense';
-import AdSenseComponent2 from '../Adsense/Adsense2';
+import MediaQuery from 'react-responsive';
 
 function Login() {
   const [email, setEmail] = useState('');
@@ -57,9 +55,10 @@ function Login() {
   };
 
   return (
-    <div className='flex justify-center items-center h-screen'>
-      <AdSenseComponent3/>
-      <AdSenseComponent/>
+    <div className='flex flex-col justify-center items-center h-screen'>
+      <MediaQuery minWidth={768}>
+        <AdSenseComponent />
+      </MediaQuery>
       {loading && <div className='overlay'></div>}
       <div className='max-w-md w-full p-6 bg-white rounded-md shadow-md'>
         <h1 className='text-2xl font-semibold mb-4 text-center'>Login</h1>
@@ -92,8 +91,9 @@ function Login() {
           </button>
         </div>
       </div>
-      <AdSenseComponent1/>
-      <AdSenseComponent2/>
+      <MediaQuery minWidth={768}>
+        <AdSenseComponent />
+      </MediaQuery>
     </div>
   );
 }
