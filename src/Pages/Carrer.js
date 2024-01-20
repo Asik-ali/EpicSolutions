@@ -79,7 +79,7 @@ function Carrer() {
           className="adsbygoogle"
           style={{ display: 'block', background: "black" }}
           data-ad-client="ca-pub-2334117942638644"
-          data-ad-slot="5257105614"
+          data-ad-slot="7685943935"
           data-ad-format="auto"
           data-full-width-responsive="true"
         ></ins>
