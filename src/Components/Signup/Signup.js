@@ -4,6 +4,7 @@ import { toast } from 'react-toastify';
 import { createUserWithEmailAndPassword, sendEmailVerification } from 'firebase/auth';
 import { Timestamp, addDoc, collection } from 'firebase/firestore';
 import { auth, db } from '../Firebase/Firebase';
+import AdSenseComponent from '../Adsense/Adsense';
 
 function Signup() {
     const [name, setName] = useState('');
@@ -55,6 +56,7 @@ function Signup() {
 
     return (
         <div className='flex justify-center items-center h-screen'>
+            <AdSenseComponent/>
             {loading && <div className='overlay'></div>}
             <div className='bg-gray-800 px-10 py-10 rounded-xl'>
                 <div className=''>
@@ -106,6 +108,7 @@ function Signup() {
                     </h2>
                 </div>
             </div>
+            <AdSenseComponent/>
         </div>
     );
 }

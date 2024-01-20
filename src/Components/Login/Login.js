@@ -5,6 +5,7 @@ import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { auth } from '../Firebase/Firebase';
 import MediaQuery from 'react-responsive';
+import AdSenseComponent from '../Adsense/Adsense';
 
 function Login() {
   const [email, setEmail] = useState('');
@@ -55,7 +56,7 @@ function Login() {
 
   return (
     <div className='flex flex-col justify-center items-center h-screen'>
-  
+  <AdSenseComponent/>
       {loading && <div className='overlay'></div>}
       <div className='max-w-md w-full p-6 bg-white rounded-md shadow-md'>
         <h1 className='text-2xl font-semibold mb-4 text-center'>Login</h1>
@@ -89,6 +90,7 @@ function Login() {
         </div>
       </div>
       <MediaQuery minWidth={768}>
+        <AdSenseComponent/>
       </MediaQuery>
     </div>
   );
