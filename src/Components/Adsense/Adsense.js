@@ -7,7 +7,7 @@ const AdSense = () => {
     if (!window.adsbygoogle) {
       // Load Google AdSense script
       const script = document.createElement('script');
-      script.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js';
+      script.src = "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2334117942638644";
       script.async = true;
       document.head.appendChild(script);
 
