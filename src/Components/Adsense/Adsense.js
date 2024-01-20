@@ -21,7 +21,7 @@ const AdSense = ({ adClient, adSlot, format, layout }) => {
   }, []);
 
   return (
-    <div style={{ height: '200px', width: '300px' }}>
+    <div style={{  width: '100%' }}>
       <p>Ad</p>
       <ins
         className="adsbygoogle"
