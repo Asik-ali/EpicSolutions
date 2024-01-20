@@ -1,6 +1,5 @@
 import React from "react";
 import { Helmet } from "react-helmet";
-import AdSense from "../Adsense/Adsense";
 import hero from "../../Assest/a 2.jpg";
 import img1 from "../../Assest/1.png";
 import img2 from "../../Assest/2.jpg";
@@ -69,6 +68,30 @@ function AboutContent() {
                 </div>
               </div>
             </div>
+             {/* Ad Section */}
+      <section className="container mx-auto mt-8">
+        {/* First Ad */}
+        <ins
+        className="adsbygoogle"
+        style={{ display: 'block' }}
+        data-ad-client="ca-pub-2334117942638644"
+        data-ad-slot="5257105614"
+        data-ad-format="auto"
+        data-full-width-responsive="true"
+      ></ins>
+
+        {/* Second Ad */}
+        <ins
+        className="adsbygoogle"
+        style={{ display: 'block' }}
+        data-ad-client="ca-pub-2334117942638644"
+        data-ad-slot="6653361035"
+        data-ad-format="auto"
+        data-full-width-responsive="true"
+      ></ins>
+
+        {/* Add more ads as needed */}
+      </section>
             <div className="relative group">
               <div className="w-[300px] h-[200px] relative">
                 <img alt="The Digital Statement" className="w-full h-full object-cover" src={img2} data-robots="noindex" />
@@ -135,7 +158,6 @@ function AboutContent() {
       </section>
 
       {/* Responsibilities Section */}
-      <AdSense adClient="ca-pub-2334117942638644" adSlot="6653361035" format="auto"  />
 
       <section className="container mx-auto mt-8">
         <h2 className="text-3xl font-bold mb-6 text-center">Our Responsibilities</h2>
