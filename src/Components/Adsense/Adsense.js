@@ -1,3 +1,4 @@
+// AdSense.js
 import React, { useEffect } from 'react';
 
 const AdSense = () => {
