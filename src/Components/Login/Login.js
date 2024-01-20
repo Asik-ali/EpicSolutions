@@ -4,7 +4,6 @@ import { signInWithEmailAndPassword, sendPasswordResetEmail } from 'firebase/aut
 import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { auth } from '../Firebase/Firebase';
-import AdSenseComponent from '../Adsense/Adsense';
 import MediaQuery from 'react-responsive';
 
 function Login() {
@@ -90,7 +89,6 @@ function Login() {
         </div>
       </div>
       <MediaQuery minWidth={768}>
-        <AdSenseComponent />
       </MediaQuery>
     </div>
   );

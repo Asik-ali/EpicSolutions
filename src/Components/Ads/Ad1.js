@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
-import AdSenseComponent from '../Adsense/Adsense';
 
 const AD1 = () => {
   const navigate = useNavigate();
@@ -87,7 +86,6 @@ const AD1 = () => {
 
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-gray-800 text-white">
-      <AdSenseComponent />
       <div id="player" className="mb-4"></div>
 
       {timer > 0 && (

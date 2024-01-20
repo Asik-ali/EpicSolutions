@@ -1,56 +1,39 @@
-import React, { useEffect, useState } from 'react';
-import { Helmet } from 'react-helmet';
+import React, { useEffect } from 'react';
 
 const AdSenseComponent = () => {
-  const [scriptLoaded, setScriptLoaded] = useState(false);
-
   useEffect(() => {
-    if (window.adsbygoogle) {
-      window.adsbygoogle.push({});
-      return;
-    }
-
     const script = document.createElement('script');
     script.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js';
     script.async = true;
     script.crossOrigin = 'anonymous';
 
+    document.head.appendChild(script);
+
     script.onload = () => {
-      setScriptLoaded(true);
-      if (window.adsbygoogle) {
+      // Check if there are existing ads before pushing an empty object
+      if (window.adsbygoogle && window.adsbygoogle.length === 0) {
         window.adsbygoogle.push({});
       }
     };
 
-    document.head.appendChild(script);
-
     return () => {
+      // Clean up: remove the script from the head when the component is unmounted
       document.head.removeChild(script);
     };
   }, []);
 
   return (
-    <div style={{ width: '100%' }}>
-      <Helmet>
-        <script
-          async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
-          crossOrigin="anonymous"
-        ></script>
-      </Helmet>
-
+    <div style={{ width: '10%' }}>
       <div>
         <p>Ad</p>
-        {scriptLoaded && (
-          <ins
-            className="adsbygoogle"
-            style={{ display: 'block' }}
-            data-ad-client="ca-pub-2334117942638644"
-            data-ad-slot="5257105614"
-            data-ad-format="auto"
-            data-full-width-responsive="true"
-          ></ins>
-        )}
+        <ins
+          className="adsbygoogle"
+          style={{ display: 'block' }}
+          data-ad-client="ca-pub-2334117942638644"
+          data-ad-slot="5257105614"
+          data-ad-format="auto"
+          data-full-width-responsive="true"
+        ></ins>
       </div>
     </div>
   );

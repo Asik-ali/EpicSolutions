@@ -9,10 +9,10 @@ import AdSenseComponent from '../Components/Adsense/Adsense'
 function Home() {
   return (
     <>
-      <AdSenseComponent />
       <Hero />
+      <AdSenseComponent/>
       <Welcome />
-=    </>
+    </>
   )
 }
 

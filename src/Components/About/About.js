@@ -8,7 +8,6 @@ import img4 from "../../Assest/4.jpg";
 import about from "../../Assest/aboutimg1.jpg";
 import responsibilities from "./Resposibiltesdata";
 import approachPoints from "./Apporachpoint";
-import AdSenseComponent from "../Adsense/Adsense";
 
 function AboutContent() {
   return (
@@ -59,7 +58,6 @@ function AboutContent() {
           </div>
         </div>
         {/* Images Section */}
-        <AdSenseComponent/>
         <div className="flex flex-col md:flex-row gap-2">
           <div className="flex flex-col gap-2">
             <div className="relative group">
