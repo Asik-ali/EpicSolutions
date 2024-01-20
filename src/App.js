@@ -54,7 +54,7 @@ function App() {
 
   return (
     <BrowserRouter>
-    <AdSense/>
+      <AdSense adClient="ca-pub-2334117942638644" adSlot="7272910777" format="fluid" layout="in-article" />
       <Navbar user={user} onLogout={handleLogout} />
       <Routes>
         {/* Use ProtectedRoute instead of Route for protected pages */}

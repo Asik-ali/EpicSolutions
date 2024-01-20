@@ -10,7 +10,7 @@ function Home() {
   return (
     <>
       <Hero />
-      <AdSense/>
+      <AdSense adClient="ca-pub-2334117942638644" adSlot="7272910777" format="fluid" layout="in-article" />
       <Welcome />
     </>
   )

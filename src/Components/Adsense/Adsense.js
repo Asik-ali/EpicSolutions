@@ -1,22 +1,19 @@
 // AdSense.js
 import React, { useEffect } from 'react';
+import PropTypes from 'prop-types';
 
-const AdSense = () => {
+const AdSense = ({ adClient, adSlot, format, layout }) => {
   useEffect(() => {
-    // Check if the adsbygoogle array exists
     if (!window.adsbygoogle) {
-      // Load Google AdSense script
       const script = document.createElement('script');
-      script.src = "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2334117942638644";
+      script.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js';
       script.async = true;
       document.head.appendChild(script);
 
       script.onload = () => {
-        // Initialize AdSense
         (window.adsbygoogle = window.adsbygoogle || []).push({});
       };
 
-      // Display ads after script is loaded
       return () => {
         document.head.removeChild(script);
       };
@@ -24,18 +21,25 @@ const AdSense = () => {
   }, []);
 
   return (
-    <div style={{ height: "200px", width: "300px" }}>
+    <div style={{ height: '200px', width: '300px' }}>
       <p>Ad</p>
       <ins
         className="adsbygoogle"
         style={{ display: 'block' }}
-        data-ad-layout="in-article"
-        data-ad-format="fluid"
-        data-ad-client="ca-pub-2334117942638644"
-        data-ad-slot="7272910777"
+        data-ad-layout={layout}
+        data-ad-format={format}
+        data-ad-client={adClient}
+        data-ad-slot={adSlot}
       />
     </div>
   );
+};
+
+AdSense.propTypes = {
+  adClient: PropTypes.string.isRequired,
+  adSlot: PropTypes.string.isRequired,
+  format: PropTypes.string.isRequired,
+  layout: PropTypes.string.isRequired,
 };
 
 export default AdSense;
