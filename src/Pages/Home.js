@@ -1,19 +1,44 @@
-import React from 'react'
-import Navbar from "../Components/navbar/Navbar"
-import Hero from "../../src/Components/Hero/Hero"
-import Welcome from '../Components/Welcome/Welcome'
-import Footer from '../Components/Footer/Footer'
-import Newsletter from '../Components/newsletter/NewsLetter'
-import Contact from '../Components/contact/Contact'
-import AdSense from '../Components/Adsense/Adsense'
+import React from 'react';
+import Hero from '../../src/Components/Hero/Hero';
+import Welcome from '../Components/Welcome/Welcome';
+
 function Home() {
   return (
     <>
       <Hero />
-      <AdSense adClient="ca-pub-2334117942638644" adSlot="7272910777" format="fluid" layout="in-article" />
       <Welcome />
+      
+      <script
+        async
+        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2334117942638644"
+        crossOrigin="anonymous"
+      ></script>
+      <ins
+        className="adsbygoogle"
+        style={{ display: 'block' }}
+        data-ad-client="ca-pub-2334117942638644"
+        data-ad-slot="5257105614"
+        data-ad-format="auto"
+        data-full-width-responsive="true"
+      ></ins>
+      <script>{(adsbygoogle = window.adsbygoogle || []).push({})}</script>
+
+      <script
+        async
+        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2334117942638644"
+        crossOrigin="anonymous"
+      ></script>
+      <ins
+        className="adsbygoogle"
+        style={{ display: 'block' }}
+        data-ad-client="ca-pub-2334117942638644"
+        data-ad-slot="6653361035"
+        data-ad-format="auto"
+        data-full-width-responsive="true"
+      ></ins>
+      <script>{(adsbygoogle = window.adsbygoogle || []).push({})}</script>
     </>
-  )
+  );
 }
 
-export default Home
+export default Home;
