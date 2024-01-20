@@ -14,7 +14,6 @@ import Signup from "./Components/Signup/Signup";
 import { ToastContainer, toast } from "react-toastify"; // Import ToastContainer
 import "react-toastify/dist/ReactToastify.css"; // Import toastify styles
 import AD1 from "./Components/Ads/Ad1";
-import AdSense from "./Components/Adsense/Adsense";
 
 // Your ProtectedRoute component
 const ProtectedRoute = ({ children }) => {
@@ -54,7 +53,6 @@ function App() {
 
   return (
     <BrowserRouter>
-      <AdSense adClient="ca-pub-2334117942638644" adSlot="7272910777" format="fluid" layout="in-article" />
       <Navbar user={user} onLogout={handleLogout} />
       <Routes>
         {/* Use ProtectedRoute instead of Route for protected pages */}
@@ -72,7 +70,6 @@ function App() {
       </Routes>
       <Footer />
       <ToastContainer />
-      <AdSense/>
     </BrowserRouter>
   );
 }

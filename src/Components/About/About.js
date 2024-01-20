@@ -135,7 +135,7 @@ function AboutContent() {
       </section>
 
       {/* Responsibilities Section */}
-      <AdSense adClient="ca-pub-2334117942638644" adSlot="7272910777" format="fluid" layout="in-article" />
+      <AdSense adClient="ca-pub-2334117942638644" adSlot="6653361035" format="auto"  />
 
       <section className="container mx-auto mt-8">
         <h2 className="text-3xl font-bold mb-6 text-center">Our Responsibilities</h2>
