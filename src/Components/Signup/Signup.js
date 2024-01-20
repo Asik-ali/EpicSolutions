@@ -94,9 +94,7 @@ function Signup() {
                     />
                 </div>
                 <div className='flex justify-center mb-3'>
-                    <button
-                        onClick={signup}
-                        className='btn-signup'>
+                    <button onClick={signup} className='btn-signup'>
                         Signup
                     </button>
                 </div>
@@ -111,7 +109,8 @@ function Signup() {
             </div>
             <MediaQuery minWidth={768}>
                 <AdSenseComponent />
-            </MediaQuery>        </div>
+            </MediaQuery>
+        </div>
     );
 }
 
