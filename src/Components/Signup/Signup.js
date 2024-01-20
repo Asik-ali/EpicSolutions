@@ -4,7 +4,6 @@ import { toast } from 'react-toastify';
 import { createUserWithEmailAndPassword, sendEmailVerification } from 'firebase/auth';
 import { Timestamp, addDoc, collection } from 'firebase/firestore';
 import { auth, db } from '../Firebase/Firebase';
-import AdSenseComponent from '../Adsense/Adsense';
 import MediaQuery from 'react-responsive';
 
 function Signup() {
@@ -57,7 +56,6 @@ function Signup() {
 
     return (
         <div className='flex flex-col md:flex-row justify-center items-center h-screen'>
-            <AdSenseComponent />
             {loading && <div className='overlay'></div>}
             <div className='bg-gray-800 px-6 py-6 md:px-10 md:py-10 rounded-xl max-w-md w-full md:w-96'>
                 <div className='mb-4'>
@@ -108,7 +106,6 @@ function Signup() {
                 </div>
             </div>
             <MediaQuery minWidth={768}>
-                <AdSenseComponent />
             </MediaQuery>
         </div>
     );
