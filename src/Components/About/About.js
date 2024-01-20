@@ -117,6 +117,7 @@ function AboutContent() {
       {/* About Us Section */}
        {/* Ad Section */}
        <section className="container mx-auto mt-8">
+       <p>Ad</p>
               {/* First Ad */}
               <ins
                 className="adsbygoogle"
@@ -179,6 +180,7 @@ function AboutContent() {
       </section>
        {/* Ad Section */}
        <section className="container mx-auto mt-8">
+        <p>Ad</p>
               {/* First Ad */}
               <ins
                 className="adsbygoogle"
