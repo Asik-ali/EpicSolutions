@@ -128,15 +128,7 @@ function AboutContent() {
                 data-full-width-responsive="true"
               ></ins>
 
-              {/* Second Ad */}
-              <ins
-                className="adsbygoogle"
-                style={{ display: 'block' }}
-                data-ad-client="ca-pub-2334117942638644"
-                data-ad-slot="6653361035"
-                data-ad-format="auto"
-                data-full-width-responsive="true"
-              ></ins>
+              
               
               {/* Add more ads as needed */}
             </section>
@@ -181,15 +173,7 @@ function AboutContent() {
        {/* Ad Section */}
        <section className="container mx-auto mt-8">
         <p>Ad</p>
-              {/* First Ad */}
-              <ins
-                className="adsbygoogle"
-                style={{ display: 'block' }}
-                data-ad-client="ca-pub-2334117942638644"
-                data-ad-slot="5257105614"
-                data-ad-format="auto"
-                data-full-width-responsive="true"
-              ></ins>
+            
 
               {/* Second Ad */}
               <ins
