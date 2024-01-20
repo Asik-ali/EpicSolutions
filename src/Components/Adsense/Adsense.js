@@ -23,8 +23,8 @@ const AdSense = () => {
   }, []);
 
   return (
-    <div style={{height: "10%" , width : "10%"}}>
-     <p>Ad</p>
+    <div style={{ height: "100px", width: "300px" }}>
+        <p>Ad</p>
       <ins
         className="adsbygoogle"
         style={{ display: 'block' }}
