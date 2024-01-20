@@ -11,10 +11,26 @@ import approachPoints from "./Apporachpoint";
 
 function AboutContent() {
   useEffect(() => {
-    setTimeout(() => {
-      (window.adsbygoogle = window.adsbygoogle || []).push({});
-    }, 500); // Adjust the delay time as needed
+    // Initialize AdSense script
+    const script = document.createElement("script");
+    script.src = "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js";
+    script.async = true;
+    script.crossOrigin = "anonymous";
+    document.head.appendChild(script);
+  
+    // Push ads when the script is loaded
+    script.onload = () => {
+      const adsInsElements = document.querySelectorAll('.adsbygoogle');
+  
+      // Check if 'ins' elements don't have child nodes (ads) before pushing
+      adsInsElements.forEach((element) => {
+        if (element.childNodes.length === 0) {
+          (window.adsbygoogle = window.adsbygoogle || []).push({});
+        }
+      });
+    };
   }, []);
+  
   
 
   return (
