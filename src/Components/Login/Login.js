@@ -56,9 +56,7 @@ function Login() {
 
   return (
     <div className='flex flex-col justify-center items-center h-screen'>
-      <MediaQuery minWidth={768}>
-        <AdSenseComponent />
-      </MediaQuery>
+  
       {loading && <div className='overlay'></div>}
       <div className='max-w-md w-full p-6 bg-white rounded-md shadow-md'>
         <h1 className='text-2xl font-semibold mb-4 text-center'>Login</h1>

@@ -1,8 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import AdSenseComponent from '../Adsense/Adsense';
-import AdSenseComponent1 from '../Adsense/Adsense1';
-import AdSenseComponent3 from '../Adsense/Adsense2';
 
 const AD1 = () => {
   const navigate = useNavigate();
@@ -106,8 +104,6 @@ const AD1 = () => {
           Go to Next Page
         </button>
       )}
-<AdSenseComponent1/>
-<AdSenseComponent3/>
     </div>
   );
 };
