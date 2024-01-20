@@ -8,6 +8,7 @@ import img4 from "../../Assest/4.jpg";
 import about from "../../Assest/aboutimg1.jpg";
 import responsibilities from "./Resposibiltesdata";
 import approachPoints from "./Apporachpoint";
+import AdSense from "../Adsense/Adsense";
 
 function AboutContent() {
   return (

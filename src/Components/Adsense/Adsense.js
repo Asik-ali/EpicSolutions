@@ -1,9 +1,8 @@
-// AdSense.js
-import React, { useEffect } from 'react';
+import React, { useEffect, useMemo } from 'react';
 import PropTypes from 'prop-types';
 
 const AdSense = ({ adClient, adSlot, format, layout }) => {
-  useEffect(() => {
+  const adScript = useMemo(() => {
     if (!window.adsbygoogle) {
       const script = document.createElement('script');
       script.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js';
@@ -14,11 +13,17 @@ const AdSense = ({ adClient, adSlot, format, layout }) => {
         (window.adsbygoogle = window.adsbygoogle || []).push({});
       };
 
-      return () => {
-        document.head.removeChild(script);
-      };
+      return script;
     }
-  }, []);
+  }, []); // Empty dependency array ensures the script is created only once
+
+  useEffect(() => {
+    return () => {
+      if (adScript) {
+        document.head.removeChild(adScript);
+      }
+    };
+  }, [adScript]);
 
   return (
     <div>
@@ -40,6 +45,10 @@ AdSense.propTypes = {
   adSlot: PropTypes.string.isRequired,
   format: PropTypes.string.isRequired,
   layout: PropTypes.string.isRequired,
+};
+
+AdSense.defaultProps = {
+  layout: 'in-article', // Provide a default value for layout
 };
 
 export default AdSense;
