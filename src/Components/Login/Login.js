@@ -4,7 +4,6 @@ import { signInWithEmailAndPassword, sendPasswordResetEmail } from 'firebase/aut
 import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { auth } from '../Firebase/Firebase';
-import MediaQuery from 'react-responsive';
 
 function Login() {
   const [email, setEmail] = useState('');
@@ -95,8 +94,14 @@ function Login() {
           </button>
         </div>
       </div>
-      <MediaQuery minWidth={768}>
-      </MediaQuery>
+      <ins
+          className="adsbygoogle"
+          style={{ display: 'block', textAlign: 'center' }}
+          data-ad-layout="in-article"
+          data-ad-format="fluid"
+          data-ad-client="ca-pub-2334117942638644"
+          data-ad-slot="7272910777"
+        ></ins>
     </div>
   );
 }
