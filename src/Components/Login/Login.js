@@ -1,9 +1,10 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { signInWithEmailAndPassword, sendPasswordResetEmail } from 'firebase/auth';
 import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { auth } from '../Firebase/Firebase';
+import { Helmet } from 'react-helmet';
 
 function Login() {
   const [email, setEmail] = useState('');
@@ -52,9 +53,33 @@ function Login() {
     }
   };
 
+  useEffect(() => {
+    // Initialize AdSense script
+    const script = document.createElement("script");
+    script.src = "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js";
+    script.async = true;
+    script.crossOrigin = "anonymous";
+    document.head.appendChild(script);
+  
+    // Push ads when the script is loaded
+    script.onload = () => {
+      const adsInsElements = document.querySelectorAll('.adsbygoogle');
+  
+      // Check if 'ins' elements don't have child nodes (ads) before pushing
+      adsInsElements.forEach((element) => {
+        if (element.childNodes.length === 0) {
+          (window.adsbygoogle = window.adsbygoogle || []).push({});
+        }
+      });
+    };
+  }, []);
+
   return (
     <div className='flex flex-col justify-center items-center h-screen'>
       {loading && <div className='overlay'></div>}
+      <Helmet>
+      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2334117942638644" crossOrigin="anonymous"></script>
+      </Helmet>
       <div className='max-w-md w-full p-6 bg-white rounded-md shadow-md'>
         <h1 className='text-2xl font-semibold mb-4 text-center'>Login</h1>
         <input
