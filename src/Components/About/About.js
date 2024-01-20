@@ -10,6 +10,10 @@ import responsibilities from "./Resposibiltesdata";
 import approachPoints from "./Apporachpoint";
 
 function AboutContent() {
+  const initializeAdsense = () => {
+    (window.adsbygoogle = window.adsbygoogle || []).push({});
+  };
+
   return (
     <div className="overflow-x-hidden">
       {/* SEO Section - React Helmet */}
@@ -68,30 +72,31 @@ function AboutContent() {
                 </div>
               </div>
             </div>
-             {/* Ad Section */}
-      <section className="container mx-auto mt-8">
-        {/* First Ad */}
-        <ins
-        className="adsbygoogle"
-        style={{ display: 'block' }}
-        data-ad-client="ca-pub-2334117942638644"
-        data-ad-slot="5257105614"
-        data-ad-format="auto"
-        data-full-width-responsive="true"
-      ></ins>
+            {/* Ad Section */}
+            <section className="container mx-auto mt-8">
+              {/* First Ad */}
+              <ins
+                className="adsbygoogle"
+                style={{ display: 'block' }}
+                data-ad-client="ca-pub-2334117942638644"
+                data-ad-slot="5257105614"
+                data-ad-format="auto"
+                data-full-width-responsive="true"
+              ></ins>
 
-        {/* Second Ad */}
-        <ins
-        className="adsbygoogle"
-        style={{ display: 'block' }}
-        data-ad-client="ca-pub-2334117942638644"
-        data-ad-slot="6653361035"
-        data-ad-format="auto"
-        data-full-width-responsive="true"
-      ></ins>
-
-        {/* Add more ads as needed */}
-      </section>
+              {/* Second Ad */}
+              <ins
+                className="adsbygoogle"
+                style={{ display: 'block' }}
+                data-ad-client="ca-pub-2334117942638644"
+                data-ad-slot="6653361035"
+                data-ad-format="auto"
+                data-full-width-responsive="true"
+              ></ins>
+              {/* Initialize Adsense */}
+              {initializeAdsense()}
+              {/* Add more ads as needed */}
+            </section>
             <div className="relative group">
               <div className="w-[300px] h-[200px] relative">
                 <img alt="The Digital Statement" className="w-full h-full object-cover" src={img2} data-robots="noindex" />
