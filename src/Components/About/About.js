@@ -1,5 +1,6 @@
 import React from "react";
 import { Helmet } from "react-helmet";
+import AdSense from "../Adsense/Adsense";
 import hero from "../../Assest/a 2.jpg";
 import img1 from "../../Assest/1.png";
 import img2 from "../../Assest/2.jpg";
@@ -8,7 +9,6 @@ import img4 from "../../Assest/4.jpg";
 import about from "../../Assest/aboutimg1.jpg";
 import responsibilities from "./Resposibiltesdata";
 import approachPoints from "./Apporachpoint";
-import AdSense from "../Adsense/Adsense";
 
 function AboutContent() {
   return (
