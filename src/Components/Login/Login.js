@@ -73,6 +73,14 @@ function Login() {
           placeholder='Password'
           className='w-full p-2 mb-4 border rounded-md'
         />
+         <ins
+          className="adsbygoogle"
+          style={{ display: 'block', textAlign: 'center' }}
+          data-ad-layout="in-article"
+          data-ad-format="fluid"
+          data-ad-client="ca-pub-2334117942638644"
+          data-ad-slot="7272910777"
+        ></ins>
         <button
           onClick={login}
           className='w-full bg-blue-500 text-white p-2 rounded-md hover:bg-blue-600'>
