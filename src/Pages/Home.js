@@ -5,10 +5,12 @@ import Welcome from '../Components/Welcome/Welcome'
 import Footer from '../Components/Footer/Footer'
 import Newsletter from '../Components/newsletter/NewsLetter'
 import Contact from '../Components/contact/Contact'
+import AdSense from '../Components/Adsense/Adsense'
 function Home() {
   return (
     <>
       <Hero />
+      <AdSense/>
       <Welcome />
     </>
   )
