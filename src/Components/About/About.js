@@ -11,8 +11,11 @@ import approachPoints from "./Apporachpoint";
 
 function AboutContent() {
   useEffect(() => {
-    (window.adsbygoogle = window.adsbygoogle || []).push({});
+    setTimeout(() => {
+      (window.adsbygoogle = window.adsbygoogle || []).push({});
+    }, 500); // Adjust the delay time as needed
   }, []);
+  
 
   return (
     <div className="overflow-x-hidden">
