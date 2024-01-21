@@ -75,7 +75,7 @@ function Login() {
   }, []);
 
   return (
-    <div className='flex flex-col justify-center items-center h-screen'>
+    <div className='flex flex-col justify-center items-center h-screen lg:mt-48 mt-24'>
       <Helmet>
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2334117942638644" crossOrigin="anonymous"></script>
       </Helmet>
