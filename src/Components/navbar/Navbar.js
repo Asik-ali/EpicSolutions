@@ -213,6 +213,23 @@ function Navbar({ user, onLogout }) {
               Contact Us
             </Link>
           </li>
+          <li>
+              {user ? (
+                <button onClick={handleLogout}>Logout</button>
+              ) : (
+                <Link to="/login">Login</Link>
+              )}
+            </li>
+            <li
+            >
+              {user ? (
+                <Link onClick={handleActive} to="/ads1">
+                  Ads
+                </Link>) : (
+                  ""
+                  )}
+
+            </li>
         </ul>
       </div>
     </div>

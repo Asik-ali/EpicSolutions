@@ -18,19 +18,16 @@ function Login() {
     try {
       const result = await signInWithEmailAndPassword(auth, email, password);
 
-      // Check if the user's email is verified
       if (!result.user.emailVerified) {
         toast.error('Email not verified. Please verify your email.');
         setLoading(false);
         return;
       }
 
-      // Store user information in local storage
       const userData = {
         uid: result.user.uid,
         email: result.user.email,
         displayName: result.user.displayName,
-        // Add any other user data you want to store
       };
       localStorage.setItem('user', JSON.stringify(userData));
 
@@ -60,26 +57,29 @@ function Login() {
     script.async = true;
     script.crossOrigin = "anonymous";
     document.head.appendChild(script);
-  
-    // Push ads when the script is loaded
-    script.onload = () => {
-      const adsInsElements = document.querySelectorAll('.adsbygoogle');
-  
-      // Check if 'ins' elements don't have child nodes (ads) before pushing
-      adsInsElements.forEach((element) => {
-        if (element.childNodes.length === 0) {
-          (window.adsbygoogle = window.adsbygoogle || []).push({});
-        }
-      });
+
+    // Do not push ads immediately, wait for the component to mount
+    return () => {
+      script.remove(); // Cleanup the script tag when the component is unmounted
     };
+  }, []);
+
+  useEffect(() => {
+    // Push ads when the component has mounted
+    const adsInsElements = document.querySelectorAll('.adsbygoogle');
+    adsInsElements.forEach((element) => {
+      if (element.childNodes.length === 0) {
+        (window.adsbygoogle = window.adsbygoogle || []).push({});
+      }
+    });
   }, []);
 
   return (
     <div className='flex flex-col justify-center items-center h-screen'>
-      {loading && <div className='overlay'></div>}
       <Helmet>
-      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2334117942638644" crossOrigin="anonymous"></script>
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2334117942638644" crossOrigin="anonymous"></script>
       </Helmet>
+      {loading && <div className='loading-spinner'></div>}
       <div className='max-w-md w-full p-6 bg-white rounded-md shadow-md'>
         <h1 className='text-2xl font-semibold mb-4 text-center'>Login</h1>
         <input
@@ -97,7 +97,9 @@ function Login() {
           placeholder='Password'
           className='w-full p-2 mb-4 border rounded-md'
         />
-         <ins
+
+        {/* First Ad */}
+        <ins
           className="adsbygoogle"
           style={{ display: 'block', textAlign: 'center' }}
           data-ad-layout="in-article"
@@ -105,6 +107,7 @@ function Login() {
           data-ad-client="ca-pub-2334117942638644"
           data-ad-slot="7272910777"
         ></ins>
+
         <button
           onClick={login}
           className='w-full bg-blue-500 text-white p-2 rounded-md hover:bg-blue-600'>
@@ -118,8 +121,9 @@ function Login() {
             Forgot Password
           </button>
         </div>
-      </div>
-      <ins
+
+        {/* Second Ad */}
+        <ins
           className="adsbygoogle"
           style={{ display: 'block', textAlign: 'center' }}
           data-ad-layout="in-article"
@@ -127,6 +131,7 @@ function Login() {
           data-ad-client="ca-pub-2334117942638644"
           data-ad-slot="8557060525"
         ></ins>
+      </div>
     </div>
   );
 }
