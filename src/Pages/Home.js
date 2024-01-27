@@ -25,6 +25,15 @@ function Home() {
   return (
     <>
       <Hero />
+      {/* third Ad */}
+      <ins
+        className="adsbygoogle"
+        style={{ display: 'block' }}
+        data-ad-client="ca-pub-2334117942638644"
+        data-ad-slot="9100496759"
+        data-ad-format="auto"
+        data-full-width-responsive="true"
+      ></ins>
       <Welcome />
 
       {/* First Ad */}
