@@ -26,6 +26,7 @@ function Home() {
     <>
       <Hero />
       {/* third Ad */}
+      <p>Ad</p>
       <ins
         className="adsbygoogle"
         style={{ display: 'block' }}
