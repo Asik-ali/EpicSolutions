@@ -26,13 +26,13 @@ function Home() {
     <>
       <Hero />
 
-      {/* <!-- /23060765973/Ad2 --> */}
+      {/* <!-- /23060765973/Ad2 -->
       <div id='div-gpt-ad-1706948200392-0' style={{ minWidth: '120px', minHeight: '20px' }}>
         <h1>Adx</h1>
         <script dangerouslySetInnerHTML={{__html: `
           googletag.cmd.push(function() { googletag.display('div-gpt-ad-1706948200392-0'); });
         `}} />
-      </div>
+      </div> */}
 
 
       {/* third Ad */}
