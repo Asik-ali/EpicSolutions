@@ -34,6 +34,19 @@ const PostList = ({ posts }) => {
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <h2 className="text-2xl font-bold mb-4 text-center">Blog Posts</h2>
+        <section className="container mx-auto mt-3">
+
+
+          {/* AdSense Ad Unit */}
+          <ins
+            className="adsbygoogle"
+            style={{ display: 'block' }}
+            data-ad-client="ca-pub-2334117942638644"
+            data-ad-slot="8813759555"
+            data-ad-format="auto"
+            data-full-width-responsive="true"
+          ></ins>
+        </section>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 p-12">
           {posts.map(post => (
             <div key={post.id} className="bg-white rounded-lg shadow-md p-4">
@@ -49,21 +62,27 @@ const PostList = ({ posts }) => {
             </div>
           ))}
         </div>
-        <section className="container mx-auto mt-3">
 
-          <p>Ad</p>
-          {/* AdSense Ad Unit */}
-          <ins
-            className="adsbygoogle"
-            style={{ display: 'block' }}
-            data-ad-client="ca-pub-2334117942638644"
-            data-ad-slot="8813759555"
-            data-ad-format="auto"
-            data-full-width-responsive="true"
-          ></ins>
-        </section>
-      </div>
+        <section className="container mx-auto mt-3">
+          <ins class="adsbygoogle"
+            style={{ display: "block", textAlign:"center"}}
+          data-ad-layout="in-article"
+          data-ad-format="fluid"
+          data-ad-client="ca-pub-2334117942638644"
+     data-ad-slot="9935269534"></ins>
+
+        {/* AdSense Ad Unit */}
+        <ins
+          className="adsbygoogle"
+          style={{ display: 'block' }}
+          data-ad-client="ca-pub-2334117942638644"
+          data-ad-slot="8813759555"
+          data-ad-format="auto"
+          data-full-width-responsive="true"
+        ></ins>
+      </section>
     </div>
+    </div >
   );
 };
 
