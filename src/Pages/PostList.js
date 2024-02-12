@@ -4,7 +4,6 @@ import { Link } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
 
 const PostList = ({ posts }) => {
-
   useEffect(() => {
     // Initialize AdSense script
     const script = document.createElement("script");
@@ -12,11 +11,11 @@ const PostList = ({ posts }) => {
     script.async = true;
     script.crossOrigin = "anonymous";
     document.head.appendChild(script);
-  
+
     // Push ads when the script is loaded
     script.onload = () => {
       const adsInsElements = document.querySelectorAll('.adsbygoogle');
-  
+
       // Check if 'ins' elements don't have child nodes (ads) before pushing
       adsInsElements.forEach((element) => {
         if (element.childNodes.length === 0) {
@@ -45,11 +44,24 @@ const PostList = ({ posts }) => {
                 <h3 className="text-xl font-semibold mb-2 line-clamp-3">
                   <Link to={`/posts/${post.id}`} className="text-blue-500 hover:underline">{post.title}</Link>
                 </h3>
-                {/* You can add more content here if needed */}
+
               </div>
             </div>
           ))}
         </div>
+        <section className="container mx-auto mt-3">
+
+          <p>Ad</p>
+          {/* AdSense Ad Unit */}
+          <ins
+            className="adsbygoogle"
+            style={{ display: 'block' }}
+            data-ad-client="ca-pub-2334117942638644"
+            data-ad-slot="6469014852"
+            data-ad-format="auto"
+            data-full-width-responsive="true"
+          ></ins>
+        </section>
       </div>
     </div>
   );
