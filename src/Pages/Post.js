@@ -74,6 +74,10 @@ const Post = ({ posts }) => {
         </section>
       <h4 className="text-2xl font-bold mb-4">{post.h3}</h4>
       <p className="text-gray-700 mb-4">{post.para3}</p>
+     
+        
+      <h4 className="text-2xl font-bold mb-4">{post.h4}</h4>
+      <p className="text-gray-700 mb-4">{post.para4}</p>
       <section className="container mx-auto mt-3">
           <p>Ad</p>
           {/* AdSense Ad Unit */}
@@ -86,9 +90,8 @@ const Post = ({ posts }) => {
             data-full-width-responsive="true"
           ></ins>
         </section>
-        
-      <h4 className="text-2xl font-bold mb-4">{post.h4}</h4>
-      <p className="text-gray-700 mb-4">{post.para4}</p>
+      <h4 className="text-2xl font-bold mb-4">{post.bodyh}</h4>
+      <h3 className="text-gray-700 mb-4">{post.body}</h3>
       <section className="container mx-auto mt-3">
           <p>Ad</p>
           {/* AdSense Ad Unit */}
@@ -101,8 +104,6 @@ const Post = ({ posts }) => {
             data-full-width-responsive="true"
           ></ins>
         </section>
-      <h4 className="text-2xl font-bold mb-4">{post.bodyh}</h4>
-      <h3 className="text-gray-700 mb-4">{post.body}</h3>
       <h4 className="text-2xl font-bold mb-4">Conclusion</h4>
       <p className="text-gray-700 mb-4">{post.conclusion}</p>
     </div>
