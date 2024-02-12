@@ -3,7 +3,7 @@ import logo from "../../../src/Assest/logo.png";
 import { FaBars } from "react-icons/fa6";
 import { Link, Navigate } from "react-router-dom";
 
-function Navbar({ user, onLogout }) {
+function Navbar({}) {
   const [Sidenav, setSideNav] = useState(false);
   const [btn, setBtn] = useState(null);
   const [home, sethome] = useState(false);
@@ -24,10 +24,7 @@ function Navbar({ user, onLogout }) {
     setBtn(null);
   }
 
-  function handleLogout() {
-    onLogout(); // Call the logout method passed from App
-    <Navigate to="/login" />;
-  }
+
 
   return (
     <div className="flex  ">
@@ -119,28 +116,7 @@ function Navbar({ user, onLogout }) {
                 Contact Us
               </Link>
             </li>
-            <li
-              className={
-                btn === "Contact Us"
-                  ? "text-[#1369aa] relative after:absolute after:left-0 after:-bottom-3 after:w-[100%] after:h-[3px]  after:bg-[#1369aa]"
-                  : "hover:text-[#1369AA] relative hover:after:absolute hover:after:left-0 hover:after:-bottom-3 hover:after:w-[100%] hover:after:h-[3px]  hover:after:bg-[#1369aa] "
-              }
-            >
-              {user ? (
-                <Link onClick={handleActive} to="/ads1">
-                  Ads
-                </Link>) : (
-                  ""
-                  )}
-
-            </li>
-            <li>
-              {user ? (
-                <button onClick={handleLogout}>Logout</button>
-              ) : (
-                <Link to="/login">Login</Link>
-              )}
-            </li>
+            
           </ul>
         </div>
       </div>
@@ -213,23 +189,7 @@ function Navbar({ user, onLogout }) {
               Contact Us
             </Link>
           </li>
-          <li>
-              {user ? (
-                <button onClick={handleLogout}>Logout</button>
-              ) : (
-                <Link to="/login">Login</Link>
-              )}
-            </li>
-            <li
-            >
-              {user ? (
-                <Link onClick={handleActive} to="/ads1">
-                  Ads
-                </Link>) : (
-                  ""
-                  )}
-
-            </li>
+         
         </ul>
       </div>
     </div>
