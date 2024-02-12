@@ -64,6 +64,31 @@ function App() {
 
       conclusion: "In conclusion, consultancy plays a vital role in helping organizations navigate the complexities of the modern business landscape. By providing expert advice, strategic guidance, and epic solutions, consultants empower businesses to overcome challenges, capitalize on opportunities, and achieve their objectives. Whether it's management consulting, technology advisory, or financial consulting, the diverse range of specialties within the field of consultancy offers something for every organization seeking to thrive in today's competitive environment."
     },
+    {
+      id: 2,
+      img: `
+      https://images.pexels.com/photos/5699424/pexels-photo-5699424.jpeg?auto=compress&cs=tinysrgb&w=600
+      `,
+      title: 'Unveiling the Essence of Consultancy: A Comprehensive Overview',
+      outline: `
+      In the ever-evolving landscape of business, consultancy emerges as a beacon of guidance, offering a myriad of services tailored to meet the diverse needs of organizations across industries. From management consulting to technology advisory, the realm of consultancy encompasses a vast array of specialties aimed at driving growth, innovation, and success.
+      `,
+      h1: "Understanding Consultancy",
+      para1: `
+      At its core, consultancy is the art and science of providing expert advice, strategic guidance, and actionable insights to businesses seeking to overcome challenges, capitalize on opportunities, and achieve their objectives. Consultants, armed with a wealth of knowledge and experience, partner with clients to analyze their current state, identify areas for improvement, and develop epic solutions to propel them forward.
+      `,
+      h2: "Analysis and Assessment",
+
+      para2: `
+      Consultants begin by conducting a thorough analysis of the client's business, evaluating its strengths, weaknesses, opportunities, and threats. This assessment serves as the foundation for crafting tailored strategies and recommendations that align with the client's goals and objectives.
+      `,
+      bodyh: "Strategy Development",
+      body: `
+      Based on the findings of the analysis, consultants work collaboratively with clients to develop comprehensive strategies designed to address key challenges and leverage available opportunities. These strategies encompass a wide range of areas, including business operations, marketing, finance, and technology.
+      `,
+
+      conclusion: "In conclusion, consultancy plays a vital role in helping organizations navigate the complexities of the modern business landscape. By providing expert advice, strategic guidance, and epic solutions, consultants empower businesses to overcome challenges, capitalize on opportunities, and achieve their objectives. Whether it's management consulting, technology advisory, or financial consulting, the diverse range of specialties within the field of consultancy offers something for every organization seeking to thrive in today's competitive environment."
+    },
 
 
 
