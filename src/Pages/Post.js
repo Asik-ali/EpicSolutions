@@ -46,12 +46,61 @@ const Post = ({ posts }) => {
         </section>
       <h4 className="text-2xl font-bold mb-4">{post.h1}</h4>
       <p className="text-gray-700 mb-4">{post.para1}</p>
+      <section className="container mx-auto mt-3">
+          <p>Ad</p>
+          {/* AdSense Ad Unit */}
+          <ins
+            className="adsbygoogle"
+            style={{ display: 'block' }}
+            data-ad-client="ca-pub-2334117942638644"
+            data-ad-slot="8836157899"
+            data-ad-format="auto"
+            data-full-width-responsive="true"
+          ></ins>
+        </section>
       <h4 className="text-2xl font-bold mb-4">{post.h2}</h4>
       <p className="text-gray-700 mb-4">{post.para2}</p>
+      <section className="container mx-auto mt-3">
+          <p>Ad</p>
+          {/* AdSense Ad Unit */}
+          <ins
+            className="adsbygoogle"
+            style={{ display: 'block' }}
+            data-ad-client="ca-pub-2334117942638644"
+            data-ad-slot="2793493727"
+            data-ad-format="auto"
+            data-full-width-responsive="true"
+          ></ins>
+        </section>
       <h4 className="text-2xl font-bold mb-4">{post.h3}</h4>
       <p className="text-gray-700 mb-4">{post.para3}</p>
+      <section className="container mx-auto mt-3">
+          <p>Ad</p>
+          {/* AdSense Ad Unit */}
+          <ins
+            className="adsbygoogle"
+            style={{ display: 'block' }}
+            data-ad-client="ca-pub-2334117942638644"
+            data-ad-slot="6018422869"
+            data-ad-format="auto"
+            data-full-width-responsive="true"
+          ></ins>
+        </section>
+        
       <h4 className="text-2xl font-bold mb-4">{post.h4}</h4>
       <p className="text-gray-700 mb-4">{post.para4}</p>
+      <section className="container mx-auto mt-3">
+          <p>Ad</p>
+          {/* AdSense Ad Unit */}
+          <ins
+            className="adsbygoogle"
+            style={{ display: 'block' }}
+            data-ad-client="ca-pub-2334117942638644"
+            data-ad-slot="6469014852"
+            data-ad-format="auto"
+            data-full-width-responsive="true"
+          ></ins>
+        </section>
       <h4 className="text-2xl font-bold mb-4">{post.bodyh}</h4>
       <h3 className="text-gray-700 mb-4">{post.body}</h3>
       <h4 className="text-2xl font-bold mb-4">Conclusion</h4>
