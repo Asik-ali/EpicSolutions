@@ -12,8 +12,17 @@ const Post = ({ posts }) => {
       <Helmet>
         <title>{post.title}</title>
         <meta name="description" content={post.outline} />
-        {/* Add more meta tags as needed */}
+        <meta property="og:title" content={post.title} />
+        <meta property="og:description" content={post.outline} />
+        <meta property="og:image" content={post.img} />
+        <meta property="og:url" content={`https://yourwebsite.com/posts/${post.id}`} />
+        <meta name="twitter:title" content={post.title} />
+        <meta name="twitter:description" content={post.outline} />
+        <meta name="twitter:image" content={post.img} />
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2334117942638644" crossOrigin="anonymous"></script>
       </Helmet>
+
+
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8 bg-[#F8F9FD] mb-5">
         <img src={post.img} alt={post.title} className="mb-4 rounded-lg w-full h-[400px] shadow-md" />
