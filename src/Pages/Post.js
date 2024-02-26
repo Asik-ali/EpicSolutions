@@ -31,7 +31,7 @@ const Post = ({ posts }) => {
     <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8 bg-[#F8F9FD] mb-5">
       <img src={post.img} alt={post.title} className="mb-4 rounded-lg w-full h-[400px] shadow-md" />
       <h1 className="text-3xl font-bold mb-4 text-center">{post.title}</h1>
-      <section className="Absolute top-[50px] right-0">
+      <section className="Absolute top-[350px] right-0">
           <p>Ad</p>
           {/* AdSense Ad Unit */}
           <ins
