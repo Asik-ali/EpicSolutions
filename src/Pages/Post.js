@@ -83,11 +83,11 @@ const Post = ({ posts }) => {
           {/* AdSense Ad Unit */}
           <ins
             className="adsbygoogle"
-            style={{ display: 'block' }}
+            style={{ display: 'block' , textAlign :"center" }}
+            data-ad-layout="in-article"
+            data-ad-format="fluid"
             data-ad-client="ca-pub-2334117942638644"
-            data-ad-slot="6018422869"
-            data-ad-format="auto"
-            data-full-width-responsive="true"
+            data-ad-slot="7248572032"
           ></ins>
         </section>
       <h4 className="text-2xl font-bold mb-4">{post.bodyh}</h4>
