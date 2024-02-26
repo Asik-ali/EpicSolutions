@@ -1,41 +1,29 @@
-import React, { useEffect, useState } from 'react';
+// PostList.js
+import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
 
 const PostList = ({ posts }) => {
-  const [loadAds, setLoadAds] = useState(false);
-
   useEffect(() => {
-    const timer = setTimeout(() => {
-      setLoadAds(true);
-    }, 10000); // 20 seconds delay
+    // Initialize AdSense script
+    const script = document.createElement("script");
+    script.src = "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js";
+    script.async = true;
+    script.crossOrigin = "anonymous";
+    document.head.appendChild(script);
 
-    return () => clearTimeout(timer);
+    // Push ads when the script is loaded
+    script.onload = () => {
+      const adsInsElements = document.querySelectorAll('.adsbygoogle');
+
+      // Check if 'ins' elements don't have child nodes (ads) before pushing
+      adsInsElements.forEach((element) => {
+        if (element.childNodes.length === 0) {
+          (window.adsbygoogle = window.adsbygoogle || []).push({});
+        }
+      });
+    };
   }, []);
-
-  useEffect(() => {
-    if (loadAds) {
-      // Initialize AdSense script
-      const script = document.createElement("script");
-      script.src = "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js";
-      script.async = true;
-      script.crossOrigin = "anonymous";
-      document.head.appendChild(script);
-
-      // Push ads when the script is loaded
-      script.onload = () => {
-        const adsInsElements = document.querySelectorAll('.adsbygoogle');
-
-        // Check if 'ins' elements don't have child nodes (ads) before pushing
-        adsInsElements.forEach((element) => {
-          if (element.childNodes.length === 0) {
-            (window.adsbygoogle = window.adsbygoogle || []).push({});
-          }
-        });
-      };
-    }
-  }, [loadAds]);
-
   return (
     <div>
       <Helmet>
@@ -48,17 +36,16 @@ const PostList = ({ posts }) => {
         <h2 className="text-2xl font-bold mb-4 text-center">Blog Posts</h2>
         <section className="container mx-auto mt-3">
 
+
           {/* AdSense Ad Unit */}
-          {loadAds && (
-            <ins
-              className="adsbygoogle"
-              style={{ display: 'block' }}
-              data-ad-client="ca-pub-2334117942638644"
-              data-ad-slot="8813759555"
-              data-ad-format="auto"
-              data-full-width-responsive="true"
-            ></ins>
-          )}
+          <ins
+            className="adsbygoogle"
+            style={{ display: 'block' }}
+            data-ad-client="ca-pub-2334117942638644"
+            data-ad-slot="8813759555"
+            data-ad-format="auto"
+            data-full-width-responsive="true"
+          ></ins>
         </section>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 p-12">
           {posts.map(post => (
@@ -70,32 +57,31 @@ const PostList = ({ posts }) => {
                 <h3 className="text-xl font-semibold mb-2 line-clamp-3">
                   <Link to={`/posts/${post.id}`} className="text-blue-500 hover:underline">{post.title}</Link>
                 </h3>
+
               </div>
             </div>
           ))}
         </div>
 
         <section className="container mx-auto mt-3">
-          <ins className="adsbygoogle"
+          <ins class="adsbygoogle"
             style={{ display: "block", textAlign:"center"}}
-            data-ad-layout="in-article"
-            data-ad-format="fluid"
-            data-ad-client="ca-pub-2334117942638644"
-            data-ad-slot="9935269534"></ins>
+          data-ad-layout="in-article"
+          data-ad-format="fluid"
+          data-ad-client="ca-pub-2334117942638644"
+     data-ad-slot="9935269534"></ins>
 
-          {/* AdSense Ad Unit */}
-          {loadAds && (
-            <ins
-              className="adsbygoogle"
-              style={{ display: 'block' }}
-              data-ad-client="ca-pub-2334117942638644"
-              data-ad-slot="8813759555"
-              data-ad-format="auto"
-              data-full-width-responsive="true"
-            ></ins>
-          )}
-        </section>
-      </div>
+        {/* AdSense Ad Unit */}
+        <ins
+          className="adsbygoogle"
+          style={{ display: 'block' }}
+          data-ad-client="ca-pub-2334117942638644"
+          data-ad-slot="8813759555"
+          data-ad-format="auto"
+          data-full-width-responsive="true"
+        ></ins>
+      </section>
+    </div>
     </div >
   );
 };
