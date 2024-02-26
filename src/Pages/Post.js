@@ -44,7 +44,7 @@ const Post = ({ posts }) => {
         ></ins>
       </section>
       <p className="text-gray-700 mb-4">{post.outline}</p>
-      <section className="container mx-auto mt-3">
+      <section className=" mx-auto mt-3">
         <p>Ad</p>
         {/* AdSense Ad Unit */}
         <ins
