@@ -91,6 +91,7 @@ const Post = ({ posts }) => {
           ></ins>
         </section>
       <h4 className="text-2xl font-bold mb-4">{post.bodyh}</h4>
+      <p>Ada</p>
       <ins
             className="adsbygoogle"
             style={{ display: 'block' , textAlign :"center" }}
