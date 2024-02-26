@@ -28,7 +28,7 @@ const Post = ({ posts }) => {
   const post = posts.find((post) => post.id.toString() === id);
 
   return (
-    <div className="flex gap-[20px]">
+    <div className="flex gap-[20px] flex-col lg:flex-row">
       <div className="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8 bg-[#F8F9FD] mb-5">
         <img src={post.img} alt={post.title} className="mb-4 rounded-lg w-full h-[400px] shadow-md" />
         <h1 className="text-3xl font-bold mb-4 text-center">{post.title}</h1>
