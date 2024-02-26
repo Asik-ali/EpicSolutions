@@ -130,7 +130,7 @@ const Post = ({ posts }) => {
         <p className="text-gray-700 mb-4">{post.conclusion}</p>
       </div>
       <div className="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8 bg-[#F8F9FD] mb-5">
-        <section className="container mx-auto mt-3">
+        <section className="container mx-auto mt-3 w-full">
           <p>Ad</p>
           {/* AdSense Ad Unit */}
           <ins
