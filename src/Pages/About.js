@@ -27,7 +27,7 @@ function About() {
   return (
     <div>
       <AboutContent />
-      <span>Ad</span>
+      <h1>Adx</h1>
       <div id='div-gpt-ad-1709375181924-0' style={{ minWidth: '250px', minHeight: '50px' }} />
     </div>
   );
