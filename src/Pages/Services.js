@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import ApplyForm from "../Components/contact/ApplyForm";
 import img3 from "../Assest/3.jpg";
 import { Helmet } from "react-helmet";
@@ -17,6 +17,23 @@ function Services() {
     setSelectedLocation(location);
   };
 
+  useEffect(() => {
+    const script = document.createElement("script");
+    script.src = "https://securepubads.g.doubleclick.net/tag/js/gpt.js";
+    script.async = true;
+    document.body.appendChild(script);
+
+    window.googletag = window.googletag || {cmd: []};
+    window.googletag.cmd.push(function() {
+      window.googletag.defineSlot('/23060765973/side123', [[320, 50], [250, 250], [320, 480], [480, 320], [250, 360]], 'div-gpt-ad-1709375181924-0').addService(window.googletag.pubads());
+      window.googletag.enableServices();
+    });
+
+    return () => {
+      document.body.removeChild(script);
+    };
+  }, []);
+
   return (
     <div className="overflow-hidden">
       <Helmet>
@@ -27,7 +44,17 @@ function Services() {
         />
         <link rel="canonical" href="https://epic-solutions.vercel.app/services" />
         <meta name="robots" content="index, follow" />
-        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2334117942638644" crossOrigin="anonymous"></script>
+        {/* Include the Google Ad Manager script within Helmet */}
+        <script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script>
+        <script>
+          {`
+            window.googletag = window.googletag || {cmd: []};
+            googletag.cmd.push(function() {
+              googletag.defineSlot('/23060765973/side123', [[320, 50], [250, 250], [320, 480], [480, 320], [250, 360]], 'div-gpt-ad-1709375181924-0').addService(googletag.pubads());
+              googletag.enableServices();
+            });
+          `}
+        </script>
       </Helmet>
 
       <div className="bg-gradient-to-b from-[#7CB252] to-[#1369AA] h-[450px] lg:h-[400px]  ">

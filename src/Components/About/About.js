@@ -17,11 +17,11 @@ function AboutContent() {
     script.async = true;
     script.crossOrigin = "anonymous";
     document.head.appendChild(script);
-  
+
     // Push ads when the script is loaded
     script.onload = () => {
       const adsInsElements = document.querySelectorAll('.adsbygoogle');
-  
+
       // Check if 'ins' elements don't have child nodes (ads) before pushing
       adsInsElements.forEach((element) => {
         if (element.childNodes.length === 0) {
@@ -30,8 +30,8 @@ function AboutContent() {
       });
     };
   }, []);
-  
-  
+
+
 
   return (
     <div className="overflow-x-hidden">
@@ -91,7 +91,7 @@ function AboutContent() {
                 </div>
               </div>
             </div>
-           
+
             <div className="relative group">
               <div className="w-[300px] h-[200px] relative">
                 <img alt="The Digital Statement" className="w-full h-full object-cover" src={img2} data-robots="noindex" />
@@ -134,23 +134,23 @@ function AboutContent() {
       </section>
 
       {/* About Us Section */}
-       {/* Ad Section */}
-       <section className="container mx-auto mt-8">
-       <p>Ad</p>
-              {/* First Ad */}
-              <ins
-                className="adsbygoogle"
-                style={{ display: 'block' }}
-                data-ad-client="ca-pub-2334117942638644"
-                data-ad-slot="5257105614"
-                data-ad-format="auto"
-                data-full-width-responsive="true"
-              ></ins>
+      {/* Ad Section */}
+      <section className="container mx-auto mt-8">
+        <p>Ad</p>
+        {/* First Ad */}
+        <ins
+          className="adsbygoogle"
+          style={{ display: 'block' }}
+          data-ad-client="ca-pub-2334117942638644"
+          data-ad-slot="5257105614"
+          data-ad-format="auto"
+          data-full-width-responsive="true"
+        ></ins>
 
-              
-              
-              {/* Add more ads as needed */}
-            </section>
+
+
+        {/* Add more ads as needed */}
+      </section>
       <section className="mt-10 lg:px-4">
         <h1 className="text-center text-3xl lg:text-4xl font-[poppins] font-semibold">Our Story</h1>
         <div className="flex flex-col lg:flex-row lg:mx-4 container px-4 items-center justify-center gap-10 mt-5">
@@ -189,23 +189,23 @@ function AboutContent() {
           ))}
         </div>
       </section>
-       {/* Ad Section */}
-       <section className="container mx-auto mt-8">
+      {/* Ad Section */}
+      <section className="container mx-auto mt-8">
         <p>Ad</p>
-            
 
-              {/* Second Ad */}
-              <ins
-                className="adsbygoogle"
-                style={{ display: 'block' }}
-                data-ad-client="ca-pub-2334117942638644"
-                data-ad-slot="5576685729"
-                data-ad-format="auto"
-                data-full-width-responsive="true"
-              ></ins>
-              
-              {/* Add more ads as needed */}
-            </section>
+
+        {/* Second Ad */}
+        <ins
+          className="adsbygoogle"
+          style={{ display: 'block' }}
+          data-ad-client="ca-pub-2334117942638644"
+          data-ad-slot="5576685729"
+          data-ad-format="auto"
+          data-full-width-responsive="true"
+        ></ins>
+
+        {/* Add more ads as needed */}
+      </section>
 
       {/* Approach Section */}
       <section className="container mx-auto mt-8 overflow-hidden pb-8">
