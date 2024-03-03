@@ -137,7 +137,7 @@ function Footer() {
                     </span>
                   </li>
                   <li className="flex items-center gap-2">
-                    <BsTelephoneFill /> 8097061134/7045063182
+                    <BsTelephoneFill /> 
                   </li>
                   <li className="flex items-center gap-2">
                     <GrMail className="text-xl" />{" "}

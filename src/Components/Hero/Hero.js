@@ -66,7 +66,7 @@ export default function App() {
           isVisible ? "visible" : "hidden"
         }`}
       >
-        <a href="https://wa.me/918097061134">
+        <a href="https://wa.me/9112345">
           <img className="rounded-full" src={icon} alt="Images" data-robots="noindex" />
         </a>
       </div>
