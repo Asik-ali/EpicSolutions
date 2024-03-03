@@ -1,11 +1,20 @@
-import React from 'react'
-import Contactus from '../Components/ContactUs/Contactus'
+// import React from 'react'
+// import Contactus from '../Components/ContactUs/Contactus'
 
-function Contact() {
+// function Contact() {
+//   return (
+//     <div>
+//         <Contactus/>
+//     </div>
+//   )
+// }
+
+// export default Contact
+import React from 'react'
+
+const Contact = () => {
   return (
-    <div>
-        <Contactus/>
-    </div>
+    <div>Contact</div>
   )
 }
 
