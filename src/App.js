@@ -20,7 +20,7 @@ function App() {
 
   return (
     <BrowserRouter>
-      <Navbar />
+      {/* <Navbar /> */}
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/services" element={<Services />} />
@@ -33,7 +33,7 @@ function App() {
       +
 
       </Routes>
-      <Footer />
+      {/* <Footer /> */}
       <ToastContainer />
     </BrowserRouter>
   );
