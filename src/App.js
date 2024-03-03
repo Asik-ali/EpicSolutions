@@ -28,8 +28,8 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/client" element={<Client />} />
         <Route path="/carrers" element={<Carrer />} />
-        <Route path="/posts" element={<PostList posts={Content} />} />
-        <Route path="/posts/:id" element={<Post posts={Content} />} />
+        {/* <Route path="/posts" element={<PostList posts={Content} />} />
+        <Route path="/posts/:id" element={<Post posts={Content} />} /> */}
       +
 
       </Routes>
