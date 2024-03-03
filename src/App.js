@@ -19,23 +19,24 @@ function App() {
  
 
   return (
-    <BrowserRouter>
-      {/* <Navbar /> */}
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/services" element={<Services />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/client" element={<Client />} />
-        <Route path="/carrers" element={<Carrer />} />
-        {/* <Route path="/posts" element={<PostList posts={Content} />} />
-        <Route path="/posts/:id" element={<Post posts={Content} />} /> */}
-      +
+    // <BrowserRouter>
+    //   {/* <Navbar /> */}
+    //   <Routes>
+    //     <Route path="/" element={<Home />} />
+    //     <Route path="/services" element={<Services />} />
+    //     <Route path="/about" element={<About />} />
+    //     <Route path="/contact" element={<Contact />} />
+    //     <Route path="/client" element={<Client />} />
+    //     <Route path="/carrers" element={<Carrer />} />
+    //     {/* <Route path="/posts" element={<PostList posts={Content} />} />
+    //     <Route path="/posts/:id" element={<Post posts={Content} />} /> */}
+    //   +
 
-      </Routes>
-      {/* <Footer /> */}
-      <ToastContainer />
-    </BrowserRouter>
+    //   </Routes>
+    //   {/* <Footer /> */}
+    //   <ToastContainer />
+    // </BrowserRouter>
+    <></>
   );
 }
 
