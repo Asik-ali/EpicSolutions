@@ -1,12 +1,35 @@
 import React, { useState, useEffect } from "react";
 import { LuChevronsUp } from "react-icons/lu";
 import icon from "../../../src/Assest/images.png";
-import bg from "../../Assest/bg.jpeg";
+import bg from "../../Assest/Hero5.jpg";
 import { Link } from "react-router-dom";
 
 
 export default function App() {
- 
+  const [isVisible, setIsVisible] = useState(false);
+
+  const handleScroll = () => {
+    if (window.scrollY > 100) {
+      setIsVisible(true);
+    } else {
+      setIsVisible(false);
+    }
+  };
+
+  const handleScrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
+
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
  
 
   return (
