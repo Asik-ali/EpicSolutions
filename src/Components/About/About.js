@@ -37,12 +37,12 @@ function AboutContent() {
     <div className="overflow-x-hidden">
       {/* SEO Section - React Helmet */}
       <Helmet>
-        <title>About Epic Solutions - Empowering Success Through Talent</title>
+        <title>About Itel Mobile - Empowering Success Through Talent</title>
         <meta
           name="description"
-          content="Discover how Epic Solutions empowers success through talent acquisition and tailored HR management services. Learn about our consultancy approach, bid farewell to unemployment, and explore our commitment to building strong relationships in the professional world."
+          content="Discover how Itel Mobile empowers success through talent acquisition and tailored HR management services. Learn about our consultancy approach, bid farewell to unemployment, and explore our commitment to building strong relationships in the professional world."
         />
-        <link rel="canonical" href="https://epic-solutions.vercel.app/About" />
+        <link rel="canonical" href="https://itelmobile.tech/About" />
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2334117942638644" crossOrigin="anonymous"></script>
       </Helmet>
 
@@ -54,7 +54,7 @@ function AboutContent() {
               Working Together for Stronger Results
             </h1>
             <p className="text-white mb-10 lg:mb-0 text-center lg:text-xl lg:text-start font-[poppins] text-sm lg:w-[650px]">
-              Epic Solutions delivers Human Resource Solutions grounded in research. Our team excels in providing relevant profiles within tight deadlines.
+             Itel Mobile delivers Human Resource Solutions grounded in research. Our team excels in providing relevant profiles within tight deadlines.
             </p>
           </div>
           <div className="">
@@ -75,7 +75,7 @@ function AboutContent() {
             <div className="h-[310px] md:h-[100px] lg:h-[210px] w-[2px] bg-[#274584] after:h-[10px] after:w-[10px] after:rounded-full relative after:absolute after:-left-[4px] after:-top-[5px] before:w-[10px] after:bg-[#274584] before:h-[10px] before:rounded-full before:bg-[#274584] before:absolute before:-left-[4px] before:-bottom-[5px]"></div>
             <div>
               <p className="lg:w-[300px] text-gray-700 text-lg font-[raleway]">
-                Epic Solutions advocates for a personalized approach to HR services. Our dedicated team collaborates closely with clients to understand their unique needs and company culture, enabling seamless candidate matching.
+            Itel Mobile advocates for a personalized approach to HR services. Our dedicated team collaborates closely with clients to understand their unique needs and company culture, enabling seamless candidate matching.
               </p>
             </div>
           </div>
@@ -155,7 +155,7 @@ function AboutContent() {
         <h1 className="text-center text-3xl lg:text-4xl font-[poppins] font-semibold">Our Story</h1>
         <div className="flex flex-col lg:flex-row lg:mx-4 container px-4 items-center justify-center gap-10 mt-5">
           <div>
-            <img className="w-full rounded" src={about} alt="About Epic Solutions" data-robots="noindex" />
+            <img className="w-full rounded" src={about} alt="About Itel Mobile" data-robots="noindex" />
           </div>
           <div className="flex flex-col">
             <h2 className="text-xl font-semibold lg:text-4xl">Empowering Success Through Talent</h2>
@@ -209,7 +209,7 @@ function AboutContent() {
 
       {/* Approach Section */}
       <section className="container mx-auto mt-8 overflow-hidden pb-8">
-        <h2 className="text-3xl font-bold mb-6 text-center">Our Approach at Epic Solutions</h2>
+        <h2 className="text-3xl font-bold mb-6 text-center">Our Approach at Itel Mobile</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {approachPoints.map((point, index) => (
             <div className="group" key={index}>

@@ -12,7 +12,7 @@ function Clientpage() {
   return (
     <div>
       <Helmet>
-        <title>Our Valued Clients - Epic Solutions</title>
+        <title>Our Valued Clients - Itel Mobile</title>
         <meta
           name="description"
           content="Explore personalized career counseling, skill enhancement workshops, interview preparation, networking events, resume building, and job search support at Epic Solutions. Navigate your career success with our expert guidance."
@@ -29,7 +29,7 @@ function Clientpage() {
 
             className=" justify-center  lg:ps-10 flex flex-col gap-6">
             <h1 className="text-[#D1D5DB] text-center font-semibold font-[raleway] mt-5 lg:mt-0 text-2xl lg:text-start lg:text-4xl lg:w-[650px]">
-              Elevate Your Career with Epic Solutions            </h1>
+              Elevate Your Career with Itel Mobile            </h1>
             <p className="text-white mb-10 lg:mb-0 text-center lg:text-lg lg:text-start font-[poppins] text-sm lg:w-[750px] lg:ps-4 ">
               Our team of experienced career counselors is dedicated to understanding your individual aspirations, strengths, and goals. Through personalized consultations, we provide insights and guidance tailored to your specific needs, helping you make informed decisions about your career path.
             </p>

@@ -16,27 +16,22 @@ import PostList from "./Pages/PostList";
 import Content from "./Pages/Content";
 
 function App() {
- 
-
   return (
-    // <BrowserRouter>
-    //   {/* <Navbar /> */}
-    //   <Routes>
-    //     <Route path="/" element={<Home />} />
-    //     <Route path="/services" element={<Services />} />
-    //     <Route path="/about" element={<About />} />
-    //     <Route path="/contact" element={<Contact />} />
-    //     <Route path="/client" element={<Client />} />
-    //     <Route path="/carrers" element={<Carrer />} />
-    //     {/* <Route path="/posts" element={<PostList posts={Content} />} />
-    //     <Route path="/posts/:id" element={<Post posts={Content} />} /> */}
-    //   +
-
-    //   </Routes>
-    //   {/* <Footer /> */}
-    //   <ToastContainer />
-    // </BrowserRouter>
-    <></>
+    <BrowserRouter>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/services" element={<Services />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/client" element={<Client />} />
+        <Route path="/carrers" element={<Carrer />} />
+        <Route path="/posts" element={<PostList posts={Content} />} />
+        <Route path="/posts/:id" element={<Post posts={Content} />} />
+      </Routes>
+      <Footer />
+      <ToastContainer />
+    </BrowserRouter>
   );
 }
 

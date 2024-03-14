@@ -37,12 +37,12 @@
 //   return (
 //     <div className="overflow-hidden">
 //       <Helmet>
-//         <title>HR Consultancy Services - Epic Solutions</title>
+//         <title>HR Consultancy Services - Itel Mobile</title>
 //         <meta
 //           name="description"
-//           content="Discover comprehensive HR consultancy services at Epic Solutions. From recruitment to talent management, our tailored services ensure your organization attracts and retains top talent. Learn more about how we empower success through strategic HR solutions."
+//           content="Discover comprehensive HR consultancy services at Itel Mobile. From recruitment to talent management, our tailored services ensure your organization attracts and retains top talent. Learn more about how we empower success through strategic HR solutions."
 //         />
-//         <link rel="canonical" href="https://epic-solutions.vercel.app/services" />
+//         <link rel="canonical" href="https://itelmobile.tech/services" />
 //         <meta name="robots" content="index, follow" />
 //         {/* Include the Google Ad Manager script within Helmet */}
 //         <script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script>
@@ -64,7 +64,7 @@
 //               LETS START YOUR CAREERS HERE!
 //             </h1>
 //             <p className="text-white mb-10 lg:mb-0 text-center lg: lg:text-start font-[poppins] text-sm lg:text-base lg:w-[750px] lg:ps-10 p-2">
-//               Welcome to our Epic, where expertise meets opportunity!
+//               Welcome to our Itel, where expertise meets opportunity!
 //               Join a collaborative team of industry leaders, where your skills
 //               and insights shape impactful solutions. Explore diverse career
 //               paths, unlocking the potential to drive positive change for our
@@ -111,7 +111,7 @@
 
 //       <div className="px-4 flex flex-col items-center">
 //         <h1 className="text-center font-bold text-lg md:text-2xl mt-12 lg:text-3xl">
-//           Developing Your Career With Epic!
+//           Developing Your Career With Itel!
 //         </h1>
 //         <div className="border-b-2 border-blue-500 w-[540px] border-solid p-4"></div>
 //       </div>

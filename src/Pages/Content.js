@@ -8,7 +8,7 @@ const Content = [
       `,
         h1: "The Role of a Consultant",
         para1: `
-     At the heart of consultancy careers lies the role of the consultant—a trusted advisor, problem-solver, and strategist rolled into one. Consultants work closely with clients to understand their unique challenges, goals, and aspirations, and devise epic solutions to address them. They leverage their expertise, analytical skills, and industry knowledge to provide valuable insights and recommendations that drive business success.
+     At the heart of consultancy careers lies the role of the consultant—a trusted advisor, problem-solver, and strategist rolled into one. Consultants work closely with clients to understand their unique challenges, goals, and aspirations, and devise Itel Mobile solutions to address them. They leverage their expertise, analytical skills, and industry knowledge to provide valuable insights and recommendations that drive business success.
       `,
         h2: "Management Consulting",
 
@@ -33,7 +33,7 @@ const Content = [
       `,
         h1: "Understanding Consultancy",
         para1: `
-      At its core, consultancy is the art and science of providing expert advice, strategic guidance, and actionable insights to businesses seeking to overcome challenges, capitalize on opportunities, and achieve their objectives. Consultants, armed with a wealth of knowledge and experience, partner with clients to analyze their current state, identify areas for improvement, and develop epic solutions to propel them forward.
+      At its core, consultancy is the art and science of providing expert advice, strategic guidance, and actionable insights to businesses seeking to overcome challenges, capitalize on opportunities, and achieve their objectives. Consultants, armed with a wealth of knowledge and experience, partner with clients to analyze their current state, identify areas for improvement, and develop Itel Mobile solutions to propel them forward.
       `,
         h2: "Analysis and Assessment",
 
@@ -45,56 +45,56 @@ const Content = [
       Based on the findings of the analysis, consultants work collaboratively with clients to develop comprehensive strategies designed to address key challenges and leverage available opportunities. These strategies encompass a wide range of areas, including business operations, marketing, finance, and technology.
       `,
 
-        conclusion: "In conclusion, consultancy plays a vital role in helping organizations navigate the complexities of the modern business landscape. By providing expert advice, strategic guidance, and epic solutions, consultants empower businesses to overcome challenges, capitalize on opportunities, and achieve their objectives. Whether it's management consulting, technology advisory, or financial consulting, the diverse range of specialties within the field of consultancy offers something for every organization seeking to thrive in today's competitive environment."
+        conclusion: "In conclusion, consultancy plays a vital role in helping organizations navigate the complexities of the modern business landscape. By providing expert advice, strategic guidance, and Itel Mobile, consultants empower businesses to overcome challenges, capitalize on opportunities, and achieve their objectives. Whether it's management consulting, technology advisory, or financial consulting, the diverse range of specialties within the field of consultancy offers something for every organization seeking to thrive in today's competitive environment."
     },
     {
         id: 3,
         img: `
       https://images.unsplash.com/photo-1553028826-f4804a6dba3b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Y29uc3VsdGFuY3l8ZW58MHx8MHx8fDA%3D
       `,
-        title: 'Unveiling the Epic Solution in Consultancy',
+        title: 'Unveiling the Itel Mobile in Consultancy',
         outline: `
       In the bustling city of Mumbai, where innovation meets tradition, a beacon of transformation shines brightly - EpicSolution Mumbai. This consultancy firm isn't just a mere entity; it's a powerhouse of strategic brilliance, offering unparalleled solutions to the most intricate challenges.In the bustling city of Mumbai, where innovation meets tradition, a beacon of transformation shines brightly - EpicSolution Mumbai. This consultancy firm isn't just a mere entity; it's a powerhouse of strategic brilliance, offering unparalleled solutions to the most intricate challenges.\
 
-      The journey with EpicSolution Mumbai begins with a comprehensive assessment. Their team of seasoned consultants delves deep into the client's business landscape, unraveling complexities and identifying potential roadblocks. This initial phase lays the foundation for what is to come - a journey towards unparalleled success.
+      The journey with Itel Mobile Mumbai begins with a comprehensive assessment. Their team of seasoned consultants delves deep into the client's business landscape, unraveling complexities and identifying potential roadblocks. This initial phase lays the foundation for what is to come - a journey towards unparalleled success.
       `,
         h1: "",
         para1: `
-      One of the hallmarks of EpicSolution Mumbai is their holistic approach. They don't just offer quick fixes; they orchestrate comprehensive solutions that address every facet of the challenge at hand. From strategic planning to implementation and beyond, they remain steadfast in their commitment to delivering results that exceed expectations.
+      One of the hallmarks of Itel Mobile Mumbai is their holistic approach. They don't just offer quick fixes; they orchestrate comprehensive solutions that address every facet of the challenge at hand. From strategic planning to implementation and beyond, they remain steadfast in their commitment to delivering results that exceed expectations.
 
 
-      In the realm of consultancy, adaptability is paramount, and EpicSolution Mumbai excels in this regard. They understand that no two problems are alike, and as such, they embrace agility in their methodologies. Whether it's a sudden market shift or a disruptive technological advancement, they pivot effortlessly, ensuring their clients stay ahead of the curve.
+      In the realm of consultancy, adaptability is paramount, and Itel Mobile Mumbai excels in this regard. They understand that no two problems are alike, and as such, they embrace agility in their methodologies. Whether it's a sudden market shift or a disruptive technological advancement, they pivot effortlessly, ensuring their clients stay ahead of the curve.
       
       `,
         h2: "",
 
         para2: `
-      Collaboration lies at the core of EpicSolution Mumbai's ethos. They don't just work for their clients; they work alongside them, forming a symbiotic partnership aimed at mutual growth. This collaborative spirit fosters innovation and fosters a sense of shared ownership in the pursuit of success.
+      Collaboration lies at the core of Itel Mobile Mumbai's ethos. They don't just work for their clients; they work alongside them, forming a symbiotic partnership aimed at mutual growth. This collaborative spirit fosters innovation and fosters a sense of shared ownership in the pursuit of success.
 
-EpicSolution Mumbai prides itself on its forward-thinking approach. They don't just solve current problems; they anticipate future challenges and proactively devise strategies to mitigate risks. This proactive stance ensures that their clients are well-equipped to navigate the ever-evolving business landscape with confidence.
+      Itel Mobile Mumbai prides itself on its forward-thinking approach. They don't just solve current problems; they anticipate future challenges and proactively devise strategies to mitigate risks. This proactive stance ensures that their clients are well-equipped to navigate the ever-evolving business landscape with confidence.
 
       `,
         bodyh: "",
         body: `
-      Innovation is the lifeblood of EpicSolution Mumbai. They continuously push the boundaries of conventional thinking, exploring new methodologies and technologies to drive sustainable growth. Whether it's leveraging big data analytics or harnessing the power of AI, they are at the forefront of innovation, paving the way for a brighter future.
+      Innovation is the lifeblood of Itel Mobile Mumbai. They continuously push the boundaries of conventional thinking, exploring new methodologies and technologies to drive sustainable growth. Whether it's leveraging big data analytics or harnessing the power of AI, they are at the forefront of innovation, paving the way for a brighter future.
 
-      But perhaps what truly sets EpicSolution Mumbai apart is their unwavering commitment to customer satisfaction. For them, success isn't just about delivering results; it's about leaving a lasting impact on their clients' businesses. They measure their success not by accolades or awards but by the tangible value they bring to the table.
+      But perhaps what truly sets Itel Mobile Mumbai apart is their unwavering commitment to customer satisfaction. For them, success isn't just about delivering results; it's about leaving a lasting impact on their clients' businesses. They measure their success not by accolades or awards but by the tangible value they bring to the table.
       
       `,
 
-        conclusion: "In conclusion, EpicSolution Mumbai isn't just a consultancy firm; it's a catalyst for transformation. With their unparalleled expertise, innovative thinking, and unwavering commitment to excellence, they empower their clients to overcome any challenge and achieve extraordinary success. So, if you're ready to embark on a journey towards greatness, look no further than EpicSolution Mumbai - where epic solutions await."
+        conclusion: "In conclusion, Solution Mumbai isn't just a consultancy firm; it's a catalyst for transformation. With their unparalleled expertise, innovative thinking, and unwavering commitment to excellence, they empower their clients to overcome any challenge and achieve extraordinary success. So, if you're ready to embark on a journey towards greatness, look no further than EpicSolution Mumbai - where epic solutions await."
     },
     {
         id: 4,
         img: `
       https://images.pexels.com/photos/5699424/pexels-photo-5699424.jpeg?auto=compress&cs=tinysrgb&w=600
       `,
-        title: 'Unraveling the Power of Epicsolution Mumbai',
+        title: 'Unraveling the Power of Itel Mobile Mumbai',
         outline: `
-      In the dynamic realm of business, where challenges are as diverse as the industries themselves, the role of consultancy emerges as a guiding light, illuminating pathways to success. Among the myriad of consultancy firms, one name stands out for its prowess and innovation - Epicsolution Mumbai.
+      In the dynamic realm of business, where challenges are as diverse as the industries themselves, the role of consultancy emerges as a guiding light, illuminating pathways to success. Among the myriad of consultancy firms, one name stands out for its prowess and innovation - Itel Mobile Mumbai.
 
 
-      Epicsolution Mumbai isn't just another consultancy firm; it's a beacon of strategic brilliance, offering bespoke solutions to intricate business challenges. With a blend of expertise, innovation, and a customer-centric approach, they redefine the consultancy landscape.
+      Itel Mobile Mumbai isn't just another consultancy firm; it's a beacon of strategic brilliance, offering bespoke solutions to intricate business challenges. With a blend of expertise, innovation, and a customer-centric approach, they redefine the consultancy landscape.
       
       `,
         h1: "",
@@ -102,31 +102,31 @@ EpicSolution Mumbai prides itself on its forward-thinking approach. They don't j
       Consultancy, at its core, revolves around problem-solving. It's about dissecting complex issues, analyzing data, and crafting actionable strategies. This is where Epicsolution Mumbai shines. Armed with analytical acumen and a deep understanding of industry dynamics, they unravel challenges with surgical precision.
 
       
-     At the heart of Epicsolution Mumbai's approach lies a commitment to excellence. They don't settle for mediocre solutions; they strive for greatness. Through meticulous planning and execution, they help clients achieve their objectives, driving sustainable growth and fostering long-term success.
+     At the heart of solution Mumbai's approach lies a commitment to excellence. They don't settle for mediocre solutions; they strive for greatness. Through meticulous planning and execution, they help clients achieve their objectives, driving sustainable growth and fostering long-term success.
 
       
       `,
         h2: "",
 
         para2: `
-        One of the key pillars of Epicsolution Mumbai's success is their holistic approach. They don't just focus on one aspect of the business; they consider the bigger picture. From strategic planning to implementation and beyond, they ensure that every facet of the client's business is addressed comprehensively.
+        One of the key pillars of Itel Mobile Mumbai's success is their holistic approach. They don't just focus on one aspect of the business; they consider the bigger picture. From strategic planning to implementation and beyond, they ensure that every facet of the client's business is addressed comprehensively.
 
 
-        Collaboration is another cornerstone of Epicsolution Mumbai's methodology. They don't impose solutions on their clients; they work alongside them, forming a symbiotic partnership aimed at mutual growth. This collaborative spirit fosters innovation and fosters a sense of shared ownership in the pursuit of success.
+        Collaboration is another cornerstone of Itel Mobile Mumbai's methodology. They don't impose solutions on their clients; they work alongside them, forming a symbiotic partnership aimed at mutual growth. This collaborative spirit fosters innovation and fosters a sense of shared ownership in the pursuit of success.
         
 
       `,
         bodyh: "",
         body: `
-     In the ever-evolving business landscape, adaptability is key, and Epicsolution Mumbai excels in this regard. They understand that change is inevitable, and they embrace it wholeheartedly. Whether it's a shift in market dynamics or a disruptive technological advancement, they pivot effortlessly, ensuring their clients stay ahead of the curve.
+     In the ever-evolving business landscape, adaptability is key, and Itel Mobile Mumbai excels in this regard. They understand that change is inevitable, and they embrace it wholeheartedly. Whether it's a shift in market dynamics or a disruptive technological advancement, they pivot effortlessly, ensuring their clients stay ahead of the curve.
 
 
-     Innovation is ingrained in Epicsolution Mumbai's DNA. They don't just follow trends; they set them. Through continuous research and development, they explore new methodologies and technologies, pushing the boundaries of conventional thinking. From big data analytics to AI, they leverage cutting-edge tools to drive actionable insights and deliver tangible results.
+     Innovation is ingrained in Itel Mobile Mumbai's DNA. They don't just follow trends; they set them. Through continuous research and development, they explore new methodologies and technologies, pushing the boundaries of conventional thinking. From big data analytics to AI, they leverage cutting-edge tools to drive actionable insights and deliver tangible results.
 
       
       `,
 
-        conclusion: "In conclusion, consultancy is more than just offering advice; it's about empowering businesses to thrive in a competitive landscape. And when it comes to unlocking the full potential of your business, Epicsolution Mumbai stands head and shoulders above the rest. With their expertise, innovation, and unwavering commitment to excellence, they are poised to lead you on a journey towards unparalFeled success. So, if you're ready to take your business to new heights, look no further than Epicsolution Mumbai - where epic solutions await.."
+        conclusion: "In conclusion, consultancy is more than just offering advice; it's about empowering businesses to thrive in a competitive landscape. And when it comes to unlocking the full potential of your business, Itel Mobile Mumbai stands head and shoulders above the rest. With their expertise, innovation, and unwavering commitment to excellence, they are poised to lead you on a journey towards unparalFeled success. So, if you're ready to take your business to new heights, look no further than Itel Mobile Mumbai - where Itel Mobile await.."
     },
     {
         id: 5,
@@ -201,23 +201,23 @@ EpicSolution Mumbai prides itself on its forward-thinking approach. They don't j
         h2: "",
 
         para2: `
-        Collaboration is another hallmark of consultancy epic in Mumbai. Consultants work closely with clients, fostering open communication and collaboration throughout the engagement process. By building strong relationships based on trust and transparency, they ensure that their recommendations are aligned with the client's vision and objectives.
+        Collaboration is another hallmark of consultancy itel in Mumbai. Consultants work closely with clients, fostering open communication and collaboration throughout the engagement process. By building strong relationships based on trust and transparency, they ensure that their recommendations are aligned with the client's vision and objectives.
 
-        In addition to offering strategic advice, consultancy epic firms in Mumbai often play a hands-on role in implementing recommended solutions. Whether it's streamlining processes, implementing new technologies, or developing talent, consultants work alongside clients to drive meaningful change and achieve measurable results. This hands-on approach not only ensures the successful execution of strategies but also empowers clients to build internal capabilities for long-term success.
+        In addition to offering strategic advice, consultancy itel firms in Mumbai often play a hands-on role in implementing recommended solutions. Whether it's streamlining processes, implementing new technologies, or developing talent, consultants work alongside clients to drive meaningful change and achieve measurable results. This hands-on approach not only ensures the successful execution of strategies but also empowers clients to build internal capabilities for long-term success.
 
         
 
       `,
         bodyh: "",
         body: `
-        In recent years, the landscape of consultancy epic in Mumbai has been shaped by technological advancements and digital transformation. Consultants are increasingly leveraging digital tools and platforms to deliver more efficient and impactful solutions to their clients. From virtual collaboration tools to AI-driven analytics, these innovations enable consultancy epic firms to enhance the quality and effectiveness of their services while adapting to the evolving needs of their clients.
+        In recent years, the landscape of consultancy itel in Mumbai has been shaped by technological advancements and digital transformation. Consultants are increasingly leveraging digital tools and platforms to deliver more efficient and impactful solutions to their clients. From virtual collaboration tools to AI-driven analytics, these innovations enable consultancy Itel Mobile firms to enhance the quality and effectiveness of their services while adapting to the evolving needs of their clients.
 
-      However, amidst the rapid pace of technological change, the human element remains at the core of consultancy epic in Mumbai. While technology can augment consultants' capabilities, it's ultimately their experience, expertise, and interpersonal skills that drive success. Building rapport, understanding client needs, and fostering a collaborative working environment are essential aspects of the consultancy epic experience that cannot be replaced by technology alone.
+      However, amidst the rapid pace of technological change, the human element remains at the core of consultancy Itel in Mumbai. While technology can augment consultants' capabilities, it's ultimately their experience, expertise, and interpersonal skills that drive success. Building rapport, understanding client needs, and fostering a collaborative working environment are essential aspects of the consultancy Itel Mobile experience that cannot be replaced by technology alone.
 
       
       `,
 
-        conclusion: "In conclusion, consultancy epic in Mumbai plays a crucial role in driving business success in today's dynamic and competitive landscape. With its analytical approach, industry expertise, and commitment to excellence, these firms serve as trusted partners, guiding businesses through challenges and helping them unlock new opportunities for growth. By leveraging the unique strengths of the city and embracing innovation, consultancy epic firms in Mumbai continue to shape the future of business and drive sustainable success for their clients."
+        conclusion: "In conclusion, consultancy Itel in Mumbai plays a crucial role in driving business success in today's dynamic and competitive landscape. With its analytical approach, industry expertise, and commitment to excellence, these firms serve as trusted partners, guiding businesses through challenges and helping them unlock new opportunities for growth. By leveraging the unique strengths of the city and embracing innovation, consultancy Itel firms in Mumbai continue to shape the future of business and drive sustainable success for their clients."
     },
 
 
