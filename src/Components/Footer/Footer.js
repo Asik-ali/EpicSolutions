@@ -150,7 +150,7 @@ function Footer() {
             </div>
           </div>
         </div>
-        <p className="text-lg text-center p-3 bg-[black] w-full text-[#ff063c]">
+        <p className="text-lg text-center p-3 bg-[black] w-full text#ff063c-[]">
           <span className="text-white"> &copy; 2024 Itel Mobile</span> All rights reserved.
         </p>
       </footer>

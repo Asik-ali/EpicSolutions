@@ -18,7 +18,7 @@ const ServicePage = () => {
   };
 
   return (
-    <section className="container mx-auto p-4">
+    <section className="container mx-auto p-4 ">
       <Helmet>
         <title>Contact Epic Solutions - Reach Out for HR Consultancy</title>
         <meta name="description" content="Contact Epic Solutions for personalized HR consultancy services. Reach out to us for inquiries, collaborations, or to discuss how we can assist your organization with effective HR solutions." />

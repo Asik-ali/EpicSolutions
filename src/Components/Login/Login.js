@@ -50,29 +50,9 @@ function Login() {
     }
   };
 
-  useEffect(() => {
-    // Initialize AdSense script
-    const script = document.createElement("script");
-    script.src = "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js";
-    script.async = true;
-    script.crossOrigin = "anonymous";
-    document.head.appendChild(script);
+ 
 
-    // Do not push ads immediately, wait for the component to mount
-    return () => {
-      script.remove(); // Cleanup the script tag when the component is unmounted
-    };
-  }, []);
 
-  useEffect(() => {
-    // Push ads when the component has mounted
-    const adsInsElements = document.querySelectorAll('.adsbygoogle');
-    adsInsElements.forEach((element) => {
-      if (element.childNodes.length === 0) {
-        (window.adsbygoogle = window.adsbygoogle || []).push({});
-      }
-    });
-  }, []);
 
   return (
     <div className='flex flex-col justify-center items-center h-screen lg:mt-48 mt-24'>
@@ -98,15 +78,7 @@ function Login() {
           className='w-full p-2 mb-4 border rounded-md'
         />
 
-        {/* First Ad */}
-        <ins
-          className="adsbygoogle"
-          style={{ display: 'block', textAlign: 'center' }}
-          data-ad-layout="in-article"
-          data-ad-format="fluid"
-          data-ad-client="ca-pub-2334117942638644"
-          data-ad-slot="7272910777"
-        ></ins>
+        
 
         <button
           onClick={login}
@@ -122,15 +94,7 @@ function Login() {
           </button>
         </div>
 
-        {/* Second Ad */}
-        <ins
-          className="adsbygoogle"
-          style={{ display: 'block', textAlign: 'center' }}
-          data-ad-layout="in-article"
-          data-ad-format="fluid"
-          data-ad-client="ca-pub-2334117942638644"
-          data-ad-slot="8557060525"
-        ></ins>
+       
       </div>
     </div>
   );

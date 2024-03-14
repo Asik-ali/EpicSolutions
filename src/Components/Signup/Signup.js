@@ -60,14 +60,7 @@ function Signup() {
             <div className='bg-gray-800 px-6 py-6 md:px-10 md:py-10 rounded-xl max-w-md w-full md:w-96'>
                 <div className='mb-4'>
                     <h1 className='text-center text-white text-xl mb-4 font-bold'>Signup</h1>
-                    <ins
-          className="adsbygoogle"
-          style={{ display: 'block', textAlign: 'center' }}
-          data-ad-layout="in-article"
-          data-ad-format="fluid"
-          data-ad-client="ca-pub-2334117942638644"
-          data-ad-slot="9110706246"
-        ></ins>
+            
                 </div>
                 <div className='mb-4'>
                     <input

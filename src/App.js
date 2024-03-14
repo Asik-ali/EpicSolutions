@@ -10,7 +10,7 @@ import Carrer from "./Pages/Carrer";
 import Services from "./Pages/Services";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import AD1 from "./Components/Ads/Ad1";
+// import AD1 from "./Components/Ads/Ad1";
 import Post from "./Pages/Post";
 import PostList from "./Pages/PostList";
 import Content from "./Pages/Content";
