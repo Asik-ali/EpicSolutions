@@ -40,7 +40,7 @@ function Navbar({}) {
           <Link to="/">
             {" "}
             <h1 className="font-[Dmsans] font-semibold text-2xl text-black">
-              Epic <span className="text-[#1369AA]">Solutions</span>
+              Itel <span className="text-[#1369AA]">Mobile</span>
             </h1>
           </Link>
         </div>
