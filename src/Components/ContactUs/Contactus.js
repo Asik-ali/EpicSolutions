@@ -69,7 +69,7 @@ function Contactus() {
         <title>Contact Us - Itel Mobile</title>
         <meta name="description" content="Contact Itel." />
         <meta name="keywords" content="Itel" />
-        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2334117942638644" crossOrigin="anonymous"></script>
+       
       </Helmet>
 
       <div
