@@ -5,7 +5,7 @@ function Career() {
   return (
     <div>
       <Helmet>
-        <link rel="canonical" href="https://epic-solutions.vercel.app/Careers" />
+        <link rel="canonical" href="https://itelmobile.tech/Careers" />
         <title>Join Our Team - Careers at Itel Mobile</title>
         <meta name="description" content="Explore exciting career opportunities Itel Mobile. Join our dynamic team and contribute to empowering success through talent. Check our current job openings and take the next step in your career with us." />
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2334117942638644" crossOrigin="anonymous"></script>

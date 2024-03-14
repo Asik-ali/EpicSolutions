@@ -22,7 +22,7 @@ const ServicePage = () => {
       <Helmet>
         <title>Contact Itel Mobile </title>
         <meta name="description" content="Contact Itel " />
-        <link rel="canonical" href="https://epic-solutions.vercel.app/Contact" />
+        <link rel="canonical" href="https://itelmobile.tech/Contact" />
 
       </Helmet>
 

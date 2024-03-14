@@ -18,7 +18,7 @@ function Clientpage() {
           content="Explore personalized career counseling, skill enhancement workshops, interview preparation, networking events, resume building, and job search support at Itel Mobile. Navigate your career success with our expert guidance."
         />
       </Helmet>
-      <link rel="canonical" href="https://epic-solutions.vercel.app/Client" />
+      <link rel="canonical" href="https://itelmobile.tech/Client" />
 
       <div
 

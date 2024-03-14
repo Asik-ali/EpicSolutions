@@ -64,7 +64,7 @@ function Contactus() {
   return (
     <div>
       <Helmet>
-        <link rel="canonical" href="https://epic-solutions.vercel.app/contact" />
+        <link rel="canonical" href="https://itelmobile.tech/contact" />
 
         <title>Contact Us - Itel Mobile</title>
         <meta name="description" content="Contact Itel." />
