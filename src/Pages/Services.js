@@ -3,7 +3,7 @@ import ApplyForm from "../Components/contact/ApplyForm";
 import img3 from "../Assest/Mobile5-3.jpg";
 import { Helmet } from "react-helmet";
 
-const locations = ['Chennai', "Bangalore", "Mumbai", "Telangana", 'Pune', 'Noida', 'Lucknow', 'Hyderabad', 'Gurugram', 'Delhi'];
+const locations = ['Chennai', "Salem", "Madurai", "Trichy", 'Coimbatore', 'Thoothukudi', '	Vellore', 'Tirunelveli', 'Kanchipuram', 'Tiruvallur'];
 
 function Services() {
   const [showApplyForm, setShowApplyForm] = useState(false);
@@ -38,7 +38,7 @@ function Services() {
               Let's Start Your Career Journey with Itel Mobile!
             </h1>
             <p className="text-white mb-10 lg:mb-0 text-center lg: lg:text-start font-[poppins] text-sm lg:text-base lg:w-[750px] lg:ps-10 p-2">
-              Welcome to Itel Mobile, where expertise meets opportunity! Join a collaborative team of industry leaders, where your skills and insights shape impactful solutions. Explore diverse career paths, unlocking the potential to drive positive change for our clients. Your consultancy journey starts here, where innovation, collaboration, and growth converge for a fulfilling career experience.
+              Welcome to Itel Mobile, where expertise meets opportunity! Join a collaborative team of industry leaders, where your skills and insights shape impactful Mobile. Explore diverse career paths, unlocking the potential to drive positive change for our clients. Your consultancy journey starts here, where innovation, collaboration, and growth converge for a fulfilling career experience.
             </p>
           </div>
 
@@ -91,7 +91,7 @@ function Services() {
           </h1>
 
           <h2 className="text-lg md:text-xl font-semibold mb-2 text-gray-700">
-            Areas of Placement:
+            Areas of Services:
           </h2>
           <ul className="grid grid-cols-2  mb-4">
             {locations.map((location, index) => (
@@ -112,7 +112,7 @@ function Services() {
             onClick={handleApplyClick}
             className="bg-blue-500 w-full md:w-auto lg:ms-12 text-white px-3 lg:px-6 py-3 rounded-full hover:bg-blue-700 transition duration-300"
           >
-            Apply Here
+            Register Now
           </button>
         </div>
         <div className="w-96 ">

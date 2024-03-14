@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import ApplyForm from './ApplyForm';
 import { Helmet } from 'react-helmet';
 
-const locations = ['Chennai', 'Bangalore', 'Mumbai', 'Telangana'];
+const locations = ['Chennai', 'Trichy', 'Madurai', 'salem'];
 
 const ServicePage = () => {
   const [showApplyForm, setShowApplyForm] = useState(false);
@@ -20,8 +20,8 @@ const ServicePage = () => {
   return (
     <section className="container mx-auto p-4 ">
       <Helmet>
-        <title>Contact Epic Solutions - Reach Out for HR Consultancy</title>
-        <meta name="description" content="Contact Epic Solutions for personalized HR consultancy services. Reach out to us for inquiries, collaborations, or to discuss how we can assist your organization with effective HR solutions." />
+        <title>Contact Itel Mobile </title>
+        <meta name="description" content="Contact Itel " />
         <link rel="canonical" href="https://epic-solutions.vercel.app/Contact" />
 
       </Helmet>

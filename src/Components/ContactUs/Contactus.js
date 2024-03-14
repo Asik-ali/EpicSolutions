@@ -67,14 +67,14 @@ function Contactus() {
         <link rel="canonical" href="https://epic-solutions.vercel.app/contact" />
 
         <title>Contact Us - Itel Mobile</title>
-        <meta name="description" content="Contact Epic Solutions for strategic human resource solutions." />
-        <meta name="keywords" content="Epic Solutions, contact, human resource, collaboration" />
+        <meta name="description" content="Contact Itel." />
+        <meta name="keywords" content="Itel" />
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2334117942638644" crossOrigin="anonymous"></script>
       </Helmet>
 
       <div
 
-        className="bg-gradient-to-b from-blue-500 to-black h-[400px] overflow-hidden "
+        className="bg-[black] text-white  h-[400px] overflow-hidden "
       >
         <div className="flex flex-col-reverse lg:flex-row justify-between lg:gap-2">
           <div className=" justify-center  lg:ps-10 flex flex-col gap-6">
@@ -95,33 +95,33 @@ function Contactus() {
             <title>qti-inside-page-honeycomb-desktop</title>
             <path
               d="M245.36,34.33,185.9,0,126.44,34.33V103l59.46,34.33L245.36,103Z"
-              fill="#fff"
+              fill="#ff063c"
             ></path>
             <path
               d="M182.1,143.68l-59.46-34.33L63.18,143.68v68.66l59.46,34.33,59.46-34.33Z"
-              fill="#fff"
+              fill="#ff063c"
             ></path>
             <path
               d="M308.61,143.68l-59.46-34.33-59.46,34.33v68.66l59.46,34.33,59.46-34.33Z"
-              fill="#fff"
+              fill="#ff063c"
             ></path>
             <path
               d="M118.92,253.2,59.46,218.87,0,253.2v68.66l59.46,34.33,59.46-34.33Z"
-              fill="#fff"
+              fill="#ff063c"
             ></path>
             <path
               d="M245.46,253.2,186,218.87,126.54,253.2v68.66L186,356.19l59.46-34.33Z"
-              fill="#fff"
+              fill="#ff063c"
             ></path>
             <path
               d="M308.72,362.52l-59.46-34.33L189.8,362.52v68.66l59.46,34.33,59.46-34.33Z"
-              fill="#fff"
+              fill="#ff063c"
             ></path>
           </svg>
         </div>
       </div>
       <div
-        className="mt-10 flex flex-col lg:flex-row justify-evenly gap-6 lg:gap-0 px-4 lg:px-0">
+        className="mt-10 flex flex-col lg:flex-row justify-evenly gap-6 lg:gap-0 px-4 lg:px-0 mb-5">
         <div className="flex flex-col justify-center items-center text-center lg:text-start ">
           <span className="text-2xl  font-[poppins] font-bold ">
             How can we help?
@@ -182,7 +182,7 @@ function Contactus() {
               <ul className="mt-3">
                 <li className="flex items-center gap-3  ">
                   <IoCallSharp className="text-[#ff063c] " />{" "}
-                  Itel Mobile
+                  +91 81909 81594
                 </li>
               </ul>
             </div>

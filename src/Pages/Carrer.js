@@ -7,7 +7,7 @@ function Career() {
       <Helmet>
         <link rel="canonical" href="https://epic-solutions.vercel.app/Careers" />
         <title>Join Our Team - Careers at Itel Mobile</title>
-        <meta name="description" content="Explore exciting career opportunities at Epic Solutions. Join our dynamic team and contribute to empowering success through talent. Check our current job openings and take the next step in your career with us." />
+        <meta name="description" content="Explore exciting career opportunities Itel Mobile. Join our dynamic team and contribute to empowering success through talent. Check our current job openings and take the next step in your career with us." />
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2334117942638644" crossOrigin="anonymous"></script>
       </Helmet>
 
@@ -17,9 +17,10 @@ function Career() {
             <h1 className="text-[#D1D5DB] text-center font-semibold font-[raleway] mt-5 lg:mt-0 text-2xl lg:text-5xl">
               Join Our Dynamic Team at Itel Mobile
             </h1>
-            <p className="text-white mb-10 lg:mb-0 text-center lg: lg:text-start font-[poppins] text-sm lg:w-[750px] lg:ps-10">
-              At Itel mobile, we believe in the power of collaboration. Working together not only makes us stronger but also propels your business towards unparalleled success. If you're ready to experience the difference that strategic human resource solutions can make, we invite you to reach out to us.
-            </p>
+            <p className="text-white mb-10 lg:mb-0 text-center lg:text-start font-[poppins] text-sm lg:w-[750px] lg:ps-10">
+  At Itel Mobile, we believe in the power of collaboration. Working together not only makes us stronger but also propels your business towards unparalleled success. If you're ready to experience the difference that strategic can make, we invite you to reach out to us.
+</p>
+
           </div>
 
           <svg focusable="false" className="hero__honeycom lg:h-[370px] h-[120px] lg:w-[320px]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 308.72 465.51">
@@ -37,7 +38,7 @@ function Career() {
       <div className="bg-gray-100 mb-10 mt-10 p-8 rounded-lg shadow-md">
         <h2 className="text-3xl font-semibold mb-4">Join Us as a Mobile App Developer</h2>
         <p className="text-gray-700">
-          We are looking for skilled Mobile App Developers to join our innovative team at Epic Solutions. If you have a passion for mobile technology and a knack for crafting user-friendly, efficient apps, we want to hear from you!
+          We are looking for skilled Mobile App Developers to join our innovative team at Itel. If you have a passion for mobile technology and a knack for crafting user-friendly, efficient apps, we want to hear from you!
         </p>
         <ul className="mt-4">
           <li className="flex items-center">

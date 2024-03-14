@@ -10,12 +10,12 @@ import { Helmet } from "react-helmet";
 function Clientpage() {
 
   return (
-    <div>
+    <div className="mb-5">
       <Helmet>
         <title>Our Valued Clients - Itel Mobile</title>
         <meta
           name="description"
-          content="Explore personalized career counseling, skill enhancement workshops, interview preparation, networking events, resume building, and job search support at Epic Solutions. Navigate your career success with our expert guidance."
+          content="Explore personalized career counseling, skill enhancement workshops, interview preparation, networking events, resume building, and job search support at Itel Mobile. Navigate your career success with our expert guidance."
         />
       </Helmet>
       <link rel="canonical" href="https://epic-solutions.vercel.app/Client" />
@@ -171,7 +171,7 @@ function Clientpage() {
             <div className="h-[310px] md:h-[100px] lg:h-[180px] w-[2px] bg-[#274584] after:h-[10px] after:w-[10px] after:rounded-full relative after:absolute after:-left-[4px] after:-top-[5px] before:w-[10px] after:bg-[#274584] before:h-[10px] before:rounded-full before:bg-[#274584] before:absolute before:-left-[4px] before:-bottom-[5px]"></div>
             <div>
               <p className="lg:w-[400px] text-gray-700 font-[raleway]">
-                Effectively navigating the dynamic job market can be challenging, especially given the multitude of opportunities available today. At Epic Solutions, our comprehensive job search support services go beyond traditional job hunting. We offer personalized job matching, hands-on application assistance, and valuable insights into emerging industry trends, including those relevant to the mobile sector. Our goal is to streamline your job search efforts and significantly enhance your chances of securing the perfect role. Trust us to be your partner in success as you embark on your professional journey.
+                Effectively navigating the dynamic job market can be challenging, especially given the multitude of opportunities available today. At Itel Mobile, our comprehensive job search support services go beyond traditional job hunting. We offer personalized job matching, hands-on application assistance, and valuable insights into emerging industry trends, including those relevant to the mobile sector. Our goal is to streamline your job search efforts and significantly enhance your chances of securing the perfect role. Trust us to be your partner in success as you embark on your professional journey.
               </p>
 
 
