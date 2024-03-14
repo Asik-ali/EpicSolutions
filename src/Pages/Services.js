@@ -57,7 +57,7 @@
 //         </script>
 //       </Helmet>
 
-//       <div className="bg-gradient-to-b from-[#7CB252] to-[#1369AA] h-[450px] lg:h-[400px]  ">
+//       <div className="bg-gradient-to-b from-[#7CB252] to-[#ff063c] h-[450px] lg:h-[400px]  ">
 //         <div className="flex flex-col-reverse lg:flex-row justify-between lg:gap-2">
 //           <div className=" justify-center  lg:ps-10 flex flex-col gap-6">
 //             <h1 className="text-white text-center font-semibold font-[popins] mt-5 lg:mt-0 text-2xl lg:text-[2.8rem]">

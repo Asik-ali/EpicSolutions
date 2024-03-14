@@ -8,24 +8,24 @@ function Footer() {
  
   return (
     <div>
-      <footer className="bg-[#8D99AE] ">
+      <footer className="bg-[#000000] text-white">
         <div className="mx-auto max-w-screen-xl  py-10 space-y-8 px-4  sm:px-6 lg:space-y-16 lg:px-8">
           <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
             <div>
               <div>
                 <h5 className="text-2xl">
-                  Epic <span className="text-[#1369AA]">Solutions</span>
+                  Itel <span className="text-[#ff063c]">Mobile</span>
                 </h5>
               </div>
 
-              <p className="mt-4 max-w-xs text-gray-500">
-              Epic Solutions provides comprehensive Human Resource Management services to organizations, addressing talent needs and matching candidates with their desired jobs.
+              <p className="mt-4 max-w-xs ">
+              Discover the power of Itel Mobile: Affordable innovation at your fingertips!
               </p>
 
               <ul className="mt-8 flex gap-6">
                 <li>
                   <a
-                    href="https://www.facebook.com/epicsolutions08"
+                    href="https://www.facebook.com/itelMobileIndia/"
                     rel="noreferrer"
                     target="_blank"
                     className="text-gray-700 transition hover:opacity-75"
@@ -34,7 +34,7 @@ function Footer() {
 
                     <svg
                       className="h-6 w-6"
-                      fill="currentColor"
+                      fill="#ff063c"
                       viewBox="0 0 24 24"
                       aria-hidden="true"
                     >
@@ -49,7 +49,7 @@ function Footer() {
 
                 <li>
                   <a
-                    href="https://www.instagram.com/mnc_jobs_update/"
+                    href="https://www.instagram.com/itel_india/"
                     rel="noreferrer"
                     target="_blank"
                     className="text-gray-700 transition hover:opacity-75"
@@ -58,7 +58,7 @@ function Footer() {
 
                     <svg
                       className="h-6 w-6"
-                      fill="currentColor"
+                      fill="#ff063c"
                       viewBox="0 0 24 24"
                       aria-hidden="true"
                     >
@@ -72,10 +72,10 @@ function Footer() {
                 </li>
                 <li className="flex items-center text-lg"> 
                 <a
-                    href="https://www.linkedin.com/in/humera-a-n-9137782a0/?lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_all%3BFR2lMO62SRuXwEXmMAYImA%3D%3D"
+                    href="https://www.linkedin.com/company/itelmobileindia?originalSubdomain=in"
                     rel="noreferrer"
                     target="_blank"
-                    className="text-gray-700 transition hover:opacity-75"
+                    className="text-[#ff063c] transition hover:opacity-75"
                   >
                   <FaLinkedinIn />
                   </a>
@@ -86,23 +86,23 @@ function Footer() {
 
             <div className="grid grid-cols-1 gap-8 sm:grid-cols-2  lg:col-span-2 lg:grid-cols-4">
               <div>
-                <p className="font-medium text-gray-900">Services</p>
+                <p className="font-medium ">Product</p>
 
                 <ul className="mt-6 space-y-4 text-sm">
                   <li className="flex items-center gap-2">
-                    <BsChevronDoubleRight /> Recruitment services
+                    <BsChevronDoubleRight /> <Link  to="https://www.itel-india.com/product-category/mobile/">Mobile</Link>
                   </li>
                   <li className="flex items-center gap-2">
-                    <BsChevronDoubleRight /> Database management
+                    <BsChevronDoubleRight />  <Link  to="https://www.itel-india.com/product-category/tv/">Television</Link>
                   </li>
                   <li className="flex items-center gap-2">
-                    <BsChevronDoubleRight /> Outsourcing services
+                    <BsChevronDoubleRight />  <Link  to="https://www.itel-india.com/product-category/gadgets/">Smart Gadgets</Link>
                   </li>
                 </ul>
               </div>
 
               <div>
-                <p className="font-medium text-gray-900">Helpful Links</p>
+                <p className="font-medium ">Helpful Links</p>
 
                 <ul className="mt-6 space-y-4 text-sm">
                   <li className="flex items-center gap-2">
@@ -111,7 +111,7 @@ function Footer() {
                   </li>
                   <li className="flex items-center gap-2">
                     <BsChevronDoubleRight /> 
-                    <Link  to="About">About</Link>
+                    <Link  to="/About">About</Link>
 
                   </li>
                   <li className="flex items-center gap-2">
@@ -126,30 +126,32 @@ function Footer() {
               </div>
 
               <div>
-                <p className="font-medium text-gray-900">Contact Info</p>
+                <p className="font-medium ">Contact Info</p>
 
                 <ul className="mt-6 space-y-4 text-sm">
                   <li className="flex  gap-2">
                     <FaMapLocation className="text-xl" />{" "}
                     <span className="w-[200px]">
-                      -42, Makrani Cross Lane, A.K marg, Beharam, Bandra East,
-                      Mumbai 400051
+                    4, N Usman Rd, Parthsarathy Puram, Parthasarathi Puram, T. Nagar, Chennai, Tamil Nadu 600017
                     </span>
                   </li>
                   <li className="flex items-center gap-2">
                     <BsTelephoneFill /> 
+                    <span className="w-[200px]">
+                    +91 81909 81594
+                    </span>
                   </li>
                   <li className="flex items-center gap-2">
                     <GrMail className="text-xl" />{" "}
-                    <span className="w-4">epicsolutions08@gmail.com</span>
+                    <span className="w-4">Tiwhite854@gmail.com</span>
                   </li>
                 </ul>
               </div>
             </div>
           </div>
         </div>
-        <p className="text-lg text-center p-3 bg-black w-full text-white">
-          &copy; 2023. Epic Solution. All rights reserved.
+        <p className="text-lg text-center p-3 bg-[black] w-full text-[#ff063c]">
+          <span className="text-white"> &copy; 2024 Itel Mobile</span> All rights reserved.
         </p>
       </footer>
     </div>

@@ -72,7 +72,7 @@ function Clientpage() {
       <h1
 
         className="text-center text-3xl lg:text-4xl font-[poppins] mt-5">
-        Navigating Career <span className="text-[#1369AA]">Success</span>
+        Navigating Career <span className="text-[#ff063c]">Success</span>
         Together
       </h1>
       <p
@@ -202,7 +202,7 @@ function Clientpage() {
             <h1 className=" font-bold text-xl">
               Our Services
             </h1>
-            <div className=" bg-[#1369AA] h-[2px] w-[200px]"></div>
+            <div className=" bg-[#ff063c] h-[2px] w-[200px]"></div>
           </div>
           <div>
             <p className="text-[raleway] font-semibold text-lg text-center">
@@ -210,16 +210,16 @@ function Clientpage() {
             </p>
             <ul className="text-gray-700 flex flex-col gap-5 mt-5">
               <li className="flex gap-2 items-center">
-                <FaAnglesRight className="text-[#1369aa]" /> Resume Building: Craft a standout, professional resume that leaves a lasting impression on employers.
+                <FaAnglesRight className="text-[#ff063c]" /> Resume Building: Craft a standout, professional resume that leaves a lasting impression on employers.
               </li>
               <li className="flex gap-2 items-center">
-                <FaAnglesRight className="text-[#1369aa]" /> Job Matching: Explore job opportunities perfectly aligned with your unique skills and career goals.
+                <FaAnglesRight className="text-[#ff063c]" /> Job Matching: Explore job opportunities perfectly aligned with your unique skills and career goals.
               </li>
               <li className="flex gap-2 items-center">
-                <FaAnglesRight className="text-[#1369aa]" /> Interview Mastery: Gain the confidence and skills needed to excel in job interviews, turning them into opportunities for success.
+                <FaAnglesRight className="text-[#ff063c]" /> Interview Mastery: Gain the confidence and skills needed to excel in job interviews, turning them into opportunities for success.
               </li>
               <li className="flex gap-2 items-center">
-                <FaAnglesRight className="text-[#1369aa]" /> Personalized Career Counseling: Receive expert guidance tailored to your individual aspirations, strengths, and goals.
+                <FaAnglesRight className="text-[#ff063c]" /> Personalized Career Counseling: Receive expert guidance tailored to your individual aspirations, strengths, and goals.
               </li>
             </ul>
           </div>
@@ -231,7 +231,7 @@ function Clientpage() {
             <h1 className="font-bold text-xl">
               Seamless Journey to Success
             </h1>
-            <div className="bg-[#1369AA] h-[2px] w-[200px]"></div>
+            <div className="bg-[#ff063c] h-[2px] w-[200px]"></div>
           </div>
           <div>
             <p className="text-[raleway] font-semibold text-lg text-center">
@@ -239,16 +239,16 @@ function Clientpage() {
             </p>
             <ul className="text-gray-700 flex flex-col gap-5 mt-5">
               <li className="flex gap-2 items-center">
-                <FaAnglesRight className="text-[#1369aa]" /> Reach Out: Initiate the process by contacting us through email or phone to schedule an initial consultation.
+                <FaAnglesRight className="text-[#ff063c]" /> Reach Out: Initiate the process by contacting us through email or phone to schedule an initial consultation.
               </li>
               <li className="flex gap-2 items-center">
-                <FaAnglesRight className="text-[#1369aa]" /> Skills Assessment: We'll conduct a thorough assessment of your skills, goals, and career aspirations.
+                <FaAnglesRight className="text-[#ff063c]" /> Skills Assessment: We'll conduct a thorough assessment of your skills, goals, and career aspirations.
               </li>
               <li className="flex gap-2 items-center">
-                <FaAnglesRight className="text-[#1369aa]" /> Personalized Plan: Receive a meticulously crafted, personalized plan tailored to your unique needs and aspirations.
+                <FaAnglesRight className="text-[#ff063c]" /> Personalized Plan: Receive a meticulously crafted, personalized plan tailored to your unique needs and aspirations.
               </li>
               <li className="flex gap-2 items-center">
-                <FaAnglesRight className="text-[#1369aa]" /> Ongoing Support: Benefit from continuous support and guidance throughout your job search journey, ensuring success.
+                <FaAnglesRight className="text-[#ff063c]" /> Ongoing Support: Benefit from continuous support and guidance throughout your job search journey, ensuring success.
               </li>
             </ul>
           </div>

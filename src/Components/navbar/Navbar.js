@@ -40,7 +40,7 @@ function Navbar({}) {
           <Link to="/">
             {" "}
             <h1 className="font-[Dmsans] font-semibold text-2xl text-black">
-              Itel <span className="text-[#1369AA]">Mobile</span>
+              Itel <span className="text-[#ff063c]">Mobile</span>
             </h1>
           </Link>
         </div>
@@ -52,8 +52,8 @@ function Navbar({}) {
             <li
               className={
                 home
-                  ? "hover:text-[#1369AA] relative hover:after:absolute hover:after:left-0 hover:after:-bottom-3 hover:after:w-[100%] hover:after:h-[3px]  hover:after:bg-[#1369aa] "
-                  : "text-[#1369aa] relative after:absolute after:left-0 after:-bottom-3 after:w-[100%] after:h-[3px]  after:bg-[#1369aa]"
+                  ? "hover:text-[#ff063c] relative hover:after:absolute hover:after:left-0 hover:after:-bottom-3 hover:after:w-[100%] hover:after:h-[3px]  hover:after:bg-[#ff063c] "
+                  : "text-[#ff063c] relative after:absolute after:left-0 after:-bottom-3 after:w-[100%] after:h-[3px]  after:bg-[#ff063c]"
               }
             >
               <Link onClick={handleHome} to="/">
@@ -63,8 +63,8 @@ function Navbar({}) {
             <li
               className={
                 btn === "About"
-                  ? "text-[#1369aa] relative after:absolute after:left-0 after:-bottom-3 after:w-[100%] after:h-[3px]  after:bg-[#1369aa]"
-                  : "hover:text-[#1369AA] relative hover:after:absolute hover:after:left-0 hover:after:-bottom-3 hover:after:w-[100%] hover:after:h-[3px]  hover:after:bg-[#1369aa] "
+                  ? "text-[#ff063c] relative after:absolute after:left-0 after:-bottom-3 after:w-[100%] after:h-[3px]  after:bg-[#ff063c]"
+                  : "hover:text-[#ff063c] relative hover:after:absolute hover:after:left-0 hover:after:-bottom-3 hover:after:w-[100%] hover:after:h-[3px]  hover:after:bg-[#ff063c] "
               }
             >
               <Link onClick={handleActive} to="/About">
@@ -74,8 +74,8 @@ function Navbar({}) {
             <li
               className={
                 btn === "Clients"
-                  ? "text-[#1369aa] relative after:absolute after:left-0 after:-bottom-3 after:w-[100%] after:h-[3px]  after:bg-[#1369aa]"
-                  : "hover:text-[#1369AA] relative hover:after:absolute hover:after:left-0 hover:after:-bottom-3 hover:after:w-[100%] hover:after:h-[3px]  hover:after:bg-[#1369aa] "
+                  ? "text-[#ff063c] relative after:absolute after:left-0 after:-bottom-3 after:w-[100%] after:h-[3px]  after:bg-[#ff063c]"
+                  : "hover:text-[#ff063c] relative hover:after:absolute hover:after:left-0 hover:after:-bottom-3 hover:after:w-[100%] hover:after:h-[3px]  hover:after:bg-[#ff063c] "
               }
             >
               <Link onClick={handleActive} to="/Client">
@@ -85,8 +85,8 @@ function Navbar({}) {
             <li
               className={
                 btn === "Careers"
-                  ? "text-[#1369aa] relative after:absolute after:left-0 after:-bottom-3 after:w-[100%] after:h-[3px]  after:bg-[#1369aa]"
-                  : "hover:text-[#1369AA] relative hover:after:absolute hover:after:left-0 hover:after:-bottom-3 hover:after:w-[100%] hover:after:h-[3px]  hover:after:bg-[#1369aa] "
+                  ? "text-[#ff063c] relative after:absolute after:left-0 after:-bottom-3 after:w-[100%] after:h-[3px]  after:bg-[#ff063c]"
+                  : "hover:text-[#ff063c] relative hover:after:absolute hover:after:left-0 hover:after:-bottom-3 hover:after:w-[100%] hover:after:h-[3px]  hover:after:bg-[#ff063c] "
               }
             >
               <Link onClick={handleActive} to="/Carrers">
@@ -96,8 +96,8 @@ function Navbar({}) {
             <li
               className={
                 btn === "Services"
-                  ? "text-[#1369aa] relative after:absolute after:left-0 after:-bottom-3 after:w-[100%] after:h-[3px]  after:bg-[#1369aa]"
-                  : "hover:text-[#1369AA] relative hover:after:absolute hover:after:left-0 hover:after:-bottom-3 hover:after:w-[100%] hover:after:h-[3px]  hover:after:bg-[#1369aa] "
+                  ? "text-[#ff063c] relative after:absolute after:left-0 after:-bottom-3 after:w-[100%] after:h-[3px]  after:bg-[#ff063c]"
+                  : "hover:text-[#ff063c] relative hover:after:absolute hover:after:left-0 hover:after:-bottom-3 hover:after:w-[100%] hover:after:h-[3px]  hover:after:bg-[#ff063c] "
               }
             >
               <Link onClick={handleActive} to="/services">
@@ -108,8 +108,8 @@ function Navbar({}) {
             <li
               className={
                 btn === "Contact Us"
-                  ? "text-[#1369aa] relative after:absolute after:left-0 after:-bottom-3 after:w-[100%] after:h-[3px]  after:bg-[#1369aa]"
-                  : "hover:text-[#1369AA] relative hover:after:absolute hover:after:left-0 hover:after:-bottom-3 hover:after:w-[100%] hover:after:h-[3px]  hover:after:bg-[#1369aa] "
+                  ? "text-[#ff063c] relative after:absolute after:left-0 after:-bottom-3 after:w-[100%] after:h-[3px]  after:bg-[#ff063c]"
+                  : "hover:text-[#ff063c] relative hover:after:absolute hover:after:left-0 hover:after:-bottom-3 hover:after:w-[100%] hover:after:h-[3px]  hover:after:bg-[#ff063c] "
               }
             >
               <Link onClick={handleActive} to="/Contact">
@@ -129,7 +129,7 @@ function Navbar({}) {
         }
       >
         <ul className="flex flex-col content-center items-center gap-4 text-lg cursor-pointer font-semibold pt-10  ">
-          <li className={home ? "text-black" : "text-[#1369aa]"}>
+          <li className={home ? "text-black" : "text-[#ff063c]"}>
             <Link onClick={handleHome} to="/">
               Home
             </Link>
@@ -137,7 +137,7 @@ function Navbar({}) {
 
           <li
             className={
-              btn === "About" ? "text-[#1369aa]" : "text-black hover:text-[#1369AA] "
+              btn === "About" ? "text-[#ff063c]" : "text-black hover:text-[#ff063c] "
             }
           >
             <Link onClick={handleActive} to="/About">
@@ -148,8 +148,8 @@ function Navbar({}) {
           <li
             className={
               btn === "Clients"
-                ? "text-[#1369aa]"
-                : "text-black hover:text-[#1369AA] "
+                ? "text-[#ff063c]"
+                : "text-black hover:text-[#ff063c] "
             }
           >
             <Link onClick={handleActive} to="/Client">
@@ -159,8 +159,8 @@ function Navbar({}) {
           <li
             className={
               btn === "Carrers"
-                ? "text-[#1369aa]"
-                : "text-black hover:text-[#1369AA]"
+                ? "text-[#ff063c]"
+                : "text-black hover:text-[#ff063c]"
             }
           >
             <Link onClick={handleActive} to="/Carrers">
@@ -170,8 +170,8 @@ function Navbar({}) {
           <li
             className={
               btn === "Services"
-                ? "text-[#1369aa]"
-                : "text-black hover:text-[#1369AA] "
+                ? "text-[#ff063c]"
+                : "text-black hover:text-[#ff063c] "
             }
           >
             <Link onClick={handleActive} to="/Services">
@@ -181,8 +181,8 @@ function Navbar({}) {
           <li
             className={
               btn === "Contact Us"
-                ? "text-[#1369aa]"
-                : "text-black hover:text-[#1369AA] "
+                ? "text-[#ff063c]"
+                : "text-black hover:text-[#ff063c] "
             }
           >
             <Link onClick={handleActive} to="/Contact">
