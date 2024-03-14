@@ -26,19 +26,6 @@ const FAQ = () => {
     setActiveTab(activeTab === id ? null : id);
   };
 
-  const faqSchema = {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": faqData.map(item => ({
-      "@type": "Question",
-      "name": item.question,
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": item.answer
-      }
-    }))
-  };
-
   return (
     <div className="flex px-4 flex-col lg:flex-row gap-4 items-center">
      
@@ -59,11 +46,7 @@ const FAQ = () => {
           </div>
         ))}
       </div>
-      {/* <ReviewSection /> */}
-      {/* Include JSON-LD script for schema */}
-      <script type="application/ld+json">
-        {JSON.stringify(faqSchema)}
-      </script>
+    
     </div>
   );
 };
