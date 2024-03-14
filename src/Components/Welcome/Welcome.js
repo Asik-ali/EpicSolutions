@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import img from "../../Assest/Welcome.jpg"
+import img from "../../Assest/Home5.jpg"
 function Welcome() {
   
   return (
