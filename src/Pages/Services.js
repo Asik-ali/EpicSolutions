@@ -28,7 +28,7 @@ function Services() {
         />
         <link rel="canonical" href="https://itelmobile.tech/services" />
         <meta name="robots" content="index, follow" />
-     
+
       </Helmet>
 
       <div className="bg-[black] text-white h-[450px] lg:h-[400px]  ">
