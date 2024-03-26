@@ -1,33 +1,33 @@
 const approachPoints = [
   {
-    title: 'Tailored Recruitment Strategies for Success',
+    title: 'Where affordability meets superior performance',
     description:
-      "Discover how our personalized recruitment strategies, aligned with your organization's values, drive success and fulfillment in your workforce.",
+      "Experience the synergy of cost-effectiveness and excellence with Itel Mobile. Our tailored recruitment strategies align with your organization's ethos, ensuring a workforce that excels.",
   },
   {
-    title: 'Client-Centric Collaboration for Business Excellence',
+    title: 'Your gateway to innovation in the palm of your hand',
     description:
-      'Forge meaningful partnerships with our dedicated team, working closely to comprehend the intricacies of your business and drive excellence in collaboration.',
+      'Forge lasting collaborations with our dedicated team, deeply understanding your business intricacies. Together, we drive innovation to new heights with Itel Mobile.',
   },
   {
-    title: 'Seamless Candidate Matching for Team Integration',
+    title: 'Empowering individuals, connecting communities',
     description:
-      'Go beyond skills matching; ensure candidates seamlessly integrate into your team and company culture with our meticulous candidate matching process.',
+      'Move beyond mere skill matching. Our meticulous candidate matching process ensures seamless integration into your team and fosters a vibrant company culture with Itel Mobile.',
   },
   {
-    title: 'Innovative HR Solutions for Competitive Edge',
+    title: 'Your ultimate tech companion',
     description:
-      'Stay ahead with innovation. Adopt cutting-edge tools and practices to keep your organization competitive in the dynamic landscape of human resources.',
+      'Stay ahead with the latest tech tools and practices. Embrace innovation to keep your organization competitive in the ever-evolving HR landscape with Itel Mobile.',
   },
   {
-    title: 'Continuous Improvement for Top-Notch Services',
+    title: 'Dive into the world of Itel Mobile',
     description:
-      'Experience continuous improvement as we regularly evaluate and refine our processes based on client and candidate feedback, ensuring top-notch HR services.',
+      'Experience continuous enhancement as we refine our processes based on valuable client and candidate feedback, delivering unparalleled HR solutions with Itel Mobile.',
   },
   {
-    title: 'Commitment to Diversity and Inclusion for Enrichment',
+    title: 'Unveiling the magic of Itel Mobile:',
     description:
-      'Actively promote diversity and inclusion. We seek candidates from diverse backgrounds to enrich your organization and foster an inclusive workplace.',
+      'Champion diversity and inclusion with Itel Mobile. We actively seek candidates from varied backgrounds, enriching your organization and fostering an inclusive work environment.',
   },
 ];
 export default approachPoints;

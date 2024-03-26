@@ -41,7 +41,7 @@ const ApplyForm = ({ onClose, selectedLocation }) => {
     )}`;
 
     // Construct the WhatsApp API link
-    const whatsappLink = `https://api.whatsapp.com/send?phone=8097061134&text=${message}`;
+    const whatsappLink = `https://api.whatsapp.com/send?phone=8190981594&text=${message}`;
 
     // Open WhatsApp link in a new tab
     window.open(whatsappLink, '_blank');
@@ -58,7 +58,7 @@ const ApplyForm = ({ onClose, selectedLocation }) => {
   return (
     <div className="fixed z-[99] top-0 left-0 w-full h-full flex items-center justify-center bg-black bg-opacity-50">
       <div className="bg-white p-8 rounded shadow-md w-96">
-        <h2 className="text-2xl font-bold mb-4">Apply Now</h2>
+        <h2 className="text-2xl font-bold mb-4">Register Now</h2>
 
        
           <form onSubmit={handleSubmit}>
