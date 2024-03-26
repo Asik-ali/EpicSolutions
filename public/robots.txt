@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://epic-solutions.vercel.app/sitemap.xml
+Sitemap: https://itelmobile.tech/sitemap.xml
