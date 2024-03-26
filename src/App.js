@@ -10,14 +10,12 @@ import Carrer from "./Pages/Carrer";
 import Services from "./Pages/Services";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import AD1 from "./Components/Ads/Ad1";
+// import AD1 from "./Components/Ads/Ad1";
 import Post from "./Pages/Post";
 import PostList from "./Pages/PostList";
 import Content from "./Pages/Content";
 
 function App() {
- 
-
   return (
     <BrowserRouter>
       <Navbar />
@@ -30,8 +28,6 @@ function App() {
         <Route path="/carrers" element={<Carrer />} />
         <Route path="/posts" element={<PostList posts={Content} />} />
         <Route path="/posts/:id" element={<Post posts={Content} />} />
-      +
-
       </Routes>
       <Footer />
       <ToastContainer />
